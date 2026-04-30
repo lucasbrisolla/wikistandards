@@ -1,0 +1,63 @@
+## NORMA BRASILEIRA DE CONTABILIDADE - CTA 19, DE 21 DE FEVEREIRO DE 2014
+
+Dispõe sobre orientação aos auditores independentes sobre o entendimento  a  respeito  dos  procedimentos  adotados,  ou  a serem adotados, pela administração das entidades na avaliação dos assuntos contidos na Medida Provisória 627/13.
+
+O CONSELHO FEDERAL DE CONTABILIDADE , no exercício de suas atribuições legais  e  regimentais  e  com  fundamento  no  disposto  na  alínea  'f'  do  art.  6º  do  Decreto-Lei  n.º 9.295/46, alterado pela Lei n.º 12.249/10, faz saber que foi aprovada em seu Plenário a seguinte Norma Brasileira de Contabilidade (NBC) que tem por base o CT 02/2014 do Ibracon:
+
+## CTA 19 - ORIENTAÇÃO AOS AUDITORES INDEPENDENTES SOBRE O ENTENDIMENTO A RESPEITO DOS PROCEDIMENTOS DA ADMINISTRAÇÃO NA AVALIAÇÃO DOS ASSUNTOS CONTIDOS NA MP 627/13
+
+| Sumário                                                                                                                                                       | Item   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Objetivo                                                                                                                                                      | 1      |
+| Medida Provisória 627                                                                                                                                         | 2      |
+| Instrução Normativa 1.397                                                                                                                                     | 3      |
+| Entendimento e orientação aos auditores independentes na emissão dos seus relatórios sobre demonstrações contábeis elaboradas a partir da publicação da MP627 | 4 - 10 |
+
+## Objetivo
+
+1. Este Comunicado tem por objetivo orientar os auditores independentes sobre o entendimento a respeito dos procedimentos adotados, ou a serem adotados, pela administração das entidades, relativos à  avaliação  dos impactos das disposições contidas na Medida Provisória 627 (MP 627),  de  11  de  novembro  de  2013  e  na  Instrução  Normativa  1.397  (IN  1.397),  de  16  de setembro de 2013, para fins de elaboração das demonstrações contábeis emitidas a partir da edição da MP 627.
+
+## Medida Provisória 627
+
+2. Em 11 de novembro de 2013, foi editada a MP 627, que entre outras providências:
+2. (a) introduz alterações no Decreto-Lei n.º 1.598/77 que trata do imposto de renda das pessoas jurídicas,  bem  como  altera  a  legislação  pertinente  à  contribuição  social  sobre  o  lucro líquido;
+3. (b) estabelece que a modificação ou a adoção de métodos e critérios contábeis, por meio de atos administrativos emitidos com base em competência atribuída em lei comercial, que sejam posteriores à publicação desta MP, não terá implicação na apuração dos tributos federais até que lei tributária regule a matéria (art. 54, capítulo III);
+
+- (c) inclui tratamento específico sobre potencial tributação de lucros ou dividendos conforme disposto no art. 67, como segue: 'Art. 67. Os lucros ou dividendos calculados com base nos resultados apurados entre 1º de janeiro de 2008 e 31 de dezembro de 2013, pelas pessoas jurídicas tributadas com base no lucro real, presumido ou arbitrado, efetivamente  pagos  até  a  data  de  publicação  desta  Medida  Provisória,  em  valores superiores aos apurados com observância dos métodos e critérios contábeis vigentes em 31 de dezembro de 2007, não ficarão sujeitos à incidência do imposto de renda na fonte, nem integrarão a base de cálculo do imposto de renda e da contribuição social sobre o lucro líquido do beneficiário, pessoa física ou jurídica, residente ou domiciliado no País ou no exterior.' Observe-se que: 'Art. 70. O disposto nos arts. 67 a 69 aplica-se somente às  pessoas  jurídicas  que  fizerem  a  opção  de  que  trata  o  Art.  71'; 'Art.  71.  A  pessoa jurídica  poderá  optar  pela  aplicação  das  disposições  contidas  nos  arts.  1º  a  66  desta Medida Provisória para o ano-calendário de 2014 ...' grifamos.
+- (d) inclui  disposições  sobre  o  cálculo  de  juros  sobre  capital  próprio,  por  meio  do  art.  68: 'Para os anos-calendário de 2008 a 2013, para fins de cálculo do limite previsto no art. 9º  da  Lei  9.249,  de  1995,  a  pessoa  jurídica  poderá  utilizar  as  contas  do  patrimônio líquido mensurado de acordo com as disposições da Lei nº 6.404, de  1976. Parágrafo único.  No  cálculo  da  parcela  a  deduzir  prevista  no  caput,  não  serão  considerados  os valores relativos a ajuste de avaliação patrimonial a que se refere o § 3º do art. 182 da Lei 6.404, de 1976.'
+- (e) inclui considerações sobre investimentos avaliados pelo método da equivalência patrimonial, conforme disposto no art. 69: 'Para os anos-calendário de 2008 a 2013, o contribuinte poderá avaliar o investimento pelo valor de patrimônio líquido da coligada ou controlada, determinado de acordo com as disposições da Lei nº 6.404, de 1976.'
+
+## Instrução Normativa 1.397
+
+3. Deve também ser observado que a Secretaria da Receita Federal do Brasil editou, em 16 de setembro de 2013, a IN 1.397 (com as alterações introduzidas pela IN 1.422), que entrou em vigor  na  data  da  sua  publicação.  Por  meio  da  IN  1.397,  a  Receita  Federal  dispôs  sobre  o tratamento  tributário  de  algumas  operações.  Na  avaliação  de  diversos  especialistas  e  de entidades  representantes  das  empresas,  a  Receita  Federal  trouxe  inovações  nessa  parte. Enquanto  estiver  em  vigor,  a  IN  1.397  não  pode  ser  ignorada  pelas  entidades  e  por  seus auditores independentes. Este fato requer análises e considerações apropriadas, dependendo da situação de cada entidade.
+
+## Entendimento e orientação aos auditores independentes na emissão dos seus relatórios sobre demonstrações contábeis elaboradas a partir da publicação da MP 627
+
+4. Este Comunicado não fornece interpretações sobre os aspectos jurídicos e a aplicação da MP 627 e da IN 1.397, mas ressalta que, enquanto a MP 627 e a IN 1.397 estiverem em vigor, suas disposições devem ser avaliadas pela administração das entidades, inclusive em relação ao seu embasamento legal, para sustentar a decisão quanto às providências a serem adotadas pela  própria  administração.  A  MP  627  e  a  IN  1.397  também  devem  ser  consideradas,  se aplicável, na mensuração, no reconhecimento e nas divulgações a serem feitos nas demonstrações  contábeis  e  nas  informações  intermediárias  a  serem  emitidas  a  partir  da publicação da MP 627, principalmente, mas não limitado a, para as disposições que constam dos  arts.  67  a  71  da  MP  627,  mencionados  no  item  2.  A  administração  das  entidades,  em qualquer  caso,  deve  documentar  as  bases  de  suas  conclusões,  bem  como  das  providências adotadas ou a serem adotadas, lembrando que, por envolver matéria recentemente editada e de
+
+aspectos  legais  de  cunho  tributário,  as  conclusões  devem  ser  devidamente  suportadas  e/ou embasadas por meio de avaliações realizadas pelo departamento jurídico das entidades.
+
+5. Fato  que  deve  ser  observado  quando  da  análise  desses  dispositivos  é  a  consequência  dos assuntos que foram destacados nas alíneas (c), (d) e (e) do item 2. Embora a MP 627 entre em vigor a partir de 1º de janeiro de 2015, podendo a administração de a entidade optar (de forma irretratável) pela sua aplicação a partir de 1º de janeiro de 2014, nos termos do art. 71 da MP 627, o histórico da  formação do lucro  contábil e o lucro  apurado  com base nos métodos  e critérios  contábeis  vigentes  em  31  de  dezembro  de  2007,  bem  como  os  dividendos efetivamente pagos e o saldo de reserva de lucros, dependendo da estrutura de cada entidade, podem  requerer  análises  mais  detalhadas  quanto  a  potenciais efeitos sobre eventuais consequências passadas e impactos futuros, tendo em vista o teor dos arts. 67 a 70 da MP 627, bem como quanto aos dispositivos da IN 1.397. Caso a entidade tenha decidido optar pela aplicação do novo regime tributário já no ano-calendário 2014, nos termos do art. 71 da MP 627,  tal  fato  deve  ser  considerado  nas  análises  e  procedimentos  citados  no  item  7.  Outros aspectos devem ser analisados como, por exemplo, a potencial tributação do saldo de lucros ou dividendos que não tenham sido efetivamente pagos até a data de publicação da MP 627, na medida em que esses lucros ou dividendos venham a ser distribuídos em data subsequente à publicação da MP 627.
+6. Em decorrência da complexidade dos assuntos dispostos na MP 627 e na IN 1.397, os auditores independentes  devem  obter  entendimento  sobre  as  providências  que  foram  ou  que  serão adotadas  pela  administração  das  entidades  e  que  venham  trazer  possíveis  reflexos  nas demonstrações contábeis a serem divulgadas a partir da edição da MP 627.
+7. Como parte dos seus procedimentos, os auditores independentes devem obter evidências que a administração das entidades efetuou, considerando suas melhores estimativas, determinados procedimentos, tais como, mas não limitados a:
+4. (a) avaliação das disposições contidas na MP 627 e na IN 1.397 para a entidade, considerando suas operações. Para tanto, a avaliação deve ser feita com base nos dispositivos editados e que estiverem vigentes na data da aprovação das demonstrações contábeis;
+5. (b) discussão  do  assunto,  quando  aplicável,  com  o  departamento  jurídico  da  entidade,  com obtenção  de  opiniões  fundamentadas  e  documentação  das  bases  de  julgamento  e conclusões alcançadas;
+6. (c) compartilhamento das conclusões mencionadas na alínea (b) deste item com  os responsáveis pela governança da entidade.
+
+O assunto, a avaliação e as providências adotadas ou a serem adotadas pela administração da entidade devem ser analisados quanto à necessidade de reconhecimento e divulgação em suas informações  intermediárias  e  demonstrações  contábeis,  conforme  previsto  nas  práticas contábeis aplicáveis, inclusive considerando os seguintes itens:
+
+'127 - NBCT TG 26 (CPC 26 R1) - Os principais pressupostos e outras principais fontes da incerteza das estimativas divulgados de acordo com o item 125 relacionam-se com as estimativas  cujos  julgamentos  são  os  mais  difíceis  de  serem  feitos  por  parte  da administração, subjetivos ou mesmo complexos. À medida que o número de variáveis e pressupostos  que  afetam  a  possível  futura  solução  das  incertezas  aumenta,  esses julgamentos  tornam-se  mais  subjetivos  e  complexos,  aumentando,  por  consequência,  a probabilidade de ajuste material nos valores contábeis de ativos e passivos.'
+
+'QC 6 - NBC TG ESTRUTURA CONCEITUAL (CPC 00 R1) - Informação contábilfinanceira  relevante  é  aquela  capaz  de  fazer  diferença  nas  decisões  que  possam  ser tomadas pelos usuários. A informação pode ser capaz de fazer diferença em uma decisão
+
+mesmo no caso de alguns usuários decidirem não a levar em consideração, ou já tiver tomado ciência de sua existência por outras fontes.
+
+QC 7 - NBC TG ESTRUTURA CONCEITUAL (CPC 00 R1) - A informação contábilfinanceira  é  capaz  de  fazer  diferença  nas  decisões  se  tiver  valor  preditivo,  valor confirmatório ou ambos.'
+
+8. A  administração  da  entidade  deve  disponibilizar  para  o  auditor  independente  a  avaliação realizada, bem como sua conclusão sobre a eventual necessidade de mensuração, reconhecimento  e  divulgação  do  assunto  nas  referidas  demonstrações  contábeis.    Caso  a entidade tenha decidido em fazer a opção da adoção do novo regime tributário, nos termos do art. 71 da MP 627, no ano calendário 2014 e elabore suas demonstrações contábeis antes da formalização  de  tal  opção  perante  a  Receita  Federal,  o  auditor  deve  obter  representação formal da administração quanto a este fato, bem como avaliar a necessidade de divulgação nas demonstrações contábeis.
+9. A  suficiência  da  documentação  e  da  avaliação  do  assunto  por  parte  da  administração  da entidade deve ser considerada pelo auditor independente para suas conclusões e emissão do relatório de auditoria, de acordo com as normas técnicas aplicáveis.
+10. Este Comunicado entra em vigor na data de sua publicação.
+
+Brasília, 21 de fevereiro de 2014.
+
+Contador Zulmir Ivânio Breda Presidente em exercício
