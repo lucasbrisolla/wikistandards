@@ -1,20 +1,20 @@
 # Wiki Standards
 
-> Biblioteca normativa em Markdown, publicada com Docsify para navegacao por familia.
+> Biblioteca de normas em Markdown, publicada com Docsify para navegacao por familia normativa.
 
-## O Que E
+## Sobre
 
-A Wiki Standards organiza normas tecnicas e contabeis em um formato navegavel, preservando os arquivos-fonte em Markdown.
+A Wiki Standards organiza normas tecnicas e contabeis em um formato navegavel, preservando os arquivos originais em Markdown.
 
-Esta primeira versao publica somente o acervo em `Markdown/`.
+Nesta primeira versao, o site publica somente o acervo da pasta `Markdown/`.
 
-## Como Navegar
+## Como navegar
 
-- Use a sidebar para abrir as familias normativas.
-- Cada familia possui uma pagina de entrada com a lista completa das normas publicadas.
-- Os textos das normas foram preservados como fonte, sem reescrita editorial.
+- Use a barra lateral para abrir as familias normativas.
+- Cada familia possui uma pagina inicial com a lista completa das normas publicadas.
+- O texto das normas foi preservado como fonte, sem reescrita editorial.
 
-## Familias Disponiveis
+## Familias disponiveis
 
 - [CPCs](families/cpcs.md)
 - [ICPCs](families/icpcs.md)
@@ -22,7 +22,7 @@ Esta primeira versao publica somente o acervo em `Markdown/`.
 - [NBC TG, ITG, CTG e OTG](families/nbc-tg-itg-ctg-otg.md)
 - [NBC TI](families/nbc-ti.md)
 
-## Estrutura Publicada
+## Estrutura publicada
 
 - `Markdown/`: acervo principal das normas
 - `families/`: paginas de navegacao por familia
