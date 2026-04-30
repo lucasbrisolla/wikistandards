@@ -1,4 +1,4 @@
-- [Início](#/README)
+- [Início](#/)
 - [CPCs](#/families/cpcs.md)
 - [ICPCs](#/families/icpcs.md)
 - [NBC TA e CTA](#/families/nbc-ta-cta.md)
