@@ -16,11 +16,11 @@ Nesta primeira versão, o site publica somente o acervo da pasta `Markdown/`.
 
 ## Famílias disponíveis
 
-- [CPCs](#/families/cpcs.md)
-- [ICPCs](#/families/icpcs.md)
-- [NBC TA e CTA](#/families/nbc-ta-cta.md)
-- [NBC TG, ITG, CTG e OTG](#/families/nbc-tg-itg-ctg-otg.md)
-- [NBC TI](#/families/nbc-ti.md)
+- [CPCs](families/cpcs)
+- [ICPCs](families/icpcs)
+- [NBC TA e CTA](families/nbc-ta-cta)
+- [NBC TG, ITG, CTG e OTG](families/nbc-tg-itg-ctg-otg)
+- [NBC TI](families/nbc-ti)
 
 ## Estrutura publicada
 
