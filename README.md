@@ -1,30 +1,30 @@
 # Wiki Standards
 
-> Biblioteca de normas em Markdown, publicada com Docsify para navegacao por familia normativa.
+> Biblioteca de normas em Markdown, publicada com Docsify para navegação por família normativa.
 
 ## Sobre
 
-A Wiki Standards organiza normas tecnicas e contabeis em um formato navegavel, preservando os arquivos originais em Markdown.
+A Wiki Standards organiza normas técnicas e contábeis em um formato navegável, preservando os arquivos originais em Markdown.
 
-Nesta primeira versao, o site publica somente o acervo da pasta `Markdown/`.
+Nesta primeira versão, o site publica somente o acervo da pasta `Markdown/`.
 
 ## Como navegar
 
-- Use a barra lateral para abrir as familias normativas.
-- Cada familia possui uma pagina inicial com a lista completa das normas publicadas.
+- Use a barra lateral para abrir as famílias normativas.
+- Cada família possui uma página inicial com a lista completa das normas publicadas.
 - O texto das normas foi preservado como fonte, sem reescrita editorial.
 
-## Familias disponiveis
+## Famílias disponíveis
 
-- [CPCs](families/cpcs.md)
-- [ICPCs](families/icpcs.md)
-- [NBC TA e CTA](families/nbc-ta-cta.md)
-- [NBC TG, ITG, CTG e OTG](families/nbc-tg-itg-ctg-otg.md)
-- [NBC TI](families/nbc-ti.md)
+- [CPCs](#/families/cpcs.md)
+- [ICPCs](#/families/icpcs.md)
+- [NBC TA e CTA](#/families/nbc-ta-cta.md)
+- [NBC TG, ITG, CTG e OTG](#/families/nbc-tg-itg-ctg-otg.md)
+- [NBC TI](#/families/nbc-ti.md)
 
 ## Estrutura publicada
 
 - `Markdown/`: acervo principal das normas
-- `families/`: paginas de navegacao por familia
-- `README.md`: pagina inicial do site
-- `_sidebar.md`: navegacao principal do Docsify
+- `families/`: páginas de navegação por família
+- `README.md`: página inicial do site
+- `_sidebar.md`: navegação principal do Docsify
