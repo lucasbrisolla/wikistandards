@@ -41,7 +41,7 @@
     }
 
     .sidebar>h1 {
-      margin: 18px 16px 20px;
+      margin: 20px 12px 22px;
     }
 
     .sidebar>h1 .app-name-link {
@@ -50,7 +50,7 @@
     }
 
     .sidebar>h1 img {
-      width: min(218px, 78%);
+      width: min(248px, 88%);
       height: auto;
     }
 
@@ -226,6 +226,10 @@
       light: '//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css',
       dark: '//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css',
     };
+    const logoUrls = {
+      light: 'assets/wiki-standards-horizontal.svg',
+      dark: 'assets/wiki-standards-horizontal-dark.svg',
+    };
 
     function storedTheme() {
       return localStorage.getItem('wiki-standards-theme') || 'auto';
@@ -239,6 +243,9 @@
       const resolvedTheme = activeTheme(choice);
       themeLink.href = themeUrls[resolvedTheme];
       document.body.dataset.themeMode = resolvedTheme;
+      document.querySelectorAll('.sidebar h1 img').forEach((logo) => {
+        logo.src = logoUrls[resolvedTheme];
+      });
       themeOptions.forEach((option) => {
         option.setAttribute('aria-checked', String(option.dataset.themeChoice === choice));
       });
@@ -250,6 +257,11 @@
     }
 
     applyTheme(storedTheme());
+
+    const logoObserver = new MutationObserver(() => {
+      applyTheme(storedTheme());
+    });
+    logoObserver.observe(document.body, { childList: true, subtree: true });
 
     themeToggle.addEventListener('click', () => {
       const isOpen = !themeMenu.hidden;

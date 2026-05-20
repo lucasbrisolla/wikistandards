@@ -5,16 +5,16 @@
       font-size: 28px;
       font-weight: 600;
       letter-spacing: -0.03em;
-      fill: #24312b;
+      fill: #f7faf8;
     }
 
     .ws-subtle {
-      stroke: #24312b;
-      stroke-opacity: 0.14;
+      stroke: #f7faf8;
+      stroke-opacity: 0.18;
     }
 
     .ws-primary {
-      stroke: #24312b;
+      stroke: #f7faf8;
       fill: none;
     }
 

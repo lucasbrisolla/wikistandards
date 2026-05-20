@@ -1,4 +1,4 @@
-# Crosswalk CPC, NBC TG e IFRS
+# Equivalências CPC, NBC TG e IFRS
 
 Mapa inicial de equivalências e correlações entre pronunciamentos CPC, normas NBC TG e normas IFRS.
 

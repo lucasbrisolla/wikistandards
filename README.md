@@ -12,7 +12,7 @@ Nesta primeira versão, o site publica somente o acervo da pasta `Markdown/`.
 
 - Use o [Índice Geral](_catalog/standards-index) como porta de entrada para o acervo.
 - Use os mapas por família para abrir normas com título, classificação e relações conhecidas.
-- Use o [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs) para localizar equivalências entre pronunciamentos CPC, normas NBC TG e IFRS.
+- Use as [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs) para localizar relações entre pronunciamentos CPC, normas NBC TG e IFRS.
 - O texto das normas foi preservado como fonte, sem reescrita editorial.
 
 ## Mapas disponíveis
@@ -21,11 +21,11 @@ Nesta primeira versão, o site publica somente o acervo da pasta `Markdown/`.
 - [Mapa ICPC](_catalog/icpc-map)
 - [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map)
 - [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map)
-- [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs)
+- [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs)
 
 ## Estrutura publicada
 
 - `Markdown/`: acervo principal das normas
-- `_catalog/`: índice geral, mapas por família e crosswalks de equivalência
+- `_catalog/`: índice geral, mapas por família e equivalências entre normas
 - `README.md`: página inicial do site
 - `_sidebar.md`: navegação principal do Docsify

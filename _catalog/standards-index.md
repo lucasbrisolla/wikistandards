@@ -19,7 +19,7 @@ Porta de entrada da biblioteca. As normas continuam preservadas em seus arquivos
 ## Rotas de Consulta
 
 - Para localizar uma norma pelo código ou título, use o mapa da família correspondente.
-- Para equivalências CPC, NBC TG e IFRS, use o [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs).
+- Para equivalências CPC, NBC TG e IFRS, use as [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs).
 - Para consultar o texto normativo, abra o arquivo Markdown indicado nos mapas.
 
 ## Mapas Disponíveis
@@ -28,8 +28,8 @@ Porta de entrada da biblioteca. As normas continuam preservadas em seus arquivos
 - [Mapa ICPC](_catalog/icpc-map): interpretações técnicas ICPC.
 - [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map): normas e comunicados de auditoria independente.
 - [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map): normas técnicas gerais, interpretações, comunicados e orientações.
-- [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs): equivalências e correlações entre CPC, NBC TG e IFRS.
+- [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs): equivalências e correlações entre CPC, NBC TG e IFRS.
 
 ## Política de Preservação
 
-O corpo das normas em `Markdown/` é fonte preservada. A curadoria do site vive em `_catalog/`, por meio de índices, mapas e crosswalks.
+O corpo das normas em `Markdown/` é fonte preservada. A curadoria do site vive em `_catalog/`, por meio de índices, mapas e equivalências.
