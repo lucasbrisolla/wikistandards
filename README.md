@@ -1,6 +1,9 @@
-# Wiki Standards
+<div class="home-hero">
+  <img src="assets/wiki-standards-horizontal.svg" alt="Wiki Standards" class="home-logo home-logo-light">
+  <img src="assets/wiki-standards-horizontal-dark.svg" alt="Wiki Standards" class="home-logo home-logo-dark">
 
-> Biblioteca de normas em Markdown, publicada com Docsify para navegação por família normativa.
+  <p>Biblioteca de normas em Markdown, publicada com Docsify para navegação por família normativa.</p>
+</div>
 
 ## Sobre
 
