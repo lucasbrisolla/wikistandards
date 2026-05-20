@@ -261,25 +261,101 @@
       display: none;
     }
 
-    .search-exact-match {
-      margin: 10px 16px 0;
-      border: 1px solid #dce6e0;
-      border-radius: 12px;
-      padding: 10px 12px;
-      background: #f6fbf8;
-      color: #24312b;
-      font-size: 13px;
-      line-height: 1.45;
+    .catalog-search {
+      position: relative;
+      padding: 16px 16px 6px;
+      border-bottom: 1px solid #e3ebe6;
     }
 
-    .search-exact-match[hidden] {
+    .catalog-search-input {
+      width: 100%;
+      border: 1px solid #d5dfda;
+      border-radius: 12px;
+      padding: 12px 14px;
+      background: #ffffff;
+      color: #24312b;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    .catalog-search-input::placeholder {
+      color: #708177;
+    }
+
+    .catalog-search-input:focus-visible {
+      border-color: #ff9a85;
+      outline: 2px solid rgba(255, 115, 92, 0.16);
+      outline-offset: 1px;
+    }
+
+    .catalog-search-results {
+      position: absolute;
+      top: calc(100% - 4px);
+      left: 16px;
+      right: 16px;
+      z-index: 50;
+      border: 1px solid #d5dfda;
+      border-radius: 14px;
+      background: #ffffff;
+      box-shadow: 0 18px 40px rgba(36, 49, 43, 0.12);
+      overflow: hidden;
+    }
+
+    .catalog-search-results[hidden] {
       display: none;
     }
 
-    .search-exact-match strong {
+    .catalog-search-item {
       display: block;
-      margin-bottom: 3px;
+      width: 100%;
+      border: 0;
+      border-top: 1px solid #edf3ef;
+      padding: 12px 14px;
+      background: transparent;
+      color: #24312b;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .catalog-search-item:first-child {
+      border-top: 0;
+    }
+
+    .catalog-search-item:hover,
+    .catalog-search-item:focus-visible,
+    .catalog-search-item.is-active {
+      background: #f6fbf8;
+      outline: none;
+    }
+
+    .catalog-search-code {
+      display: block;
       font-size: 14px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .catalog-search-title {
+      display: block;
+      margin-top: 3px;
+      color: #506158;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .catalog-search-meta {
+      display: block;
+      margin-top: 6px;
+      color: #7a8a81;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .catalog-search-empty {
+      padding: 12px 14px;
+      color: #5b6b63;
+      font-size: 13px;
+      line-height: 1.4;
     }
 
     @media (max-width: 768px) {
@@ -344,10 +420,44 @@
       color: #ffb199;
     }
 
-    body[data-theme-mode="dark"] .search-exact-match {
-      border-color: #394a42;
-      background: #233029;
+    body[data-theme-mode="dark"] .catalog-search {
+      border-bottom-color: #33413b;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-input {
+      border-color: #42534b;
+      background: #18211d;
       color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-input::placeholder {
+      color: #8da099;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-results {
+      border-color: #42534b;
+      background: #1b2520;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-item {
+      border-top-color: #29342f;
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-item:hover,
+    body[data-theme-mode="dark"] .catalog-search-item:focus-visible,
+    body[data-theme-mode="dark"] .catalog-search-item.is-active {
+      background: #24302a;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-title {
+      color: #c7d2cc;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-meta,
+    body[data-theme-mode="dark"] .catalog-search-empty {
+      color: #92a49c;
     }
 
     body[data-theme-mode="dark"] .home-hero p {
@@ -468,12 +578,7 @@
       auto2top: true,
       loadSidebar: true,
       maxLevel: 0,
-      subMaxLevel: 3,
-      search: {
-        placeholder: 'Buscar norma',
-        noData: 'Nenhum resultado encontrado.',
-        depth: 2,
-      }
+      subMaxLevel: 3
     };
   </script>
   <script>
@@ -521,97 +626,419 @@
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .toUpperCase()
-        .replace(/[_./-]+/g, ' ')
+        .replace(/[^A-Z0-9]+/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
     }
 
-    async function setupExactSearchJump() {
-      const familyIndexes = [
-        '/families/cpcs.md',
-        '/families/icpcs.md',
-        '/families/nbc-ta-cta.md',
-        '/families/nbc-tg-itg-ctg-otg.md',
-        '/families/nbc-ti.md',
+    function compactSearchKey(value) {
+      return normalizeStandardCode(value).replace(/\s+/g, '');
+    }
+
+    function decodeMarkdownHref(href) {
+      return decodeURIComponent(href
+        .replace(/\\\(/g, '(')
+        .replace(/\\\)/g, ')')
+        .replace(/\.md$/, ''));
+    }
+
+    function extractMarkdownLinks(text) {
+      const regex = /\[([^\]]+)\]\(((?:\\.|[^)])+)\)/g;
+      return [...text.matchAll(regex)].map((match) => ({
+        label: match[1].trim(),
+        href: decodeMarkdownHref(match[2].trim()),
+      }));
+    }
+
+    function stripMarkdown(text) {
+      return text
+        .replace(/\[([^\]]+)\]\(((?:\\.|[^)])+)\)/g, '$1')
+        .replace(/`([^`]+)`/g, '$1')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function parseMarkdownTableRows(text) {
+      return text
+        .split('\n')
+        .map((line) => line.trim())
+        .filter((line) => line.startsWith('|'))
+        .map((line) => line.replace(/^\|/, '').replace(/\|$/, '').split('|').map((cell) => cell.trim()))
+        .filter((cells) => cells.length > 1 && !cells.every((cell) => /^:?-{3,}:?$/.test(cell.replace(/\s/g, ''))));
+    }
+
+    function createSearchRecord(record) {
+      return {
+        kind: record.kind || 'norma',
+        code: record.code,
+        title: record.title || 'Norma disponível para consulta',
+        family: record.family,
+        href: record.href,
+        aliases: [...record.aliases],
+      };
+    }
+
+    function buildCatalogSearchIndex(sourceTexts) {
+      const familySources = [
+        { key: 'cpcs', family: 'CPC' },
+        { key: 'icpcs', family: 'ICPC' },
+        { key: 'nbc-ta-cta', family: 'NBC TA/CTA' },
+        { key: 'nbc-tg-itg-ctg-otg', family: 'NBC TG/ITG/CTG/OTG' },
+        { key: 'nbc-ti', family: 'NBC TI' },
       ];
-      const exactMatchMap = new Map();
+      const recordsByHref = new Map();
+      const relationRecords = new Map();
 
-      const responses = await Promise.all(
-        familyIndexes.map(async (path) => {
-          const response = await fetch(path);
-          if (!response.ok) {
-            throw new Error(`Falha ao carregar ${path}`);
-          }
-          return response.text();
-        })
-      );
+      const upsertRecord = (payload) => {
+        if (!payload.href) {
+          return null;
+        }
+        const existing = recordsByHref.get(payload.href) || {
+          kind: 'norma',
+          code: payload.code,
+          title: '',
+          family: payload.family || '',
+          href: payload.href,
+          aliases: new Set(),
+        };
+        if (payload.code) {
+          existing.code = payload.code;
+        }
+        if (payload.title) {
+          existing.title = payload.title;
+        }
+        if (payload.family) {
+          existing.family = payload.family;
+        }
+        recordsByHref.set(payload.href, existing);
+        return existing;
+      };
 
-      responses.forEach((text) => {
-        const regex = /^- \[([^\]]+)\]\(([^)]+)\)/gm;
+      const addAliases = (record, values) => {
+        values
+          .map((value) => stripMarkdown(value))
+          .filter((value) => value && value !== '-' && value !== '—' && value !== record.code && value !== record.title)
+          .forEach((value) => record.aliases.add(value));
+      };
+
+      familySources.forEach((source) => {
+        const text = sourceTexts[source.key];
+        const regex = /^- \[([^\]]+)\]\(((?:\\.|[^)])+)\)/gm;
         for (const match of text.matchAll(regex)) {
-          const code = normalizeStandardCode(match[1]);
-          const href = match[2].replace(/\.md$/, '');
-          exactMatchMap.set(code, href);
+          upsertRecord({
+            code: match[1].trim(),
+            family: source.family,
+            href: decodeMarkdownHref(match[2].trim()),
+          });
         }
       });
 
-      const bindSearch = () => {
-        const searchInput = document.querySelector('.search input');
-        const searchPanel = document.querySelector('.search');
-        if (!searchInput || !searchPanel || searchPanel.dataset.exactJumpBound === 'true') {
+      ['cpc-map', 'icpc-map', 'nbc-ta-cta-map', 'nbc-tg-itg-ctg-map'].forEach((key) => {
+        parseMarkdownTableRows(sourceTexts[key]).forEach((cells) => {
+          const links = extractMarkdownLinks(cells[0]);
+          if (!links.length) {
+            return;
+          }
+          const primary = links[0];
+          const record = upsertRecord({
+            code: primary.label,
+            href: primary.href,
+          });
+          if (!record) {
+            return;
+          }
+          if (cells[1] && !record.title) {
+            record.title = stripMarkdown(cells[1]);
+          }
+          addAliases(record, cells.slice(2));
+          addAliases(record, links.slice(1).map((link) => link.label));
+        });
+      });
+
+      parseMarkdownTableRows(sourceTexts.equivalencias).forEach((cells) => {
+        const rowLinks = cells.flatMap((cell) => extractMarkdownLinks(cell));
+        if (!rowLinks.length) {
           return;
         }
 
-        searchPanel.dataset.exactJumpBound = 'true';
-        const helper = document.createElement('div');
-        helper.className = 'search-exact-match';
-        helper.hidden = true;
-        searchPanel.appendChild(helper);
-
-        const updateHelper = () => {
-          const normalizedQuery = normalizeStandardCode(searchInput.value);
-          const exactHref = exactMatchMap.get(normalizedQuery);
-          if (!exactHref) {
-            helper.hidden = true;
-            helper.innerHTML = '';
-            return;
+        const rowTexts = cells.map((cell) => stripMarkdown(cell)).filter((value) => value && value !== '-' && value !== '—');
+        rowLinks.forEach((link) => {
+          const record = upsertRecord({
+            code: link.label,
+            href: link.href,
+          });
+          if (record) {
+            addAliases(record, rowTexts);
+            addAliases(record, rowLinks.filter((item) => item.href !== link.href).map((item) => item.label));
           }
-
-          helper.hidden = false;
-          helper.innerHTML = `<strong>Correspondência exata</strong>Pressione Enter para abrir <code>${normalizedQuery}</code> diretamente.`;
-        };
-
-        searchInput.addEventListener('input', updateHelper);
-        searchInput.addEventListener('keydown', (event) => {
-          if (event.key !== 'Enter') {
-            return;
-          }
-
-          const normalizedQuery = normalizeStandardCode(searchInput.value);
-          const exactHref = exactMatchMap.get(normalizedQuery);
-          if (!exactHref) {
-            return;
-          }
-
-          event.preventDefault();
-          window.location.hash = `#${exactHref}`;
         });
 
-        updateHelper();
+        const ifrsLabel = rowTexts.find((value) => value.startsWith('IFRS '));
+        if (!ifrsLabel) {
+          return;
+        }
+
+        const normalizedIfrs = compactSearchKey(ifrsLabel);
+        if (!relationRecords.has(normalizedIfrs)) {
+          const relatedCodes = rowLinks.map((link) => link.label).join(' / ');
+          relationRecords.set(normalizedIfrs, {
+            kind: 'relacao',
+            code: ifrsLabel,
+            title: `Equivalência com ${relatedCodes}`,
+            family: 'Equivalências',
+            href: '/catalogo/equivalencias-cpc-nbc-ifrs',
+            aliases: rowTexts.filter((value) => value !== ifrsLabel),
+          });
+        }
+      });
+
+      return [
+        ...[...recordsByHref.values()].map(createSearchRecord),
+        ...[...relationRecords.values()].map((record) => ({
+          ...record,
+          aliases: [...record.aliases],
+        })),
+      ].map((record) => ({
+        ...record,
+        codeNormalized: normalizeStandardCode(record.code),
+        codeCompact: compactSearchKey(record.code),
+        titleNormalized: normalizeStandardCode(record.title),
+        familyNormalized: normalizeStandardCode(record.family),
+        aliasNormalized: record.aliases.map((alias) => normalizeStandardCode(alias)),
+        aliasCompact: record.aliases.map((alias) => compactSearchKey(alias)),
+        searchableText: normalizeStandardCode([record.code, record.title, record.family, ...record.aliases].join(' ')),
+      }));
+    }
+
+    let catalogSearchPromise;
+    let catalogSearchMounted = false;
+
+    async function loadCatalogSearchIndex() {
+      if (!catalogSearchPromise) {
+        const sources = {
+          cpcs: '/families/cpcs.md',
+          icpcs: '/families/icpcs.md',
+          'nbc-ta-cta': '/families/nbc-ta-cta.md',
+          'nbc-tg-itg-ctg-otg': '/families/nbc-tg-itg-ctg-otg.md',
+          'nbc-ti': '/families/nbc-ti.md',
+          'cpc-map': '/catalogo/cpc-map.md',
+          'icpc-map': '/catalogo/icpc-map.md',
+          'nbc-ta-cta-map': '/catalogo/nbc-ta-cta-map.md',
+          'nbc-tg-itg-ctg-map': '/catalogo/nbc-tg-itg-ctg-map.md',
+          equivalencias: '/catalogo/equivalencias-cpc-nbc-ifrs.md',
+        };
+
+        catalogSearchPromise = Promise.all(
+          Object.entries(sources).map(async ([key, path]) => {
+            const response = await fetch(path);
+            if (!response.ok) {
+              throw new Error(`Falha ao carregar ${path}`);
+            }
+            return [key, await response.text()];
+          })
+        ).then((entries) => buildCatalogSearchIndex(Object.fromEntries(entries)));
+      }
+      return catalogSearchPromise;
+    }
+
+    function rankCatalogSearch(records, query) {
+      const normalizedQuery = normalizeStandardCode(query);
+      const compactQuery = compactSearchKey(query);
+      const queryTerms = normalizedQuery.split(' ').filter(Boolean);
+
+      if (!normalizedQuery || compactQuery.length < 2) {
+        return [];
+      }
+
+      return records
+        .map((record) => {
+          let score = 0;
+
+          if (record.codeCompact === compactQuery) {
+            score = 1000;
+          } else if (record.codeNormalized === normalizedQuery) {
+            score = 980;
+          } else if (record.aliasCompact.includes(compactQuery)) {
+            score = 900;
+          } else if (record.codeCompact.startsWith(compactQuery)) {
+            score = 860 - (record.codeCompact.length - compactQuery.length);
+          } else if (record.codeNormalized.startsWith(normalizedQuery)) {
+            score = 820 - (record.codeNormalized.length - normalizedQuery.length);
+          } else if (record.titleNormalized.includes(normalizedQuery)) {
+            score = 700 - record.titleNormalized.indexOf(normalizedQuery);
+          } else {
+            const aliasIndex = record.aliasNormalized.findIndex((alias) => alias.includes(normalizedQuery));
+            if (aliasIndex >= 0) {
+              score = 660 - aliasIndex;
+            } else if (queryTerms.length > 1 && queryTerms.every((term) => record.searchableText.includes(term))) {
+              score = 520;
+            } else if (record.familyNormalized.includes(normalizedQuery)) {
+              score = 320;
+            }
+          }
+
+          return score > 0 ? { score, record } : null;
+        })
+        .filter(Boolean)
+        .sort((left, right) => right.score - left.score || left.record.code.localeCompare(right.record.code, 'pt-BR'))
+        .slice(0, 8)
+        .map((item) => item.record);
+    }
+
+    function renderCatalogSearchResults(container, results, query) {
+      if (!query.trim()) {
+        container.hidden = true;
+        container.innerHTML = '';
+        return;
+      }
+
+      container.hidden = false;
+      container.innerHTML = '';
+
+      if (!results.length) {
+        const empty = document.createElement('div');
+        empty.className = 'catalog-search-empty';
+        empty.textContent = 'Nenhuma norma encontrada.';
+        container.appendChild(empty);
+        return;
+      }
+
+      results.forEach((result, index) => {
+        const item = document.createElement('button');
+        item.type = 'button';
+        item.className = 'catalog-search-item';
+        item.dataset.href = result.href;
+        item.dataset.index = String(index);
+
+        const code = document.createElement('span');
+        code.className = 'catalog-search-code';
+        code.textContent = result.code;
+
+        const title = document.createElement('span');
+        title.className = 'catalog-search-title';
+        title.textContent = result.title;
+
+        const meta = document.createElement('span');
+        meta.className = 'catalog-search-meta';
+        meta.textContent = result.family;
+
+        item.appendChild(code);
+        item.appendChild(title);
+        item.appendChild(meta);
+        container.appendChild(item);
+      });
+    }
+
+    function setActiveCatalogSearchResult(container, activeIndex) {
+      container.querySelectorAll('.catalog-search-item').forEach((item) => {
+        item.classList.toggle('is-active', Number(item.dataset.index) === activeIndex);
+      });
+    }
+
+    function navigateFromCatalogSearch(href) {
+      if (!href) {
+        return;
+      }
+      window.location.hash = `#${href}`;
+    }
+
+    async function setupCatalogSearch() {
+      if (catalogSearchMounted && document.querySelector('[data-catalog-search]')) {
+        return;
+      }
+      catalogSearchMounted = false;
+      const records = await loadCatalogSearchIndex();
+      const sidebar = document.querySelector('.sidebar');
+      if (!sidebar || sidebar.querySelector('[data-catalog-search]')) {
+        return;
+      }
+      catalogSearchMounted = true;
+
+      const container = document.createElement('div');
+      container.className = 'catalog-search';
+      container.dataset.catalogSearch = 'true';
+      container.innerHTML = `
+        <input class="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS" aria-label="Buscar norma">
+        <div class="catalog-search-results" hidden></div>
+      `;
+
+      sidebar.prepend(container);
+
+      const input = container.querySelector('.catalog-search-input');
+      const resultsPanel = container.querySelector('.catalog-search-results');
+      let activeIndex = -1;
+      let currentResults = [];
+
+      const refreshResults = () => {
+        currentResults = rankCatalogSearch(records, input.value);
+        activeIndex = currentResults.length ? 0 : -1;
+        renderCatalogSearchResults(resultsPanel, currentResults, input.value);
+        setActiveCatalogSearchResult(resultsPanel, activeIndex);
       };
 
-      bindSearch();
-
-      const searchObserver = new MutationObserver(() => {
-        bindSearch();
+      input.addEventListener('input', refreshResults);
+      input.addEventListener('focus', () => {
+        if (input.value.trim()) {
+          refreshResults();
+        }
       });
-      searchObserver.observe(document.body, { childList: true, subtree: true });
+
+      input.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          resultsPanel.hidden = true;
+          return;
+        }
+
+        if (!currentResults.length) {
+          return;
+        }
+
+        if (event.key === 'ArrowDown') {
+          event.preventDefault();
+          activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
+          setActiveCatalogSearchResult(resultsPanel, activeIndex);
+          return;
+        }
+
+        if (event.key === 'ArrowUp') {
+          event.preventDefault();
+          activeIndex = Math.max(activeIndex - 1, 0);
+          setActiveCatalogSearchResult(resultsPanel, activeIndex);
+          return;
+        }
+
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          const result = currentResults[activeIndex] || currentResults[0];
+          if (result) {
+            navigateFromCatalogSearch(result.href);
+          }
+        }
+      });
+
+      resultsPanel.addEventListener('mousedown', (event) => {
+        const item = event.target.closest('.catalog-search-item');
+        if (!item) {
+          return;
+        }
+        event.preventDefault();
+        navigateFromCatalogSearch(item.dataset.href);
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('[data-catalog-search]')) {
+          resultsPanel.hidden = true;
+        }
+      });
     }
 
     applyTheme(storedTheme());
 
     const logoObserver = new MutationObserver(() => {
       applyTheme(storedTheme());
+      setupCatalogSearch().catch((error) => {
+        console.warn('Nao foi possivel atualizar a busca do catalogo.', error);
+      });
     });
     logoObserver.observe(document.body, { childList: true, subtree: true });
 
@@ -647,13 +1074,12 @@
       }
     });
 
-    setupExactSearchJump().catch((error) => {
-      console.warn('Nao foi possivel ativar o salto exato da busca.', error);
+    setupCatalogSearch().catch((error) => {
+      console.warn('Nao foi possivel ativar a busca do catalogo.', error);
     });
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js?v=20260520"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js?v=20260520"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js?v=20260520"></script>
 </body>
 </html>
