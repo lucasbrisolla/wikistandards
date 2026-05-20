@@ -1,4 +1,5 @@
 - [Início](/)
+- [Consulta rápida](consulta-rapida)
 - [Como navegar](como-navegar)
 - [Índice Geral](/catalogo/standards-index)
 

@@ -290,6 +290,57 @@
       font-size: 14px;
     }
 
+    .quick-lookup {
+      margin: 12px 0 28px;
+      border: 1px solid #dce6e0;
+      border-radius: 18px;
+      padding: 20px;
+      background: linear-gradient(145deg, #ffffff 0%, #f5faf7 100%);
+      box-shadow: 0 16px 36px rgba(36, 49, 43, 0.08);
+    }
+
+    .quick-lookup-field + .quick-lookup-field {
+      margin-top: 16px;
+    }
+
+    .quick-lookup label {
+      display: block;
+      margin-bottom: 7px;
+      color: #24312b;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .quick-lookup select {
+      width: 100%;
+      border: 1px solid #cfd9d4;
+      border-radius: 12px;
+      padding: 12px 14px;
+      background: #ffffff;
+      color: #24312b;
+      font-size: 15px;
+      font-family: var(--base-font-family);
+    }
+
+    .quick-lookup select:focus-visible {
+      border-color: #ff9a85;
+      outline: 2px solid rgba(255, 115, 92, 0.18);
+      outline-offset: 1px;
+    }
+
+    .quick-lookup select:disabled {
+      background: #f1f5f3;
+      color: #819087;
+      cursor: not-allowed;
+    }
+
+    .quick-lookup-hint {
+      margin: 14px 0 0;
+      color: #5b6b63;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
     @media (max-width: 768px) {
       .appearance-switcher {
         left: 16px;
@@ -350,6 +401,31 @@
       border-color: #394a42;
       background: #233029;
       color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .quick-lookup {
+      border-color: #394a42;
+      background: linear-gradient(145deg, #222d28 0%, #1b2520 100%);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+    }
+
+    body[data-theme-mode="dark"] .quick-lookup label {
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .quick-lookup select {
+      border-color: #42534b;
+      background: #18211d;
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .quick-lookup select:disabled {
+      background: #24302a;
+      color: #91a19a;
+    }
+
+    body[data-theme-mode="dark"] .quick-lookup-hint {
+      color: #c0cbc5;
     }
 
     body[data-theme-mode="dark"] .home-hero p {
@@ -530,33 +606,53 @@
         .trim();
     }
 
-    async function setupExactSearchJump() {
+    async function loadFamilyCatalog() {
       const familyIndexes = [
-        '/families/cpcs.md',
-        '/families/icpcs.md',
-        '/families/nbc-ta-cta.md',
-        '/families/nbc-tg-itg-ctg-otg.md',
-        '/families/nbc-ti.md',
+        { path: '/families/cpcs.md', label: 'CPC' },
+        { path: '/families/icpcs.md', label: 'ICPC' },
+        { path: '/families/nbc-ta-cta.md', label: 'NBC TA/CTA' },
+        { path: '/families/nbc-tg-itg-ctg-otg.md', label: 'NBC TG/ITG/CTG/OTG' },
+        { path: '/families/nbc-ti.md', label: 'NBC TI' },
       ];
-      const exactMatchMap = new Map();
 
       const responses = await Promise.all(
-        familyIndexes.map(async (path) => {
-          const response = await fetch(path);
+        familyIndexes.map(async (family) => {
+          const response = await fetch(family.path);
           if (!response.ok) {
-            throw new Error(`Falha ao carregar ${path}`);
+            throw new Error(`Falha ao carregar ${family.path}`);
           }
-          return response.text();
+          return { ...family, text: await response.text() };
         })
       );
 
-      responses.forEach((text) => {
+      return responses.map((family) => {
+        const standards = [];
         const regex = /^- \[([^\]]+)\]\(([^)]+)\)/gm;
-        for (const match of text.matchAll(regex)) {
-          const code = normalizeStandardCode(match[1]);
-          const href = match[2].replace(/\.md$/, '');
-          exactMatchMap.set(code, href);
+
+        for (const match of family.text.matchAll(regex)) {
+          standards.push({
+            code: match[1],
+            href: match[2].replace(/\.md$/, ''),
+            normalizedCode: normalizeStandardCode(match[1]),
+          });
         }
+
+        return {
+          label: family.label,
+          path: family.path,
+          standards,
+        };
+      });
+    }
+
+    async function setupExactSearchJump() {
+      const familyCatalog = await loadFamilyCatalog();
+      const exactMatchMap = new Map();
+
+      familyCatalog.forEach((family) => {
+        family.standards.forEach((standard) => {
+          exactMatchMap.set(standard.normalizedCode, standard.href);
+        });
       });
 
       const bindSearch = () => {
@@ -612,6 +708,77 @@
       searchObserver.observe(document.body, { childList: true, subtree: true });
     }
 
+    async function setupQuickLookup() {
+      const familyCatalog = await loadFamilyCatalog();
+
+      const bindLookup = () => {
+        document.querySelectorAll('[data-quick-lookup]').forEach((container) => {
+          if (container.dataset.quickLookupBound === 'true') {
+            return;
+          }
+
+          const familySelect = container.querySelector('[data-quick-lookup-family]');
+          const standardSelect = container.querySelector('[data-quick-lookup-standard]');
+          const hint = container.querySelector('[data-quick-lookup-hint]');
+
+          if (!familySelect || !standardSelect || !hint) {
+            return;
+          }
+
+          container.dataset.quickLookupBound = 'true';
+
+          familyCatalog.forEach((family, index) => {
+            const option = document.createElement('option');
+            option.value = String(index);
+            option.textContent = `${family.label} (${family.standards.length})`;
+            familySelect.appendChild(option);
+          });
+
+          const resetStandards = (message) => {
+            standardSelect.innerHTML = '<option value="">Escolha a norma</option>';
+            standardSelect.disabled = true;
+            hint.textContent = message;
+          };
+
+          familySelect.addEventListener('change', () => {
+            const selectedFamily = familyCatalog[Number(familySelect.value)];
+
+            if (!selectedFamily) {
+              resetStandards('Selecione a família e depois a norma para abrir o documento.');
+              return;
+            }
+
+            standardSelect.innerHTML = '<option value="">Escolha a norma</option>';
+            selectedFamily.standards.forEach((standard) => {
+              const option = document.createElement('option');
+              option.value = standard.href;
+              option.textContent = standard.code;
+              standardSelect.appendChild(option);
+            });
+
+            standardSelect.disabled = false;
+            hint.textContent = `Agora escolha uma norma da família ${selectedFamily.label}.`;
+          });
+
+          standardSelect.addEventListener('change', () => {
+            if (!standardSelect.value) {
+              return;
+            }
+
+            hint.textContent = 'Abrindo a norma selecionada...';
+            window.location.hash = `#${standardSelect.value}`;
+          });
+        });
+      };
+
+      bindLookup();
+
+      const quickLookupObserver = new MutationObserver(() => {
+        bindLookup();
+      });
+      quickLookupObserver.observe(document.body, { childList: true, subtree: true });
+    }
+
     applyTheme(storedTheme());
 
     const logoObserver = new MutationObserver(() => {
@@ -653,6 +820,9 @@
 
     setupExactSearchJump().catch((error) => {
       console.warn('Nao foi possivel ativar o salto exato da busca.', error);
+    });
+    setupQuickLookup().catch((error) => {
+      console.warn('Nao foi possivel ativar a consulta rapida.', error);
     });
   </script>
 
