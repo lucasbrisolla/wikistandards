@@ -54,6 +54,34 @@
       font-size: 15px;
     }
 
+    .sidebar-nav {
+      padding: 0 18px 28px;
+    }
+
+    .sidebar-nav>ul,
+    .sidebar-nav>p {
+      margin-left: 0;
+    }
+
+    .sidebar-nav li {
+      margin: 7px 0;
+    }
+
+    .sidebar-nav a {
+      display: inline-block;
+      padding: 3px 0;
+      line-height: 1.45;
+    }
+
+    .sidebar-nav strong {
+      display: block;
+      margin: 22px 0 10px;
+      color: #24312b;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
     .sidebar>h1 {
       margin: 20px 12px 22px;
     }
@@ -230,6 +258,10 @@
       --appearance-ink: #f2f7f4;
       --appearance-muted: #c0cbc5;
       --appearance-hover: #2c3a33;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-nav strong {
+      color: #edf2ef;
     }
 
     body[data-theme-mode="dark"] .home-hero p {
