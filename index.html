@@ -12,6 +12,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/wiki-standards-symbol.svg">
   <link id="docsify-theme" rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     :root {
@@ -37,6 +38,20 @@
     pre,
     kbd {
       font-family: var(--mono-font-family);
+    }
+
+    .sidebar>h1 {
+      margin: 18px 16px 20px;
+    }
+
+    .sidebar>h1 .app-name-link {
+      display: flex;
+      justify-content: center;
+    }
+
+    .sidebar>h1 img {
+      width: min(218px, 78%);
+      height: auto;
     }
 
     .appearance-switcher {
@@ -188,6 +203,7 @@
   <script>
     window.$docsify = {
       name: 'Wiki Standards',
+      logo: 'assets/wiki-standards-horizontal.svg',
       repo: 'lucasbrisolla/wikistandards',
       auto2top: true,
       loadSidebar: true,
