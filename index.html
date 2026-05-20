@@ -92,12 +92,12 @@
       font-size: 14px;
     }
 
-    .sidebar-nav li.active>a {
+    .sidebar-nav>ul>li.active>a {
       position: relative;
       padding-left: 14px;
     }
 
-    .sidebar-nav li.active>a::before {
+    .sidebar-nav>ul>li.active>a::before {
       content: '⌄';
       position: absolute;
       left: 0;
@@ -106,6 +106,14 @@
       font-size: 14px;
       font-weight: 700;
       line-height: 1;
+    }
+
+    .sidebar-nav .app-sub-sidebar li.active>a {
+      padding-left: 0;
+    }
+
+    .sidebar-nav .app-sub-sidebar li.active>a::before {
+      content: none;
     }
 
     .sidebar-nav a {
@@ -334,7 +342,7 @@
       color: #c0cbc5;
     }
 
-    body[data-theme-mode="dark"] .sidebar-nav li.active>a::before {
+    body[data-theme-mode="dark"] .sidebar-nav>ul>li.active>a::before {
       color: #ffb199;
     }
 
