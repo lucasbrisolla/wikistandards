@@ -42,7 +42,7 @@
     .appearance-switcher {
       position: fixed;
       top: 12px;
-      left: 16px;
+      left: 316px;
       z-index: 1000;
     }
 
@@ -87,6 +87,12 @@
 
     .appearance-menu[hidden] {
       display: none;
+    }
+
+    @media (max-width: 768px) {
+      .appearance-switcher {
+        left: 16px;
+      }
     }
 
     .appearance-option {
