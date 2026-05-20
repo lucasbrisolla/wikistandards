@@ -1,279 +1,35 @@
 # Índice de Normas
 
-Porta de entrada da biblioteca. As normas estão em seus arquivos originais; este catálogo aponta, classifica e orienta recuperação.
+Porta de entrada da biblioteca. As normas continuam preservadas em seus arquivos originais; este índice aponta para os mapas de consulta, sem reescrever o conteúdo normativo.
 
-## Famílias
+## Visão Geral
 
-| Família | Itens |
-|---------|-------|
-| CPC | 53 |
-| CTG | 8 |
-| ICPC | 23 |
-| ITG | 16 |
-| NBC CTA | 31 |
-| NBC TA | 37 |
-| NBC TG | 45 |
-| NBC TI | 1 |
-| OTG | 1 |
+| Família | Itens | Consulta detalhada |
+|---------|------:|--------------------|
+| CPC | 53 | [Mapa CPC](_catalog/cpc-map) |
+| ICPC | 23 | [Mapa ICPC](_catalog/icpc-map) |
+| NBC TA | 37 | [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map) |
+| NBC CTA | 31 | [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map) |
+| NBC TG | 45 | [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map) |
+| ITG | 16 | [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map) |
+| CTG | 8 | [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map) |
+| OTG | 1 | [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map) |
+| NBC TI | 1 | [RES 986](Markdown/NBC_TI/RES_986) |
 
-## Normas por Família
+## Rotas de Consulta
 
-### CPC
+- Para localizar uma norma pelo código ou título, use o mapa da família correspondente.
+- Para equivalências CPC, NBC TG e IFRS, use o [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs).
+- Para consultar o texto normativo, abra o arquivo Markdown indicado nos mapas.
 
-| Norma | Título |
-|-------|--------|
-| [CPC 00](Markdown/CPCs/CPC_00) | Estrutura Conceitual para Relatório Financeiro |
-| [CPC 01](Markdown/CPCs/CPC_01) | Redução ao Valor Recuperável de Ativos |
-| [CPC 02](Markdown/CPCs/CPC_02) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis |
-| [CPC 03](Markdown/CPCs/CPC_03) | Demonstração dos Fluxos de Caixa |
-| [CPC 04](Markdown/CPCs/CPC_04) | Ativo Intangível |
-| [CPC 05](Markdown/CPCs/CPC_05) | Divulgação sobre Partes Relacionadas |
-| [CPC 06](Markdown/CPCs/CPC_06) | Operações de Arrendamento Mercantil |
-| [CPC 07](Markdown/CPCs/CPC_07) | Subvenção e Assistência Governamentais |
-| [CPC 08](Markdown/CPCs/CPC_08) | Contabilização das Captações de Recursos para o Capital Próprio |
-| [CPC 09](Markdown/CPCs/CPC_09) | Demonstração do Valor Adicionado |
-| [CPC 10](Markdown/CPCs/CPC_10) | Pagamento Baseado em Ações |
-| [CPC 11](Markdown/CPCs/CPC_11) | Derivativo Embutido |
-| [CPC 12](Markdown/CPCs/CPC_12) | Ajuste a Valor Presente |
-| [CPC 13](Markdown/CPCs/CPC_13) | Adoção Inicial da Lei nº 11.638/07 e da Medida Provisória nº 449/08 |
-| [CPC 14](Markdown/CPCs/CPC_14) | Definição de Derivativo |
-| [CPC 15](Markdown/CPCs/CPC_15) | Combinação de Negócios |
-| [CPC 16](Markdown/CPCs/CPC_16) | Estoques |
-| [CPC 17](Markdown/CPCs/CPC_17) | Contratos de Construção |
-| [CPC 18](Markdown/CPCs/CPC_18) | Normas Internacionais de Contabilidade - IAS 28 |
-| [CPC 19](Markdown/CPCs/CPC_19) | Negócios em Conjunto |
-| [CPC 20](Markdown/CPCs/CPC_20) | Custos de Empréstimos |
-| [CPC 21](Markdown/CPCs/CPC_21) | Demonstração Intermediária |
-| [CPC 22](Markdown/CPCs/CPC_22) | Informações por Segmento |
-| [CPC 23](Markdown/CPCs/CPC_23) | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro |
-| [CPC 24](Markdown/CPCs/CPC_24) | Evento Subsequente |
-| [CPC 25](Markdown/CPCs/CPC_25) | Provisões, Passivos Contingentes e Ativos Contingentes |
-| [CPC 26](Markdown/CPCs/CPC_26) | Apresentação das Demonstrações Contábeis |
-| [CPC 27](Markdown/CPCs/CPC_27) | Ativo Imobilizado |
-| [CPC 28](Markdown/CPCs/CPC_28) | Propriedade para Investimento |
-| [CPC 29](Markdown/CPCs/CPC_29) | Ativo Biológico e Produto Agrícola |
-| [CPC 30](Markdown/CPCs/CPC_30) | Receitas |
-| [CPC 31](Markdown/CPCs/CPC_31) | Ativo Não Circulante Mantido para Venda e Operação Descontinuada |
-| [CPC 32](Markdown/CPCs/CPC_32) | Tributos sobre o Lucro |
-| [CPC 33](Markdown/CPCs/CPC_33) | Benefícios a Empregados |
-| [CPC 35](Markdown/CPCs/CPC_35) | Demonstrações Separadas |
-| [CPC 36](Markdown/CPCs/CPC_36) | Demonstrações Consolidadas |
-| [CPC 37](Markdown/CPCs/CPC_37) | Reconhecimento e Mensuração |
-| [CPC 38](Markdown/CPCs/CPC_38) | Objetivo |
-| [CPC 39](Markdown/CPCs/CPC_39) | Instrumentos Financeiros: Apresentação |
-| [CPC 40](Markdown/CPCs/CPC_40) | Instrumentos Financeiros: Evidenciação |
-| [CPC 41](Markdown/CPCs/CPC_41) | Resultado por Ação |
-| [CPC 42](Markdown/CPCs/CPC_42) | Contabilidade em Economia Hiperinflacionária |
-| [CPC 43](Markdown/CPCs/CPC_43) | Adoção Inicial dos Pronunciamentos Técnicos CPC 15 a 41 |
-| [CPC 44](Markdown/CPCs/CPC_44) | Demonstrações Combinadas |
-| [CPC 45](Markdown/CPCs/CPC_45) | Divulgação de Participações em Outras Entidades |
-| [CPC 46](Markdown/CPCs/CPC_46) | Mensuração do Valor Justo |
-| [CPC 47](Markdown/CPCs/CPC_47) | Receita de Contrato com Cliente |
-| [CPC 48](Markdown/CPCs/CPC_48) | Instrumentos Financeiros |
-| [CPC 49](Markdown/CPCs/CPC_49) | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria |
-| [CPC 50](Markdown/CPCs/CPC_50) | Contratos de Seguro |
-| [CPC 51](Markdown/CPCs/CPC_51) | Apresentação e Divulgação nas Demonstrações Contábeis |
-| [CPC Liquidação](Markdown/CPCs/CPC_LIQUIDAÇAO) | Reconhecimento e Mensuração |
-| [CPC PME](Markdown/CPCs/CPC_PME) | Contabilidade para Pequenas e Médias Empresas |
+## Mapas Disponíveis
 
-### CTG
+- [Mapa CPC](_catalog/cpc-map): pronunciamentos CPC com normas relacionadas NBC TG e IFRS quando catalogadas.
+- [Mapa ICPC](_catalog/icpc-map): interpretações técnicas ICPC.
+- [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map): normas e comunicados de auditoria independente.
+- [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map): normas técnicas gerais, interpretações, comunicados e orientações.
+- [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs): equivalências e correlações entre CPC, NBC TG e IFRS.
 
-| Norma | Título |
-|-------|--------|
-| [CTG 01](Markdown/NBC_TG_ITG_CTG_OTG/CTG01) | Entidades de Incorporação Imobiliária |
-| [CTG 04](Markdown/NBC_TG_ITG_CTG_OTG/CTG04) | Aplicação da Interpretação Técnica ITG 02 – Contrato de Construção do Setor Imobiliário |
-| [CTG 05](Markdown/NBC_TG_ITG_CTG_OTG/CTG05) | Contratos de Concessão |
-| [CTG 06](Markdown/NBC_TG_ITG_CTG_OTG/CTG06) | Apresentação de Informações Financeiras Pro Forma |
-| [CTG 07(R1)](Markdown/NBC_TG_ITG_CTG_OTG/CTG07\(R1\)) | Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral |
-| [CTG 08](Markdown/NBC_TG_ITG_CTG_OTG/CTG08) | Reconhecimento de Determinados Ativos e Passivos — Distribuidoras de Energia Elétrica |
-| [CTG 09](Markdown/NBC_TG_ITG_CTG_OTG/CTG09) | Correlação à Estrutura Conceitual Básica do Relato Integrado |
-| [CTG 10](Markdown/NBC_TG_ITG_CTG_OTG/CTG10) | Créditos de Carbono (tCO2e), Permissões de Emissão e Crédito de Descarbonização (CBIO) |
+## Política de Preservação
 
-### ICPC
-
-| Norma | Título |
-|-------|--------|
-| [ICPC 01](Markdown/ICPCs/ICPC_01) | Contratos de Concessão |
-| [ICPC 02](Markdown/ICPCs/ICPC_02) | Referências |
-| [ICPC 03](Markdown/ICPCs/ICPC_03) | Referências |
-| [ICPC 04](Markdown/ICPCs/ICPC_04) | Contexto |
-| [ICPC 05](Markdown/ICPCs/ICPC_05) | Questões |
-| [ICPC 06](Markdown/ICPCs/ICPC_06) | Referências |
-| [ICPC 07](Markdown/ICPCs/ICPC_07) | Distribuição de Lucros in Natura |
-| [ICPC 08](Markdown/ICPCs/ICPC_08) | Contabilização da Proposta de Pagamento de Dividendos |
-| [ICPC 09](Markdown/ICPCs/ICPC_09) | Referências |
-| [ICPC 10](Markdown/ICPCs/ICPC_10) | Objetivo e Alcance |
-| [ICPC 11](Markdown/ICPCs/ICPC_11) | Referências |
-| [ICPC 12](Markdown/ICPCs/ICPC_12) | Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares |
-| [ICPC 13](Markdown/ICPCs/ICPC_13) | Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental |
-| [ICPC 14](Markdown/ICPCs/ICPC_14) | Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares |
-| [ICPC 15](Markdown/ICPCs/ICPC_15) | Passivo Decorrente de Participação em Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos |
-| [ICPC 16](Markdown/ICPCs/ICPC_16) | Extinção de Passivos Financeiros com Instrumentos Patrimoniais |
-| [ICPC 17](Markdown/ICPCs/ICPC_17) | Contratos de Concessão: Evidenciação |
-| [ICPC 18](Markdown/ICPCs/ICPC_18) | Custos de Remoção de Estéril (Stripping) de Mina de Superfície na Fase de Produção |
-| [ICPC 19](Markdown/ICPCs/ICPC_19) | Tributos |
-| [ICPC 20](Markdown/ICPCs/ICPC_20) | Limite de Ativo de Benefício Definido, Requisitos de Custeio Mínimo e sua Interação |
-| [ICPC 21](Markdown/ICPCs/ICPC_21) | Transação em Moeda Estrangeira e Adiantamento |
-| [ICPC 22](Markdown/ICPCs/ICPC_22) | Incerteza sobre Tratamento de Tributos sobre o Lucro |
-| [ICPC 23](Markdown/ICPCs/ICPC_23) | Referências |
-
-### ITG
-
-| Norma | Título |
-|-------|--------|
-| [ITG 01(R1)](Markdown/NBC_TG_ITG_CTG_OTG/ITG01\(R1\)) | Contratos de Concessão |
-| [ITG 07(R1)](Markdown/NBC_TG_ITG_CTG_OTG/ITG07\(R1\)) | Distribuição de Lucros in Natura |
-| [ITG 08](Markdown/NBC_TG_ITG_CTG_OTG/ITG08) | Contabilização da Proposta de Pagamento de Dividendos |
-| [ITG 09(R1)](Markdown/NBC_TG_ITG_CTG_OTG/ITG09\(R1\)) | Demonstrações Contábeis Individuais, Separadas, Consolidadas e Aplicação do MEP |
-| [ITG 10](Markdown/NBC_TG_ITG_CTG_OTG/ITG10) | Interpretação sobre a Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento |
-| [ITG 12](Markdown/NBC_TG_ITG_CTG_OTG/ITG12) | Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares |
-| [ITG 13(R2)](Markdown/NBC_TG_ITG_CTG_OTG/ITG13\(R2\)) | Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Reabilitação Ambiental |
-| [ITG 15](Markdown/NBC_TG_ITG_CTG_OTG/ITG15) | Passivos Decorrentes de Participação em Mercado Específico – Resíduos de Equipamentos Eletroeletrônicos |
-| [ITG 16(R2)](Markdown/NBC_TG_ITG_CTG_OTG/ITG16\(R2\)) | Extinção de Passivos Financeiros com Instrumentos Patrimoniais |
-| [ITG 17](Markdown/NBC_TG_ITG_CTG_OTG/ITG17) | Contratos de Concessão: Evidenciação |
-| [ITG 18](Markdown/NBC_TG_ITG_CTG_OTG/ITG18) | Custos de Remoção de Estéril de Mina de Superfície Fase de Produção |
-| [ITG 19](Markdown/NBC_TG_ITG_CTG_OTG/ITG19) | Tributos |
-| [ITG 20](Markdown/NBC_TG_ITG_CTG_OTG/ITG20) | Limite de Ativo de Benefício Definido, Requisitos de Custeio Mínimo e sua Interação |
-| [ITG 21](Markdown/NBC_TG_ITG_CTG_OTG/ITG21) | Transação em Moeda Estrangeira e Adiantamento |
-| [ITG 22](Markdown/NBC_TG_ITG_CTG_OTG/ITG22) | Incerteza sobre Tratamento de Tributos sobre o Lucro |
-| [ITG 23](Markdown/NBC_TG_ITG_CTG_OTG/ITG23) | Aplicação da Abordagem de Atualização Monetária Prevista na NBC TG 42 |
-
-### NBC CTA
-
-| Norma | Título |
-|-------|--------|
-| [NBC CTA 02](Markdown/NBC_TA_CTA/NBCCTA02) | Relatório do Auditor sobre Demonstrações Contábeis Individuais e Consolidadas |
-| [NBC CTA 03](Markdown/NBC_TA_CTA/NBCCTA03) | Relatório do Auditor sobre Demonstrações Contábeis de Instituições Financeiras |
-| [NBC CTA 04](Markdown/NBC_TA_CTA/NBCCTA04) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades Supervisionadas pela SUSEP |
-| [NBC CTA 05](Markdown/NBC_TA_CTA/NBCCTA05) | Relatório do Auditor sobre Demonstrações Contábeis de Fundos de Investimento |
-| [NBC CTA 06](Markdown/NBC_TA_CTA/NBCCTA06) | Relatório do Auditor sobre Demonstrações Contábeis de Companhias Abertas |
-| [NBC CTA 07](Markdown/NBC_TA_CTA/NBCCTA07) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades de Saúde Suplementar |
-| [NBC CTA 08](Markdown/NBC_TA_CTA/NBCCTA08) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades de Previdência Complementar |
-| [NBC CTA 11](Markdown/NBC_TA_CTA/NBCCTA11) | Relatório do Auditor sobre Informações Trimestrais |
-| [NBC CTA 12](Markdown/NBC_TA_CTA/NBCCTA12) | Relatório do Auditor sobre Demonstrações Contábeis de Grupo Econômico |
-| [NBC CTA 13](Markdown/NBC_TA_CTA/NBCCTA13) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades Supervisionadas pela ANS |
-| [NBC CTA 14](Markdown/NBC_TA_CTA/NBCCTA14) | Relatório do Auditor sobre Demonstrações Contábeis de Instituições Supervisionadas pelo Bacen |
-| [NBC CTA 15](Markdown/NBC_TA_CTA/NBCCTA15) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades Intermediárias de Seguros |
-| [NBC CTA 16](Markdown/NBC_TA_CTA/NBCCTA16) | Relatório de Auditoria sobre a Base de Contribuições dos Agentes Financeiros |
-| [NBC CTA 17](Markdown/NBC_TA_CTA/NBCCTA17) | Modificações no Relatório do Auditor sobre Demonstrações Contábeis de Entidades Supervisionadas pela SUSEP |
-| [NBC CTA 18](Markdown/NBC_TA_CTA/NBCCTA18) | Procedimentos de Auditoria e Relatório do Auditor Relativo a Reapresentação de Demonstrações Contábeis |
-| [NBC CTA 19](Markdown/NBC_TA_CTA/NBCCTA19) | Orientações sobre a Reforma Tributária e seus Impactos na Auditoria |
-| [NBC CTA 21](Markdown/NBC_TA_CTA/NBCCTA21) | Emissão do Relatório do Auditor Independente sobre as Demonstrações Contábeis Consolidadas do Conglomerado Prudencial |
-| [NBC CTA 22](Markdown/NBC_TA_CTA/NBCCTA22) | Orientações sobre Procedimentos Específicos de Auditoria |
-| [NBC CTA 23](Markdown/NBC_TA_CTA/NBCCTA23) | Carta de Conforto |
-| [NBC CTA 24](Markdown/NBC_TA_CTA/NBCCTA24) | Relatório do Auditor sobre Demonstrações Contábeis Regulatórias |
-| [NBC CTA 25](Markdown/NBC_TA_CTA/NBCCTA25) | Norma Brasileira de Contabilidade CTA 25 (R1) |
-| [NBC CTA 26](Markdown/NBC_TA_CTA/NBCCTA26) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades de Direcionamento de Poupança |
-| [NBC CTA 27](Markdown/NBC_TA_CTA/NBCCTA27) | Relatório do Auditor sobre Demonstrações Contábeis de Entidades do Mercado Imobiliário |
-| [NBC CTA 28](Markdown/NBC_TA_CTA/NBCCTA28) | Relatório do Auditor sobre Demonstrações Contábeis Segregadas de Securitização |
-| [NBC CTA 29](Markdown/NBC_TA_CTA/NBCCTA29) | Relatório do Auditor sobre Informações Semestrais de Instituições Financeiras |
-| [NBC CTA 30](Markdown/NBC_TA_CTA/NBCCTA30) | Relatório do Auditor sobre Demonstrações de Risco de Não Conformidade |
-| [NBC CTA 31](Markdown/NBC_TA_CTA/NBCCTA31) | Orientações sobre Conformidade com Regulador de Seguros |
-| [NBC CTA 32](Markdown/NBC_TA_CTA/NBCCTA32) | Auditoria de Demonstrações Contábeis de Fundos de Investimento |
-| [NBC CTA 33](Markdown/NBC_TA_CTA/NBCCTA33) | Relatório de Auditoria sobre Controles Internos e Conformidade |
-| [NBC CTA 34](Markdown/NBC_TA_CTA/NBCCTA34) | Norma Brasileira de Contabilidade CTA 34 (R1) |
-| [NBC CTA 35](Markdown/NBC_TA_CTA/NBCCTA35) | Relatório do Auditor sobre Demonstrações Prudenciais Consolidadas de Seguros |
-
-### NBC TA
-
-| Norma | Título |
-|-------|--------|
-| [NBC TA 200(R1)](Markdown/NBC_TA_CTA/NBCTA200\(R1\)) | Objetivos Gerais do Auditor Independente e a Condução da Auditoria em Conformidade com as Normas |
-| [NBC TA 210(R1)](Markdown/NBC_TA_CTA/NBCTA210\(R1\)) | Concordância com os Termos do Trabalho de Auditoria |
-| [NBC TA 220(R3)](Markdown/NBC_TA_CTA/NBCTA220\(R3\)) | Gestão de Qualidade da Auditoria |
-| [NBC TA 230(R1)](Markdown/NBC_TA_CTA/NBCTA230\(R1\)) | Documentação de Auditoria |
-| [NBC TA 240(R1)](Markdown/NBC_TA_CTA/NBCTA240\(R1\)) | Responsabilidade do Auditor em Relação a Fraude |
-| [NBC TA 250](Markdown/NBC_TA_CTA/NBCTA250) | Consideração de Leis e Regulamentos em Auditoria |
-| [NBC TA 260(R2)](Markdown/NBC_TA_CTA/NBCTA260\(R2\)) | Comunicação com os Responsáveis pela Governança |
-| [NBC TA 265](Markdown/NBC_TA_CTA/NBCTA265) | Comunicação de Deficiências de Controle Interno |
-| [NBC TA 300(R1)](Markdown/NBC_TA_CTA/NBCTA300\(R1\)) | Planejamento da Auditoria de Demonstrações Contábeis |
-| [NBC TA 315(R2)](Markdown/NBC_TA_CTA/NBCTA315\(R2\)) | Identificação e Avaliação dos Riscos de Distorção Relevante |
-| [NBC TA 320(R1)](Markdown/NBC_TA_CTA/NBCTA320\(R1\)) | Materialidade no Planejamento e na Execução da Auditoria |
-| [NBC TA 330(R1)](Markdown/NBC_TA_CTA/NBCTA330\(R1\)) | Resposta do Auditor aos Riscos Avaliados |
-| [NBC TA 402](Markdown/NBC_TA_CTA/NBCTA402) | Considerações de Auditoria Relativas à Entidade que Utiliza Organização Prestadora de Serviços |
-| [NBC TA 450(R1)](Markdown/NBC_TA_CTA/NBCTA450\(R1\)) | Avaliação das Distorções Identificadas Durante a Auditoria |
-| [NBC TA 500(R1)](Markdown/NBC_TA_CTA/NBCTA500\(R1\)) | Evidência de Auditoria |
-| [NBC TA 501](Markdown/NBC_TA_CTA/NBCTA501) | Evidência de Auditoria — Considerações Específicas para Itens Selecionados |
-| [NBC TA 505](Markdown/NBC_TA_CTA/NBCTA505) | Confirmações Externas |
-| [NBC TA 510(R1)](Markdown/NBC_TA_CTA/NBCTA510\(R1\)) | Trabalhos de Auditoria Iniciais — Saldos de Abertura |
-| [NBC TA 520](Markdown/NBC_TA_CTA/NBCTA520) | Procedimentos Analíticos |
-| [NBC TA 530](Markdown/NBC_TA_CTA/NBCTA530) | Amostragem em Auditoria |
-| [NBC TA 540(R2)](Markdown/NBC_TA_CTA/NBCTA540\(R2\)) | Auditoria de Estimativas Contábeis, Inclusive do Valor Justo |
-| [NBC TA 550](Markdown/NBC_TA_CTA/NBCTA550) | Partes Relacionadas |
-| [NBC TA 560(R1)](Markdown/NBC_TA_CTA/NBCTA560\(R1\)) | Eventos Subsequentes |
-| [NBC TA 570](Markdown/NBC_TA_CTA/NBCTA570) | Continuidade Operacional |
-| [NBC TA 580(R1)](Markdown/NBC_TA_CTA/NBCTA580\(R1\)) | Representações Formais |
-| [NBC TA 600(R2)](Markdown/NBC_TA_CTA/NBCTA600\(R2\)) | Considerações Especiais — Auditorias de Demonstrações Contábeis de Grupo |
-| [NBC TA 610](Markdown/NBC_TA_CTA/NBCTA610) | Utilização do Trabalho dos Auditores Internos |
-| [NBC TA 620](Markdown/NBC_TA_CTA/NBCTA620) | Utilização do Trabalho de Especialistas do Auditor |
-| [NBC TA 700](Markdown/NBC_TA_CTA/NBCTA700) | Formação da Opinião e Emissão do Relatório do Auditor Independente |
-| [NBC TA 701](Markdown/NBC_TA_CTA/NBCTA701) | Comunicação dos Principais Assuntos de Auditoria no Relatório do Auditor Independente |
-| [NBC TA 705](Markdown/NBC_TA_CTA/NBCTA705) | Modificações na Opinião do Relatório do Auditor Independente |
-| [NBC TA 706](Markdown/NBC_TA_CTA/NBCTA706) | Parágrafos de Ênfase e Parágrafos de Outros Assuntos no Relatório do Auditor |
-| [NBC TA 710(R1)](Markdown/NBC_TA_CTA/NBCTA710\(R1\)) | Informações Comparativas — Valores Correspondentes e Demonstrações Contábeis Comparativas |
-| [NBC TA 720](Markdown/NBC_TA_CTA/NBCTA720) | Responsabilidade do Auditor em Relação a Outras Informações |
-| [NBC TA 800](Markdown/NBC_TA_CTA/NBCTA800) | Considerações Especiais — Auditorias de Demonstrações Contábeis Elaboradas de Acordo com Estruturas Conceituais de Propósito Especial |
-| [NBC TA 805](Markdown/NBC_TA_CTA/NBCTA805) | Considerações Especiais — Auditorias de Única Demonstração Contábil e de Elemento, Conta ou Item Específico |
-| [NBC TA 810](Markdown/NBC_TA_CTA/NBCTA810) | Trabalhos para Emissão de Relatório sobre Demonstrações Contábeis Condensadas |
-
-### NBC TG
-
-| Norma | Título |
-|-------|--------|
-| [NBC TG 01(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG01\(R4\)) | Redução ao Valor Recuperável de Ativos |
-| [NBC TG 02(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG02\(R3\)) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis |
-| [NBC TG 03(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG03\(R3\)) | Demonstração dos Fluxos de Caixa |
-| [NBC TG 04(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG04\(R4\)) | Ativo Intangível |
-| [NBC TG 05(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG05\(R3\)) | Divulgação sobre Partes Relacionadas |
-| [NBC TG 06(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG06\(R3\)) | Arrendamentos |
-| [NBC TG 07(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG07\(R2\)) | Subvenção e Assistência Governamentais |
-| [NBC TG 09(R1)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG09\(R1\)) | Demonstração do Valor Adicionado (DVA) |
-| [NBC TG 10(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG10\(R3\)) | Pagamento Baseado em Ações |
-| [NBC TG 12(R1)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG12\(R1\)) | Ajuste a Valor Presente |
-| [NBC TG 15(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG15\(R4\)) | Combinação de Negócios |
-| [NBC TG 16(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG16\(R2\)) | Estoques |
-| [NBC TG 18(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG18\(R4\)) | Investimento em Coligada e em Empreendimento Controlado em Conjunto |
-| [NBC TG 19(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG19\(R2\)) | Negócios em Conjunto |
-| [NBC TG 20(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG20\(R2\)) | Custos de Empréstimos |
-| [NBC TG 21(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG21\(R4\)) | Demonstração Intermediária |
-| [NBC TG 22(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG22\(R2\)) | Informações por Segmento |
-| [NBC TG 23(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG23\(R2\)) | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro |
-| [NBC TG 24(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG24\(R2\)) | Evento Subsequente |
-| [NBC TG 25(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG25\(R2\)) | Provisões, Passivos Contingentes e Ativos Contingentes |
-| [NBC TG 26(R5)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG26\(R5\)) | Apresentação das Demonstrações Contábeis |
-| [NBC TG 27(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG27\(R4\)) | Ativo Imobilizado |
-| [NBC TG 28(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG28\(R4\)) | Propriedade para Investimento |
-| [NBC TG 29(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG29\(R2\)) | Ativo Biológico e Produto Agrícola |
-| [NBC TG 31(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG31\(R4\)) | Ativo Não Circulante Mantido para Venda e Operação Descontinuada |
-| [NBC TG 32(R4)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG32\(R4\)) | Tributos sobre o Lucro |
-| [NBC TG 33(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG33\(R2\)) | Benefícios a Empregados |
-| [NBC TG 35(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG35\(R2\)) | Demonstrações Separadas |
-| [NBC TG 36(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG36\(R3\)) | Demonstrações Consolidadas |
-| [NBC TG 37(R5)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG37\(R5\)) | Adoção Inicial das Normas Internacionais de Contabilidade |
-| [NBC TG 39(R5)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG39\(R5\)) | Instrumentos Financeiros: Apresentação |
-| [NBC TG 40(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG40\(R3\)) | Instrumentos Financeiros: Evidenciação |
-| [NBC TG 41(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG41\(R2\)) | Resultado por Ação |
-| [NBC TG 42](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG42) | Contabilidade em Economia Hiperinflacionária |
-| [NBC TG 43](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG43) | Adoção Inicial das NBC TGs Convergidas em 2009 |
-| [NBC TG 44](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG44) | Demonstrações Combinadas |
-| [NBC TG 45(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG45\(R3\)) | Divulgação de Participações em Outras Entidades |
-| [NBC TG 46(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG46\(R2\)) | Mensuração do Valor Justo |
-| [NBC TG 47](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG47) | Receita de Contrato com Cliente |
-| [NBC TG 48](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG48) | Instrumentos Financeiros |
-| [NBC TG 49](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG49) | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria |
-| [NBC TG 50](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG50) | Contratos de Seguro |
-| [NBC TG 51](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG51) | Apresentação e Divulgação nas Demonstrações Contábeis |
-| [NBC TG 900](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG900) | Entidades em Liquidação |
-| [NBC TG EC](Markdown/NBC_TG_ITG_CTG_OTG/NBCTGEC) | Estrutura Conceitual para Relatório Financeiro |
-
-### NBC TI
-
-| Norma | Título |
-|-------|--------|
-| [RES 986](Markdown/NBC_TI/RES_986) | Resolução CFC nº 986/03 |
-
-### OTG
-
-| Norma | Título |
-|-------|--------|
-| [OTG 2003(R1)](Markdown/NBC_TG_ITG_CTG_OTG/OTG2003\(R1\)) | Orientações sobre a Aplicação da ITG 2003 (R1) — Entidade Desportiva |
+O corpo das normas em `Markdown/` é fonte preservada. A curadoria do site vive em `_catalog/`, por meio de índices, mapas e crosswalks.
