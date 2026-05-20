@@ -7,6 +7,7 @@
 
 **Índices e Mapas**
 - [Índice Geral](_catalog/standards-index)
+- [Crosswalk CPC/NBC TG/IFRS](_catalog/crosswalk-cpc-nbc-ifrs)
 - [Mapa CPC](_catalog/cpc-map)
 - [Mapa ICPC](_catalog/icpc-map)
 - [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map)
