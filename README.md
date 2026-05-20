@@ -2,14 +2,14 @@
   <img src="assets/wiki-standards-horizontal.svg" alt="Wiki Standards" class="home-logo home-logo-light">
   <img src="assets/wiki-standards-horizontal-dark.svg" alt="Wiki Standards" class="home-logo home-logo-dark">
 
-  <p>Biblioteca de normas em Markdown, publicada com Docsify para navegação por família normativa.</p>
+  <p>Biblioteca de normas contábeis organizada para consulta, navegação por família e relações entre pronunciamentos.</p>
 </div>
 
 ## Sobre
 
-A Wiki Standards organiza normas técnicas e contábeis em um formato navegável, preservando os arquivos originais em Markdown.
+A Wiki Standards organiza normas técnicas e contábeis em um formato navegável, preservando o conteúdo original das normas.
 
-Nesta primeira versão, o site publica somente o acervo da pasta `Markdown/`.
+Nesta primeira versão, o site publica o acervo principal de normas e mapas de consulta.
 
 ## Como navegar
 
