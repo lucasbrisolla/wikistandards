@@ -84,12 +84,21 @@
 
     .sidebar-nav .app-sub-sidebar li {
       margin: 8px 0;
-      padding-left: 14px;
-      position: relative;
+      padding-left: 0;
     }
 
-    .sidebar-nav .app-sub-sidebar li::before {
-      content: '›';
+    .sidebar-nav .app-sub-sidebar a {
+      color: #506158;
+      font-size: 14px;
+    }
+
+    .sidebar-nav li.active>a {
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .sidebar-nav li.active>a::before {
+      content: '⌄';
       position: absolute;
       left: 0;
       top: 2px;
@@ -97,11 +106,6 @@
       font-size: 14px;
       font-weight: 700;
       line-height: 1;
-    }
-
-    .sidebar-nav .app-sub-sidebar a {
-      color: #506158;
-      font-size: 14px;
     }
 
     .sidebar-nav a {
@@ -330,7 +334,7 @@
       color: #c0cbc5;
     }
 
-    body[data-theme-mode="dark"] .sidebar-nav .app-sub-sidebar li::before {
+    body[data-theme-mode="dark"] .sidebar-nav li.active>a::before {
       color: #ffb199;
     }
 
