@@ -1,12 +1,12 @@
-- [Início](README)
+- [Início](/)
 - [Como navegar](como-navegar)
-- [Índice Geral](_catalog/standards-index)
+- [Índice Geral](/catalogo/standards-index)
 
 **Mapas por Família**
-- [Mapa CPC](_catalog/cpc-map)
-- [Mapa ICPC](_catalog/icpc-map)
-- [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map)
-- [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map)
+- [Mapa CPC](/catalogo/cpc-map)
+- [Mapa ICPC](/catalogo/icpc-map)
+- [Mapa NBC TA/CTA](/catalogo/nbc-ta-cta-map)
+- [Mapa NBC TG/ITG/CTG](/catalogo/nbc-tg-itg-ctg-map)
 
 **Relações**
-- [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs)
+- [Equivalências CPC/NBC TG/IFRS](/catalogo/equivalencias-cpc-nbc-ifrs)

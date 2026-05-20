@@ -1,9 +1,9 @@
 # NBC TI
 
-> Normas NBC TI publicadas em Markdown.
+> Normas NBC TI disponíveis para consulta.
 
 Total de normas nesta família: **1**.
 
 ## Normas
 
-- [RES_986](Markdown/NBC_TI/RES_986.md)
+- [RES_986](/normas/NBC_TI/RES_986.md)

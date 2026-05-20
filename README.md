@@ -6,19 +6,19 @@
 </div>
 
 <div class="home-cards">
-  <a class="home-card" href="#/_catalog/standards-index">
+  <a class="home-card" href="#/catalogo/standards-index">
     <span class="home-card-kicker">Visão geral</span>
     <strong>Índice Geral</strong>
     <span>Comece pela lista de famílias normativas e escolha o caminho de consulta.</span>
   </a>
 
-  <a class="home-card" href="#/_catalog/cpc-map">
+  <a class="home-card" href="#/catalogo/cpc-map">
     <span class="home-card-kicker">Consulta direta</span>
     <strong>Mapas por Família</strong>
     <span>Abra mapas de CPC, ICPC, NBC TA/CTA e NBC TG/ITG/CTG.</span>
   </a>
 
-  <a class="home-card" href="#/_catalog/equivalencias-cpc-nbc-ifrs">
+  <a class="home-card" href="#/catalogo/equivalencias-cpc-nbc-ifrs">
     <span class="home-card-kicker">Relações</span>
     <strong>Equivalências</strong>
     <span>Localize relações entre pronunciamentos CPC, normas NBC TG e IFRS.</span>
@@ -39,15 +39,15 @@ Nesta primeira versão, o site publica o acervo principal de normas e mapas de c
 
 ## Como navegar
 
-- Use o [Índice Geral](_catalog/standards-index) como porta de entrada para o acervo.
+- Use o Índice Geral como porta de entrada para o acervo.
 - Use os mapas por família para abrir normas com título, classificação e relações conhecidas.
-- Use as [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs) para localizar relações entre pronunciamentos CPC, normas NBC TG e IFRS.
+- Use as Equivalências CPC/NBC TG/IFRS para localizar relações entre pronunciamentos CPC, normas NBC TG e IFRS.
 - O texto das normas foi preservado como fonte, sem reescrita editorial.
 
 ## Mapas disponíveis
 
-- [Mapa CPC](_catalog/cpc-map)
-- [Mapa ICPC](_catalog/icpc-map)
-- [Mapa NBC TA/CTA](_catalog/nbc-ta-cta-map)
-- [Mapa NBC TG/ITG/CTG](_catalog/nbc-tg-itg-ctg-map)
-- [Equivalências CPC/NBC TG/IFRS](_catalog/equivalencias-cpc-nbc-ifrs)
+- Mapa CPC
+- Mapa ICPC
+- Mapa NBC TA/CTA
+- Mapa NBC TG/ITG/CTG
+- Equivalências CPC/NBC TG/IFRS
