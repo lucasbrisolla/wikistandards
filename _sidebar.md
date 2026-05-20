@@ -1,4 +1,5 @@
 - [Início](README)
+- [Como navegar](como-navegar)
 - [Índice Geral](_catalog/standards-index)
 
 **Mapas por Família**

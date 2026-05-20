@@ -91,6 +91,57 @@
       line-height: 1.6;
     }
 
+    .home-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin: 0 auto 44px;
+      max-width: 860px;
+    }
+
+    .home-card {
+      display: flex;
+      min-height: 150px;
+      flex-direction: column;
+      gap: 8px;
+      border: 1px solid #dce6e0;
+      border-radius: 18px;
+      padding: 22px;
+      background: linear-gradient(145deg, #ffffff 0%, #f4faf6 100%);
+      box-shadow: 0 14px 34px rgba(36, 49, 43, 0.08);
+      color: #24312b;
+      text-decoration: none;
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+
+    .home-card:hover,
+    .home-card:focus-visible {
+      border-color: #ff9a85;
+      box-shadow: 0 18px 42px rgba(36, 49, 43, 0.14);
+      color: #24312b;
+      outline: none;
+      text-decoration: none;
+      transform: translateY(-2px);
+    }
+
+    .home-card-kicker {
+      color: #d85842;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .home-card strong {
+      font-size: 21px;
+      line-height: 1.2;
+    }
+
+    .home-card span:last-child {
+      color: #5b6b63;
+      line-height: 1.55;
+    }
+
     .appearance-switcher {
       position: fixed;
       top: 12px;
@@ -145,6 +196,10 @@
       .appearance-switcher {
         left: 16px;
       }
+
+      .home-cards {
+        grid-template-columns: 1fr;
+      }
     }
 
     .appearance-option {
@@ -187,6 +242,27 @@
 
     body[data-theme-mode="dark"] .home-logo-dark {
       display: block;
+    }
+
+    body[data-theme-mode="dark"] .home-card {
+      border-color: #394a42;
+      background: linear-gradient(145deg, #222d28 0%, #1b2520 100%);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.2);
+      color: #f7faf8;
+    }
+
+    body[data-theme-mode="dark"] .home-card:hover,
+    body[data-theme-mode="dark"] .home-card:focus-visible {
+      border-color: #ff9a85;
+      color: #f7faf8;
+    }
+
+    body[data-theme-mode="dark"] .home-card-kicker {
+      color: #ffb199;
+    }
+
+    body[data-theme-mode="dark"] .home-card span:last-child {
+      color: #c0cbc5;
     }
 
     body[data-theme-mode="dark"] .markdown-section table {

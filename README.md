@@ -5,6 +5,32 @@
   <p>Biblioteca de normas contábeis organizada para consulta, navegação por família e relações entre pronunciamentos.</p>
 </div>
 
+<div class="home-cards">
+  <a class="home-card" href="#/_catalog/standards-index">
+    <span class="home-card-kicker">Visão geral</span>
+    <strong>Índice Geral</strong>
+    <span>Comece pela lista de famílias normativas e escolha o caminho de consulta.</span>
+  </a>
+
+  <a class="home-card" href="#/_catalog/cpc-map">
+    <span class="home-card-kicker">Consulta direta</span>
+    <strong>Mapas por Família</strong>
+    <span>Abra mapas de CPC, ICPC, NBC TA/CTA e NBC TG/ITG/CTG.</span>
+  </a>
+
+  <a class="home-card" href="#/_catalog/equivalencias-cpc-nbc-ifrs">
+    <span class="home-card-kicker">Relações</span>
+    <strong>Equivalências</strong>
+    <span>Localize relações entre pronunciamentos CPC, normas NBC TG e IFRS.</span>
+  </a>
+
+  <a class="home-card" href="#/como-navegar">
+    <span class="home-card-kicker">Orientação</span>
+    <strong>Como navegar</strong>
+    <span>Entenda qual rota usar para cada tipo de busca no acervo.</span>
+  </a>
+</div>
+
 ## Sobre
 
 A Wiki Standards organiza normas técnicas e contábeis em um formato navegável, preservando o conteúdo original das normas.
