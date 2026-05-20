@@ -78,7 +78,8 @@
 
     .sidebar-nav .app-sub-sidebar {
       margin: 8px 0 14px;
-      padding-left: 0;
+      padding-left: 14px;
+      border-left: 1px solid rgba(91, 107, 99, 0.16);
     }
 
     .sidebar-nav .app-sub-sidebar li::before {
@@ -88,6 +89,11 @@
     .sidebar-nav .app-sub-sidebar li {
       margin: 8px 0;
       padding-left: 0;
+    }
+
+    .sidebar-nav .app-sub-sidebar a {
+      color: #506158;
+      font-size: 14px;
     }
 
     .sidebar-nav a {
@@ -306,6 +312,14 @@
 
     body[data-theme-mode="dark"] .sidebar-nav strong {
       color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-nav .app-sub-sidebar {
+      border-left-color: rgba(192, 203, 197, 0.18);
+    }
+
+    body[data-theme-mode="dark"] .sidebar-nav .app-sub-sidebar a {
+      color: #c0cbc5;
     }
 
     body[data-theme-mode="dark"] .search-exact-match {
