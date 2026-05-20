@@ -226,6 +226,27 @@
       display: none;
     }
 
+    .search-exact-match {
+      margin: 10px 16px 0;
+      border: 1px solid #dce6e0;
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #f6fbf8;
+      color: #24312b;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .search-exact-match[hidden] {
+      display: none;
+    }
+
+    .search-exact-match strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 14px;
+    }
+
     @media (max-width: 768px) {
       .appearance-switcher {
         left: 16px;
@@ -267,6 +288,12 @@
     }
 
     body[data-theme-mode="dark"] .sidebar-nav strong {
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .search-exact-match {
+      border-color: #394a42;
+      background: #233029;
       color: #edf2ef;
     }
 
@@ -419,6 +446,98 @@
       themeToggle.setAttribute('aria-expanded', 'false');
     }
 
+    function normalizeStandardCode(value) {
+      return value
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toUpperCase()
+        .replace(/[_./-]+/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    async function setupExactSearchJump() {
+      const familyIndexes = [
+        '/families/cpcs.md',
+        '/families/icpcs.md',
+        '/families/nbc-ta-cta.md',
+        '/families/nbc-tg-itg-ctg-otg.md',
+        '/families/nbc-ti.md',
+      ];
+      const exactMatchMap = new Map();
+
+      const responses = await Promise.all(
+        familyIndexes.map(async (path) => {
+          const response = await fetch(path);
+          if (!response.ok) {
+            throw new Error(`Falha ao carregar ${path}`);
+          }
+          return response.text();
+        })
+      );
+
+      responses.forEach((text) => {
+        const regex = /^- \[([^\]]+)\]\(([^)]+)\)/gm;
+        for (const match of text.matchAll(regex)) {
+          const code = normalizeStandardCode(match[1]);
+          const href = match[2].replace(/\.md$/, '');
+          exactMatchMap.set(code, href);
+        }
+      });
+
+      const bindSearch = () => {
+        const searchInput = document.querySelector('.search input');
+        const searchPanel = document.querySelector('.search');
+        if (!searchInput || !searchPanel || searchPanel.dataset.exactJumpBound === 'true') {
+          return;
+        }
+
+        searchPanel.dataset.exactJumpBound = 'true';
+        const helper = document.createElement('div');
+        helper.className = 'search-exact-match';
+        helper.hidden = true;
+        searchPanel.appendChild(helper);
+
+        const updateHelper = () => {
+          const normalizedQuery = normalizeStandardCode(searchInput.value);
+          const exactHref = exactMatchMap.get(normalizedQuery);
+          if (!exactHref) {
+            helper.hidden = true;
+            helper.innerHTML = '';
+            return;
+          }
+
+          helper.hidden = false;
+          helper.innerHTML = `<strong>Correspondência exata</strong>Pressione Enter para abrir <code>${normalizedQuery}</code> diretamente.`;
+        };
+
+        searchInput.addEventListener('input', updateHelper);
+        searchInput.addEventListener('keydown', (event) => {
+          if (event.key !== 'Enter') {
+            return;
+          }
+
+          const normalizedQuery = normalizeStandardCode(searchInput.value);
+          const exactHref = exactMatchMap.get(normalizedQuery);
+          if (!exactHref) {
+            return;
+          }
+
+          event.preventDefault();
+          window.location.hash = `#${exactHref}`;
+        });
+
+        updateHelper();
+      };
+
+      bindSearch();
+
+      const searchObserver = new MutationObserver(() => {
+        bindSearch();
+      });
+      searchObserver.observe(document.body, { childList: true, subtree: true });
+    }
+
     applyTheme(storedTheme());
 
     const logoObserver = new MutationObserver(() => {
@@ -456,6 +575,10 @@
       if (storedTheme() === 'auto') {
         applyTheme('auto');
       }
+    });
+
+    setupExactSearchJump().catch((error) => {
+      console.warn('Nao foi possivel ativar o salto exato da busca.', error);
     });
   </script>
 
