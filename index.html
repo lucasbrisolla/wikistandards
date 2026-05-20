@@ -42,11 +42,14 @@
     .appearance-switcher {
       position: fixed;
       top: 12px;
-      right: 74px;
+      left: 16px;
       z-index: 1000;
     }
 
     .appearance-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       width: 40px;
       height: 40px;
       border: 1px solid var(--appearance-border);
@@ -55,8 +58,13 @@
       color: var(--appearance-ink);
       box-shadow: 0 8px 24px rgba(23, 36, 29, 0.12);
       cursor: pointer;
-      font-weight: 700;
       line-height: 1;
+    }
+
+    .appearance-toggle svg {
+      width: 21px;
+      height: 21px;
+      stroke-width: 2;
     }
 
     .appearance-toggle:hover,
@@ -68,7 +76,7 @@
     .appearance-menu {
       position: absolute;
       top: 48px;
-      right: 0;
+      left: 0;
       min-width: 150px;
       padding: 6px;
       border: 1px solid var(--appearance-border);
@@ -154,7 +162,14 @@
 <body>
   <div class="appearance-switcher">
     <button class="appearance-toggle" id="appearance-toggle" type="button" aria-label="Mudar aparência"
-      aria-haspopup="true" aria-expanded="false">Aa</button>
+      aria-haspopup="true" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+        aria-hidden="true">
+        <path d="m14.5 5.5 4 4" />
+        <path d="M3 21c3.2-.2 5.4-1.2 6.8-3 1.2-1.5 1.2-3.1 2.5-4.4l6.4-6.4a2.8 2.8 0 0 0-4-4l-6.4 6.4c-1.3 1.3-2.9 1.3-4.4 2.5C2.2 13.5 1.2 15.8 1 19" />
+        <path d="M8 14l2 2" />
+      </svg>
+    </button>
     <div class="appearance-menu" id="appearance-menu" role="menu" hidden>
       <button class="appearance-option" type="button" role="menuitemradio" data-theme-choice="auto">Automático</button>
       <button class="appearance-option" type="button" role="menuitemradio" data-theme-choice="light">Claro</button>
