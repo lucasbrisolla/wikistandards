@@ -201,14 +201,6 @@
       transform: translateY(-2px);
     }
 
-    .home-card-kicker {
-      color: #d85842;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
     .home-card strong {
       font-size: 21px;
       line-height: 1.2;
@@ -290,6 +282,10 @@
       font-size: 14px;
     }
 
+    .page-outline {
+      display: none;
+    }
+
     @media (max-width: 768px) {
       .appearance-switcher {
         left: 16px;
@@ -303,6 +299,68 @@
     @media (max-width: 1120px) {
       .home-cards {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (min-width: 1280px) {
+      body.has-page-outline .content {
+        position: relative;
+      }
+
+      body.has-page-outline .markdown-section {
+        max-width: min(860px, calc(100% - 280px));
+      }
+
+      .page-outline {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 24px;
+        width: 220px;
+        border-left: 1px solid #dce6e0;
+        padding-left: 18px;
+      }
+
+      .page-outline.is-hidden {
+        display: none;
+      }
+
+      .page-outline-title {
+        margin: 0 0 10px;
+        color: #24312b;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .page-outline-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .page-outline-item + .page-outline-item {
+        margin-top: 10px;
+      }
+
+      .page-outline-link {
+        display: block;
+        color: #5b6b63;
+        font-size: 14px;
+        line-height: 1.4;
+        text-decoration: none;
+      }
+
+      .page-outline-link[data-level="3"] {
+        padding-left: 12px;
+        font-size: 13px;
+      }
+
+      .page-outline-link:hover,
+      .page-outline-link:focus-visible {
+        color: #24312b;
+        outline: none;
       }
     }
 
@@ -383,12 +441,25 @@
       color: #f7faf8;
     }
 
-    body[data-theme-mode="dark"] .home-card-kicker {
-      color: #ffb199;
-    }
-
     body[data-theme-mode="dark"] .home-card span:last-child {
       color: #c0cbc5;
+    }
+
+    body[data-theme-mode="dark"] .page-outline {
+      border-left-color: #394a42;
+    }
+
+    body[data-theme-mode="dark"] .page-outline-title {
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .page-outline-link {
+      color: #c0cbc5;
+    }
+
+    body[data-theme-mode="dark"] .page-outline-link:hover,
+    body[data-theme-mode="dark"] .page-outline-link:focus-visible {
+      color: #f7faf8;
     }
 
     body[data-theme-mode="dark"] .markdown-section table {
@@ -536,6 +607,12 @@
         .trim();
     }
 
+    function currentDocsifyPath() {
+      const hash = window.location.hash || '#/';
+      const route = hash.startsWith('#/') ? hash.slice(2) : hash.replace(/^#/, '');
+      return route.split('?')[0] || '/';
+    }
+
     async function setupExactSearchJump() {
       const familyIndexes = [
         '/families/cpcs.md',
@@ -618,6 +695,54 @@
       searchObserver.observe(document.body, { childList: true, subtree: true });
     }
 
+    function setupPageOutline() {
+      const bindOutline = () => {
+        const content = document.querySelector('.content');
+        const markdown = document.querySelector('.markdown-section');
+        if (!content || !markdown) {
+          return;
+        }
+
+        let outline = content.querySelector('.page-outline');
+        if (!outline) {
+          outline = document.createElement('aside');
+          outline.className = 'page-outline is-hidden';
+          outline.innerHTML = '<p class="page-outline-title">Nesta página</p><ul class="page-outline-list"></ul>';
+          content.appendChild(outline);
+        }
+
+        const list = outline.querySelector('.page-outline-list');
+        const route = currentDocsifyPath();
+        const isHome = route === '/' || route === '' || route.toUpperCase() === 'README';
+        const supportsOutline = route.startsWith('catalogo/') || route === 'como-navegar';
+        const headings = [...markdown.querySelectorAll('h2[id], h3[id]')].filter((heading) => heading.textContent.trim());
+
+        if (isHome || !supportsOutline || headings.length < 2) {
+          list.innerHTML = '';
+          outline.classList.add('is-hidden');
+          document.body.classList.remove('has-page-outline');
+          return;
+        }
+
+        list.innerHTML = headings.map((heading) => {
+          const level = heading.tagName === 'H2' ? '2' : '3';
+          return `<li class="page-outline-item"><a class="page-outline-link" data-level="${level}" href="#/${route}?id=${heading.id}">${heading.textContent.trim()}</a></li>`;
+        }).join('');
+
+        outline.classList.remove('is-hidden');
+        document.body.classList.add('has-page-outline');
+      };
+
+      bindOutline();
+
+      const outlineObserver = new MutationObserver(() => {
+        bindOutline();
+      });
+      outlineObserver.observe(document.body, { childList: true, subtree: true });
+
+      window.addEventListener('hashchange', bindOutline);
+    }
+
     applyTheme(storedTheme());
 
     const logoObserver = new MutationObserver(() => {
@@ -660,6 +785,7 @@
     setupExactSearchJump().catch((error) => {
       console.warn('Nao foi possivel ativar o salto exato da busca.', error);
     });
+    setupPageOutline();
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js?v=20260520"></script>
