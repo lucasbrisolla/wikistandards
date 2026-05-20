@@ -7,7 +7,33 @@
     content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
   <title>Wiki Standards</title>
   <meta name="description" content="Biblioteca normativa em Markdown, publicada com Docsify para navegação por família.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --base-font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --mono-font-family: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+    }
+
+    body,
+    input,
+    button,
+    textarea,
+    .sidebar,
+    .markdown-section {
+      font-family: var(--base-font-family);
+    }
+
+    code,
+    pre,
+    kbd {
+      font-family: var(--mono-font-family);
+    }
+  </style>
 </head>
 
 <body>
