@@ -12,10 +12,10 @@
     <span>Comece pela lista de famílias normativas e escolha o caminho de consulta.</span>
   </a>
 
-  <a class="home-card" href="#/consulta-rapida">
+  <a class="home-card" href="#/catalogo/cpc-map">
     <span class="home-card-kicker">Consulta direta</span>
-    <strong>Consulta rápida</strong>
-    <span>Escolha a família, selecione a norma e abra o documento sem rodeios.</span>
+    <strong>Mapas por Família</strong>
+    <span>Abra mapas de CPC, ICPC, NBC TA/CTA e NBC TG/ITG/CTG.</span>
   </a>
 
   <a class="home-card" href="#/catalogo/equivalencias-cpc-nbc-ifrs">
@@ -39,7 +39,6 @@ Nesta primeira versão, o site publica o acervo principal de normas e mapas de c
 
 ## Como navegar
 
-- Use a Consulta rápida quando já souber a família da norma e quiser abrir o documento com poucos passos.
 - Use o Índice Geral como porta de entrada para o acervo.
 - Use os mapas por família para abrir normas com título, classificação e relações conhecidas.
 - Use as Equivalências CPC/NBC TG/IFRS para localizar relações entre pronunciamentos CPC, normas NBC TG e IFRS.
