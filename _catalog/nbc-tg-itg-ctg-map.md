@@ -40,7 +40,7 @@ Mapa das Normas Brasileiras de Contabilidade (NBC TG), Interpretações Técnica
 | [NBC TG 40(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG40\(R3\)) | Instrumentos Financeiros: Evidenciação | CPC 40 |
 | [NBC TG 41(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG41\(R2\)) | Resultado por Ação | CPC 41 |
 | [NBC TG 42](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG42) | Contabilidade em Economia Hiperinflacionária | CPC 42 |
-| [NBC TG 43](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG43) | Adoção Inicial das NBC Ts Convergidas em 2009 | CPC 43 |
+| [NBC TG 43](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG43) | Adoção Inicial das NBC TGs Convergidas em 2009 | CPC 43 |
 | [NBC TG 44](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG44) | Demonstrações Combinadas | CPC 44 |
 | [NBC TG 45(R3)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG45\(R3\)) | Divulgação de Participações em Outras Entidades | CPC 45 |
 | [NBC TG 46(R2)](Markdown/NBC_TG_ITG_CTG_OTG/NBCTG46\(R2\)) | Mensuração do Valor Justo | CPC 46 |
