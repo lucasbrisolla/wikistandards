@@ -12,11 +12,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link id="docsify-theme" rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     :root {
       --base-font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       --mono-font-family: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+      --appearance-bg: #ffffff;
+      --appearance-border: #d9e2dd;
+      --appearance-ink: #24312b;
+      --appearance-muted: #5b6b63;
+      --appearance-hover: #eef7f1;
     }
 
     body,
@@ -33,10 +38,92 @@
     kbd {
       font-family: var(--mono-font-family);
     }
+
+    .appearance-switcher {
+      position: fixed;
+      top: 12px;
+      right: 74px;
+      z-index: 1000;
+    }
+
+    .appearance-toggle {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--appearance-border);
+      border-radius: 999px;
+      background: var(--appearance-bg);
+      color: var(--appearance-ink);
+      box-shadow: 0 8px 24px rgba(23, 36, 29, 0.12);
+      cursor: pointer;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .appearance-toggle:hover,
+    .appearance-toggle:focus-visible {
+      background: var(--appearance-hover);
+      outline: none;
+    }
+
+    .appearance-menu {
+      position: absolute;
+      top: 48px;
+      right: 0;
+      min-width: 150px;
+      padding: 6px;
+      border: 1px solid var(--appearance-border);
+      border-radius: 8px;
+      background: var(--appearance-bg);
+      box-shadow: 0 14px 34px rgba(23, 36, 29, 0.16);
+    }
+
+    .appearance-menu[hidden] {
+      display: none;
+    }
+
+    .appearance-option {
+      display: block;
+      width: 100%;
+      border: 0;
+      border-radius: 6px;
+      padding: 8px 10px;
+      background: transparent;
+      color: var(--appearance-muted);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    .appearance-option:hover,
+    .appearance-option:focus-visible,
+    .appearance-option[aria-checked="true"] {
+      background: var(--appearance-hover);
+      color: var(--appearance-ink);
+      outline: none;
+    }
+
+    body[data-theme-mode="dark"] {
+      --appearance-bg: #1f2a25;
+      --appearance-border: #3c4a43;
+      --appearance-ink: #f2f7f4;
+      --appearance-muted: #c0cbc5;
+      --appearance-hover: #2c3a33;
+    }
   </style>
 </head>
 
 <body>
+  <div class="appearance-switcher">
+    <button class="appearance-toggle" id="appearance-toggle" type="button" aria-label="Mudar aparência"
+      aria-haspopup="true" aria-expanded="false">Aa</button>
+    <div class="appearance-menu" id="appearance-menu" role="menu" hidden>
+      <button class="appearance-option" type="button" role="menuitemradio" data-theme-choice="auto">Automático</button>
+      <button class="appearance-option" type="button" role="menuitemradio" data-theme-choice="light">Claro</button>
+      <button class="appearance-option" type="button" role="menuitemradio" data-theme-choice="dark">Escuro</button>
+    </div>
+  </div>
+
   <div id="app"></div>
 
   <script>
@@ -53,6 +140,73 @@
         depth: 2,
       }
     };
+  </script>
+  <script>
+    const themeLink = document.getElementById('docsify-theme');
+    const themeToggle = document.getElementById('appearance-toggle');
+    const themeMenu = document.getElementById('appearance-menu');
+    const themeOptions = [...document.querySelectorAll('[data-theme-choice]')];
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const themeUrls = {
+      light: '//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css',
+      dark: '//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css',
+    };
+
+    function storedTheme() {
+      return localStorage.getItem('wiki-standards-theme') || 'auto';
+    }
+
+    function activeTheme(choice) {
+      return choice === 'auto' ? (systemTheme.matches ? 'dark' : 'light') : choice;
+    }
+
+    function applyTheme(choice) {
+      const resolvedTheme = activeTheme(choice);
+      themeLink.href = themeUrls[resolvedTheme];
+      document.body.dataset.themeMode = resolvedTheme;
+      themeOptions.forEach((option) => {
+        option.setAttribute('aria-checked', String(option.dataset.themeChoice === choice));
+      });
+    }
+
+    function closeThemeMenu() {
+      themeMenu.hidden = true;
+      themeToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    applyTheme(storedTheme());
+
+    themeToggle.addEventListener('click', () => {
+      const isOpen = !themeMenu.hidden;
+      themeMenu.hidden = isOpen;
+      themeToggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+
+    themeOptions.forEach((option) => {
+      option.addEventListener('click', () => {
+        localStorage.setItem('wiki-standards-theme', option.dataset.themeChoice);
+        applyTheme(option.dataset.themeChoice);
+        closeThemeMenu();
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!event.target.closest('.appearance-switcher')) {
+        closeThemeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeThemeMenu();
+      }
+    });
+
+    systemTheme.addEventListener('change', () => {
+      if (storedTheme() === 'auto') {
+        applyTheme('auto');
+      }
+    });
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
