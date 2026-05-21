@@ -700,6 +700,17 @@
       };
     }
 
+    function resolveSitePath(path) {
+      const cleanPath = String(path || '').replace(/^\/+/, '');
+      const { pathname } = window.location;
+      const marker = '/#/';
+      const hashIndex = pathname.indexOf(marker);
+      const basePath = hashIndex >= 0
+        ? pathname.slice(0, hashIndex + 1)
+        : pathname.replace(/[^/]*$/, '');
+      return `${basePath}${cleanPath}`;
+    }
+
     function buildCatalogSearchIndex(sourceTexts) {
       const familySources = [
         { key: 'cpcs', family: 'CPC' },
@@ -836,21 +847,21 @@
     async function loadCatalogSearchIndex() {
       if (!catalogSearchPromise) {
         const sources = {
-          cpcs: '/families/cpcs.md',
-          icpcs: '/families/icpcs.md',
-          'nbc-ta-cta': '/families/nbc-ta-cta.md',
-          'nbc-tg-itg-ctg-otg': '/families/nbc-tg-itg-ctg-otg.md',
-          'nbc-ti': '/families/nbc-ti.md',
-          'cpc-map': '/catalogo/cpc-map.md',
-          'icpc-map': '/catalogo/icpc-map.md',
-          'nbc-ta-cta-map': '/catalogo/nbc-ta-cta-map.md',
-          'nbc-tg-itg-ctg-map': '/catalogo/nbc-tg-itg-ctg-map.md',
-          equivalencias: '/catalogo/equivalencias-cpc-nbc-ifrs.md',
+          cpcs: 'families/cpcs.md',
+          icpcs: 'families/icpcs.md',
+          'nbc-ta-cta': 'families/nbc-ta-cta.md',
+          'nbc-tg-itg-ctg-otg': 'families/nbc-tg-itg-ctg-otg.md',
+          'nbc-ti': 'families/nbc-ti.md',
+          'cpc-map': 'catalogo/cpc-map.md',
+          'icpc-map': 'catalogo/icpc-map.md',
+          'nbc-ta-cta-map': 'catalogo/nbc-ta-cta-map.md',
+          'nbc-tg-itg-ctg-map': 'catalogo/nbc-tg-itg-ctg-map.md',
+          equivalencias: 'catalogo/equivalencias-cpc-nbc-ifrs.md',
         };
 
         catalogSearchPromise = Promise.all(
           Object.entries(sources).map(async ([key, path]) => {
-            const response = await fetch(path);
+            const response = await fetch(resolveSitePath(path));
             if (!response.ok) {
               throw new Error(`Falha ao carregar ${path}`);
             }
@@ -963,7 +974,6 @@
     }
 
     async function setupCatalogSearch() {
-      const records = await loadCatalogSearchIndex();
       const container = document.getElementById('catalog-search-host');
       const input = document.getElementById('catalog-search-input');
       const resultsPanel = document.getElementById('catalog-search-results');
@@ -974,10 +984,23 @@
         return;
       }
       container.dataset.bound = 'true';
+      let records = [];
       let activeIndex = -1;
       let currentResults = [];
+      let isReady = false;
+
+      const showUnavailableMessage = () => {
+        activeIndex = -1;
+        currentResults = [];
+        resultsPanel.hidden = false;
+        resultsPanel.innerHTML = '<div class="catalog-search-empty">A busca ainda nao conseguiu carregar o catalogo.</div>';
+      };
 
       const refreshResults = () => {
+        if (!isReady) {
+          showUnavailableMessage();
+          return;
+        }
         currentResults = rankCatalogSearch(records, input.value);
         activeIndex = currentResults.length ? 0 : -1;
         renderCatalogSearchResults(resultsPanel, currentResults, input.value);
@@ -1038,6 +1061,13 @@
           resultsPanel.hidden = true;
         }
       });
+
+      try {
+        records = await loadCatalogSearchIndex();
+        isReady = true;
+      } catch (error) {
+        console.warn('Nao foi possivel carregar o indice da busca.', error);
+      }
     }
 
     applyTheme(storedTheme());
