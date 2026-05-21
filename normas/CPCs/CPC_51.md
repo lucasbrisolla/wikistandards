@@ -1,12 +1,11 @@
 <!-- image -->
 
-## COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS
+# CPC 51
 
-## PRONUNCIAMENTO TÉCNICO CPC 51
+## Apresentação e Divulgação nas Demonstrações Contábeis
 
-## APRESENTAÇÃO E DIVULGAÇÃO NAS DEMONSTRAÇÕES CONTÁBEIS
-
-## Correlação às Normas Internacionais de Contabilidade - IFRS 18
+Pronunciamento Técnico do CPC<br>
+IFRS correlata: IFRS 18
 
 ## * Termos de uso
 

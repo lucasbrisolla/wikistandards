@@ -180,6 +180,7 @@
     .home-card {
       display: flex;
       min-height: 150px;
+      min-width: 0;
       flex-direction: column;
       gap: 8px;
       border: 1px solid #dce6e0;
@@ -205,11 +206,16 @@
     .home-card strong {
       font-size: 21px;
       line-height: 1.2;
+      color: inherit;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .home-card span:last-child {
       color: #5b6b63;
       line-height: 1.55;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .appearance-switcher {
@@ -381,6 +387,21 @@
       .home-cards {
         grid-template-columns: 1fr;
       }
+
+      .home-card {
+        min-height: 0;
+        padding: 18px;
+      }
+
+      .home-card strong {
+        font-size: 19px;
+        line-height: 1.25;
+      }
+
+      .home-card span:last-child {
+        font-size: 15px;
+        line-height: 1.5;
+      }
     }
 
     @media (max-width: 1120px) {
@@ -436,13 +457,13 @@
     }
 
     body[data-theme-mode="dark"] .catalog-search {
-      border-bottom-color: #33413b;
-      background: #1f2a25;
+      border-bottom-color: #3f4c46;
+      background: #262928;
     }
 
     body[data-theme-mode="dark"] .catalog-search-input {
-      border-color: #42534b;
-      background: #18211d;
+      border-color: #52625a;
+      background: #202725;
       color: #edf2ef;
     }
 
@@ -451,24 +472,28 @@
     }
 
     body[data-theme-mode="dark"] .catalog-search-results {
-      border-color: #42534b;
-      background: #1b2520;
+      border-color: #4e5e56;
+      background: #262d2b;
       box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
     }
 
     body[data-theme-mode="dark"] .catalog-search-item {
-      border-top-color: #29342f;
+      border-top-color: #37433e;
       color: #edf2ef;
     }
 
     body[data-theme-mode="dark"] .catalog-search-item:hover,
     body[data-theme-mode="dark"] .catalog-search-item:focus-visible,
     body[data-theme-mode="dark"] .catalog-search-item.is-active {
-      background: #24302a;
+      background: #303a36;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-code {
+      color: #f4f7f5;
     }
 
     body[data-theme-mode="dark"] .catalog-search-title {
-      color: #c7d2cc;
+      color: #b8c6bf;
     }
 
     body[data-theme-mode="dark"] .catalog-search-meta,
@@ -492,7 +517,7 @@
       border-color: #4b5d55;
       background: linear-gradient(145deg, #24302b 0%, #1d2722 100%);
       box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
-      color: #f7faf8;
+      color: #e7efea;
     }
 
     body[data-theme-mode="dark"] .home-card:hover,
@@ -500,11 +525,15 @@
       border-color: #ff9a85;
       box-shadow: 0 20px 42px rgba(0, 0, 0, 0.28);
       background: linear-gradient(145deg, #2a3731 0%, #202a25 100%);
+      color: #e7efea;
+    }
+
+    body[data-theme-mode="dark"] .home-card strong {
       color: #f7faf8;
     }
 
     body[data-theme-mode="dark"] .home-card span:last-child {
-      color: #d3ddd7;
+      color: #b6c4bc;
     }
 
     body[data-theme-mode="dark"] .markdown-section table {
@@ -596,7 +625,6 @@
     window.$docsify = {
       name: 'Wiki Standards',
       logo: 'assets/wiki-standards-horizontal.svg',
-      repo: 'lucasbrisolla/wikistandards',
       auto2top: true,
       loadSidebar: true,
       maxLevel: 0,
