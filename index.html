@@ -581,9 +581,18 @@
       subMaxLevel: 3,
       plugins: [
         function(hook) {
+          hook.mounted(function() {
+            requestAnimationFrame(() => {
+              setupCatalogSearch().catch((error) => {
+                console.warn('Nao foi possivel montar a busca do catalogo.', error);
+              });
+            });
+          });
           hook.doneEach(function() {
-            setupCatalogSearch().catch((error) => {
-              console.warn('Nao foi possivel montar a busca do catalogo.', error);
+            requestAnimationFrame(() => {
+              setupCatalogSearch().catch((error) => {
+                console.warn('Nao foi possivel montar a busca do catalogo.', error);
+              });
             });
           });
         },
@@ -820,7 +829,7 @@
     }
 
     let catalogSearchPromise;
-    let catalogSearchMounted = false;
+    let catalogSearchContainer;
 
     async function loadCatalogSearchIndex() {
       if (!catalogSearchPromise) {
@@ -952,29 +961,33 @@
     }
 
     async function setupCatalogSearch() {
-      if (catalogSearchMounted && document.querySelector('[data-catalog-search]')) {
-        return;
-      }
-      catalogSearchMounted = false;
       const records = await loadCatalogSearchIndex();
-      const sidebar = document.querySelector('.sidebar');
-      if (!sidebar || sidebar.querySelector('[data-catalog-search]')) {
+      const sidebarNav = document.querySelector('.sidebar-nav');
+      if (!sidebarNav) {
         return;
       }
-      catalogSearchMounted = true;
+      if (!catalogSearchContainer) {
+        const container = document.createElement('div');
+        container.className = 'catalog-search';
+        container.dataset.catalogSearch = 'true';
+        container.innerHTML = `
+          <input class="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS" aria-label="Buscar norma">
+          <div class="catalog-search-results" hidden></div>
+        `;
+        catalogSearchContainer = container;
+      }
 
-      const container = document.createElement('div');
-      container.className = 'catalog-search';
-      container.dataset.catalogSearch = 'true';
-      container.innerHTML = `
-        <input class="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS" aria-label="Buscar norma">
-        <div class="catalog-search-results" hidden></div>
-      `;
+      if (catalogSearchContainer.parentElement !== sidebarNav.parentElement || catalogSearchContainer.nextElementSibling !== sidebarNav) {
+        sidebarNav.insertAdjacentElement('beforebegin', catalogSearchContainer);
+      }
 
-      sidebar.prepend(container);
+      if (catalogSearchContainer.dataset.bound === 'true') {
+        return;
+      }
+      catalogSearchContainer.dataset.bound = 'true';
 
-      const input = container.querySelector('.catalog-search-input');
-      const resultsPanel = container.querySelector('.catalog-search-results');
+      const input = catalogSearchContainer.querySelector('.catalog-search-input');
+      const resultsPanel = catalogSearchContainer.querySelector('.catalog-search-results');
       let activeIndex = -1;
       let currentResults = [];
 
