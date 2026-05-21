@@ -26,6 +26,12 @@
       --appearance-ink: #24312b;
       --appearance-muted: #5b6b63;
       --appearance-hover: #eef7f1;
+      --surface-dark-1: #3f4341;
+      --surface-dark-2: #3a3d3b;
+      --surface-dark-3: #4a4f4c;
+      --surface-dark-border: #656565;
+      --surface-dark-text: #f2f2f2;
+      --surface-dark-muted: #d0d0d0;
     }
 
     body,
@@ -457,48 +463,48 @@
     }
 
     body[data-theme-mode="dark"] .catalog-search {
-      border-bottom-color: #3f4c46;
-      background: #262928;
+      border-bottom-color: var(--surface-dark-border);
+      background: var(--surface-dark-2);
     }
 
     body[data-theme-mode="dark"] .catalog-search-input {
-      border-color: #52625a;
-      background: #202725;
-      color: #edf2ef;
+      border-color: var(--surface-dark-border);
+      background: var(--surface-dark-1);
+      color: var(--surface-dark-text);
     }
 
     body[data-theme-mode="dark"] .catalog-search-input::placeholder {
-      color: #8da099;
+      color: var(--surface-dark-muted);
     }
 
     body[data-theme-mode="dark"] .catalog-search-results {
-      border-color: #4e5e56;
-      background: #262d2b;
+      border-color: var(--surface-dark-border);
+      background: var(--surface-dark-1);
       box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
     }
 
     body[data-theme-mode="dark"] .catalog-search-item {
-      border-top-color: #37433e;
-      color: #edf2ef;
+      border-top-color: var(--surface-dark-border);
+      color: var(--surface-dark-text);
     }
 
     body[data-theme-mode="dark"] .catalog-search-item:hover,
     body[data-theme-mode="dark"] .catalog-search-item:focus-visible,
     body[data-theme-mode="dark"] .catalog-search-item.is-active {
-      background: #303a36;
+      background: var(--surface-dark-3);
     }
 
     body[data-theme-mode="dark"] .catalog-search-code {
-      color: #f4f7f5;
+      color: #ffffff;
     }
 
     body[data-theme-mode="dark"] .catalog-search-title {
-      color: #b8c6bf;
+      color: var(--surface-dark-muted);
     }
 
     body[data-theme-mode="dark"] .catalog-search-meta,
     body[data-theme-mode="dark"] .catalog-search-empty {
-      color: #92a49c;
+      color: var(--surface-dark-muted);
     }
 
     body[data-theme-mode="dark"] .home-hero p {
