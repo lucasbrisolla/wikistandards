@@ -578,7 +578,16 @@
       auto2top: true,
       loadSidebar: true,
       maxLevel: 0,
-      subMaxLevel: 3
+      subMaxLevel: 3,
+      plugins: [
+        function(hook) {
+          hook.doneEach(function() {
+            setupCatalogSearch().catch((error) => {
+              console.warn('Nao foi possivel montar a busca do catalogo.', error);
+            });
+          });
+        },
+      ],
     };
   </script>
   <script>
@@ -1036,9 +1045,6 @@
 
     const logoObserver = new MutationObserver(() => {
       applyTheme(storedTheme());
-      setupCatalogSearch().catch((error) => {
-        console.warn('Nao foi possivel atualizar a busca do catalogo.', error);
-      });
     });
     logoObserver.observe(document.body, { childList: true, subtree: true });
 
