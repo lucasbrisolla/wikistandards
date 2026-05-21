@@ -59,13 +59,21 @@
       line-height: 1.5;
     }
 
-    .markdown-section h1 {
+    .standard-header {
+      margin: 0 0 28px;
+      padding-bottom: 18px;
       border-bottom: 1px solid #dce6e0;
-      padding-bottom: 14px;
+    }
+
+    .standard-title {
+      margin: 0 0 10px;
+      color: #24312b;
+      font-size: 2.7rem;
+      line-height: 1.1;
     }
 
     .standard-kicker {
-      margin: -4px 0 6px;
+      margin: 0 0 6px;
       color: #d85842;
       font-size: 13px;
       font-weight: 700;
@@ -74,29 +82,15 @@
     }
 
     .standard-summary {
-      margin: 0 0 14px;
+      margin: 0;
       color: #4f6258;
-      font-size: 17px;
-      line-height: 1.55;
+      font-size: 1.55rem;
+      line-height: 1.2;
     }
 
-    .standard-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 0 0 28px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .standard-meta li {
-      border: 1px solid #dce6e0;
-      border-radius: 999px;
-      padding: 4px 10px;
-      background: #f7fbf8;
-      color: #4f6258;
-      font-size: 13px;
-      line-height: 1.4;
+    .standard-summary strong {
+      color: #24312b;
+      font-weight: 600;
     }
 
     .sidebar {
@@ -574,18 +568,30 @@
       border-color: #68746f;
     }
 
-    body[data-theme-mode="dark"] .markdown-section h1 {
+    body[data-theme-mode="dark"] .standard-header {
       border-bottom-color: #55615b;
+    }
+
+    body[data-theme-mode="dark"] .standard-title {
+      color: #f2f6f3;
     }
 
     body[data-theme-mode="dark"] .standard-summary {
       color: #c0cbc5;
     }
 
-    body[data-theme-mode="dark"] .standard-meta li {
-      border-color: #59665f;
-      background: #27342e;
-      color: #c0cbc5;
+    body[data-theme-mode="dark"] .standard-summary strong {
+      color: #f2f6f3;
+    }
+
+    @media (max-width: 640px) {
+      .standard-title {
+        font-size: 2.2rem;
+      }
+
+      .standard-summary {
+        font-size: 1.2rem;
+      }
     }
 
     body[data-theme-mode="dark"] .markdown-section tr {
