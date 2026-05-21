@@ -5,26 +5,6 @@
   <p class="standard-summary">Pronunciamento Técnico CPC · IFRS 18</p>
 </div>
 
-## * Termos de uso
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPCPME,  contém  material  que  está  sujeito  a  direitos  autorais  da  IFRS® Foundation (Fundação IFRS). Todos esses direitos são reservados.
-
-Este  material  é  reproduzido  e  distribuído  pela  Fundação  de  Apoio  aos Comitês  de  Pronunciamentos  Contábeis  e  de  Sustentabilidade  (FACPCS) somente  para  a  República  Federativa  do  Brasil  com  a  autorização  da Fundação IFRS. Os direitos de outras partes com relação à utilização deste material estão definidos nos Termos de Uso (link) e qualquer utilização não prevista nos Termos de Uso deverá ser previamente autorizada por escrito pela FACPCS e Fundação IFRS.
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPCPME,  são  emitidos  pelo  Comitê  de  Pronunciamentos  Contábeis  e  de Sustentabilidade, organismo  técnico  apoiado  pela  FACPCS,  para  sua aplicação  na  República  Federativa  do  Brasil  e  não  foram  preparados  ou endossados pelo International Accounting Standards Board (IASB).
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPCPME, não devem ser distribuídos para fora da República Federativa do Brasil.
-
-## * Notice
-
-CPC/CPC PME contain copyright material of the IFRS® Foundation (Foundation) in respect of which all rights are reserved.
-
-Reproduced and distributed by the Accounting and Sustainability Pronouncements Committee Support Foundation with the permission of the Foundation within the Federal Republic of Brazil only. No rights granted to third parties other than as permitted by the  Terms  of  Use  [link]  without  the  prior  written  permission  of Accounting and Sustainability Pronouncements Committee Support Foundation and the Foundation.
-
-CPC/CPC  PME  are  issued  by  Accounting  and  Sustainability Pronouncements  Committee  Support  Foundation  in  respect  of their application in Federal Republic of Brazil and have not been prepared or endorsed by the International Accounting Standards Board.
-
-CPC/CPC  PME  are  not  to  be  distributed  outside  of  Federal Republic of Brazil.
-
 | Sumário                                                                                      |   Item |
 |----------------------------------------------------------------------------------------------|--------|
 | OBJETIVO                                                                                     |      1 |

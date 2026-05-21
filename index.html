@@ -21,6 +21,15 @@
     :root {
       --base-font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       --mono-font-family: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+      --page-shell-padding: 28px;
+      --page-content-max: 50rem;
+      --page-content-padding-x: 1.5rem;
+      --page-toc-width: 12rem;
+      --page-toc-gap: 32px;
+      --surface-sidebar: #f7faf8;
+      --surface-content: #ffffff;
+      --surface-toc: #fbfcfb;
+      --surface-divider: #dce6e0;
       --appearance-bg: #ffffff;
       --appearance-border: #d9e2dd;
       --appearance-ink: #24312b;
@@ -43,13 +52,25 @@
       font-family: var(--base-font-family);
     }
 
+    body {
+      background: var(--surface-content);
+    }
+
     code,
     pre,
     kbd {
       font-family: var(--mono-font-family);
     }
 
+    .content {
+      background: var(--surface-content);
+    }
+
     .markdown-section {
+      max-width: var(--page-content-max);
+      margin: 0 auto;
+      padding-left: var(--page-content-padding-x);
+      padding-right: var(--page-content-padding-x);
       font-size: 16.5px;
       line-height: 1.65;
     }
@@ -94,6 +115,9 @@
     }
 
     .sidebar {
+      background: var(--surface-sidebar);
+      border-right: 1px solid var(--surface-divider);
+      box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.55);
       font-size: 15px;
       padding-top: 84px;
     }
@@ -407,6 +431,94 @@
       line-height: 1.4;
     }
 
+    .page-toc {
+      display: none;
+    }
+
+    @media (min-width: 1280px) {
+      body.has-page-toc .content {
+        right: calc(var(--page-shell-padding) + var(--page-toc-width) + var(--page-toc-gap));
+      }
+
+      .page-toc {
+        position: fixed;
+        top: 104px;
+        right: var(--page-shell-padding);
+        z-index: 20;
+        display: block;
+        width: var(--page-toc-width);
+        max-height: calc(100vh - 132px);
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 14px 22px 14px 0;
+        background: var(--surface-toc);
+        border-left: 1px solid var(--surface-divider);
+        box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.72);
+        scrollbar-gutter: stable;
+      }
+
+      .page-toc[hidden] {
+        display: none;
+      }
+
+      .page-toc-title {
+        margin: 0 0 12px;
+        color: #4f6258;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .page-toc-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .page-toc-item {
+        margin: 0;
+      }
+
+      .page-toc-link {
+        display: block;
+        padding: 5px 0 5px 8px;
+        color: #4f6258;
+        text-decoration: none;
+        line-height: 1.4;
+        border-left: 2px solid transparent;
+      }
+
+      .page-toc-link:hover,
+      .page-toc-link:focus-visible {
+        color: #24312b;
+        text-decoration: none;
+        outline: none;
+      }
+
+      .page-toc-link.is-active {
+        color: #24312b;
+        border-left-color: #d85842;
+        font-weight: 600;
+      }
+
+      .page-toc-item[data-level="1"] .page-toc-link {
+        padding-left: 0;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .page-toc-item[data-level="2"] .page-toc-link {
+        padding-left: 1.25rem;
+        font-size: 12.5px;
+      }
+
+      .page-toc-item[data-level="3"] .page-toc-link {
+        padding-left: 2rem;
+        font-size: 12px;
+      }
+    }
+
     @media (max-width: 768px) {
       .appearance-switcher {
         left: 16px;
@@ -441,6 +553,10 @@
     }
 
     @media (max-width: 1120px) {
+      :root {
+        --page-shell-padding: 20px;
+      }
+
       .home-cards {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -469,11 +585,19 @@
     }
 
     body[data-theme-mode="dark"] {
+      --surface-sidebar: #1f2623;
+      --surface-content: #151b18;
+      --surface-toc: #1a211e;
+      --surface-divider: #425049;
       --appearance-bg: #1f2a25;
       --appearance-border: #3c4a43;
       --appearance-ink: #f2f7f4;
       --appearance-muted: #c0cbc5;
       --appearance-hover: #2c3a33;
+    }
+
+    body[data-theme-mode="dark"] .sidebar {
+      box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.03);
     }
 
     body[data-theme-mode="dark"] .sidebar-nav strong {
@@ -535,6 +659,28 @@
     body[data-theme-mode="dark"] .catalog-search-meta,
     body[data-theme-mode="dark"] .catalog-search-empty {
       color: var(--surface-dark-muted);
+    }
+
+    body[data-theme-mode="dark"] .page-toc {
+      box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.03);
+    }
+
+    body[data-theme-mode="dark"] .page-toc-title {
+      color: #9fb0a7;
+    }
+
+    body[data-theme-mode="dark"] .page-toc-link {
+      color: #aebdb5;
+    }
+
+    body[data-theme-mode="dark"] .page-toc-link:hover,
+    body[data-theme-mode="dark"] .page-toc-link:focus-visible,
+    body[data-theme-mode="dark"] .page-toc-link.is-active {
+      color: #f2f6f3;
+    }
+
+    body[data-theme-mode="dark"] .page-toc-link.is-active {
+      border-left-color: #ff9a85;
     }
 
     body[data-theme-mode="dark"] .home-hero p {
@@ -654,6 +800,11 @@
     <div class="catalog-search-results" id="catalog-search-results" hidden></div>
   </div>
 
+  <aside class="page-toc" id="page-toc" hidden>
+    <h2 class="page-toc-title">Nesta página</h2>
+    <div id="page-toc-content"></div>
+  </aside>
+
   <div id="app"></div>
 
   <script>
@@ -683,7 +834,7 @@
       homepage: 'home.md',
       loadSidebar: true,
       maxLevel: 0,
-      subMaxLevel: 3,
+      subMaxLevel: 0,
     };
   </script>
   <script>
@@ -744,6 +895,92 @@
         .replace(/\\\(/g, '(')
         .replace(/\\\)/g, ')')
         .replace(/\.md$/, ''));
+    }
+
+    let tocScrollFrame = null;
+
+    function updatePageTocActive() {
+      const links = [...document.querySelectorAll('.page-toc-link')];
+      if (!links.length) {
+        return;
+      }
+
+      const headings = links
+        .map((link) => document.getElementById(link.dataset.targetId))
+        .filter(Boolean);
+
+      if (!headings.length) {
+        return;
+      }
+
+      const threshold = 132;
+      let activeId = headings[0].id;
+
+      headings.forEach((heading) => {
+        if (heading.getBoundingClientRect().top <= threshold) {
+          activeId = heading.id;
+        }
+      });
+
+      links.forEach((link) => {
+        link.classList.toggle('is-active', link.dataset.targetId === activeId);
+      });
+    }
+
+    function schedulePageTocActiveUpdate() {
+      if (tocScrollFrame !== null) {
+        return;
+      }
+
+      tocScrollFrame = window.requestAnimationFrame(() => {
+        tocScrollFrame = null;
+        updatePageTocActive();
+      });
+    }
+
+    function renderPageToc() {
+      const host = document.getElementById('page-toc');
+      const content = document.getElementById('page-toc-content');
+      const article = document.querySelector('.markdown-section');
+
+      if (!host || !content || !article) {
+        return;
+      }
+
+      const headings = [...article.querySelectorAll('h1[id], h2[id], h3[id]')]
+        .filter((heading) => heading.textContent.trim());
+
+      if (headings.length < 2) {
+        host.hidden = true;
+        content.innerHTML = '';
+        document.body.classList.remove('has-page-toc');
+        return;
+      }
+
+      const routePath = window.location.hash.replace(/^#\//, '').split('?')[0].split('#')[0];
+      const list = document.createElement('ul');
+      list.className = 'page-toc-list';
+
+      headings.forEach((heading) => {
+        const item = document.createElement('li');
+        item.className = 'page-toc-item';
+        item.dataset.level = heading.tagName.slice(1);
+
+        const link = document.createElement('a');
+        link.className = 'page-toc-link';
+        link.href = `#/${routePath}?id=${heading.id}`;
+        link.dataset.targetId = heading.id;
+        link.textContent = heading.textContent.trim();
+
+        item.appendChild(link);
+        list.appendChild(item);
+      });
+
+      content.innerHTML = '';
+      content.appendChild(list);
+      host.hidden = false;
+      document.body.classList.add('has-page-toc');
+      updatePageTocActive();
     }
 
     function extractMarkdownLinks(text) {
@@ -1180,6 +1417,15 @@
       if (storedTheme() === 'auto') {
         applyTheme('auto');
       }
+    });
+
+    window.addEventListener('scroll', schedulePageTocActiveUpdate, { passive: true });
+    window.addEventListener('resize', schedulePageTocActiveUpdate);
+
+    window.$docsify.plugins = (window.$docsify.plugins || []).concat((hook) => {
+      hook.doneEach(() => {
+        window.requestAnimationFrame(renderPageToc);
+      });
     });
 
     setupCatalogSearch().catch((error) => {
