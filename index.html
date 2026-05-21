@@ -59,6 +59,46 @@
       line-height: 1.5;
     }
 
+    .markdown-section h1 {
+      border-bottom: 1px solid #dce6e0;
+      padding-bottom: 14px;
+    }
+
+    .standard-kicker {
+      margin: -4px 0 6px;
+      color: #d85842;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .standard-summary {
+      margin: 0 0 14px;
+      color: #4f6258;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .standard-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 28px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .standard-meta li {
+      border: 1px solid #dce6e0;
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: #f7fbf8;
+      color: #4f6258;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
     .sidebar {
       font-size: 15px;
       padding-top: 84px;
@@ -161,10 +201,6 @@
       width: min(460px, 90%);
       height: auto;
       margin: 0 auto 18px;
-    }
-
-    .home-logo-dark {
-      display: none;
     }
 
     .home-hero p {
@@ -511,14 +547,6 @@
       color: #c0cbc5;
     }
 
-    body[data-theme-mode="dark"] .home-logo-light {
-      display: none;
-    }
-
-    body[data-theme-mode="dark"] .home-logo-dark {
-      display: block;
-    }
-
     body[data-theme-mode="dark"] .home-card {
       border-color: #4b5d55;
       background: linear-gradient(145deg, #24302b 0%, #1d2722 100%);
@@ -544,6 +572,20 @@
 
     body[data-theme-mode="dark"] .markdown-section table {
       border-color: #68746f;
+    }
+
+    body[data-theme-mode="dark"] .markdown-section h1 {
+      border-bottom-color: #55615b;
+    }
+
+    body[data-theme-mode="dark"] .standard-summary {
+      color: #c0cbc5;
+    }
+
+    body[data-theme-mode="dark"] .standard-meta li {
+      border-color: #59665f;
+      background: #27342e;
+      color: #c0cbc5;
     }
 
     body[data-theme-mode="dark"] .markdown-section tr {
@@ -613,7 +655,7 @@
     const cacheBuster = '20260520';
 
     // Docsify busca os arquivos dinamicamente; forcar no-store e versionamento
-    // evita que README, sidebar e mapas fiquem presos em cache antigo.
+    // evita que home, sidebar e catalogo fiquem presos em cache antigo.
     window.fetch = function(resource, config = {}) {
       let nextResource = resource;
 
@@ -632,6 +674,7 @@
       name: 'Wiki Standards',
       logo: 'assets/wiki-standards-horizontal.svg',
       auto2top: true,
+      homepage: 'home.md',
       loadSidebar: true,
       maxLevel: 0,
       subMaxLevel: 3,
@@ -651,7 +694,6 @@
       light: 'assets/wiki-standards-horizontal.svg',
       dark: 'assets/wiki-standards-horizontal-dark.svg',
     };
-
     function storedTheme() {
       return localStorage.getItem('wiki-standards-theme') || 'auto';
     }
@@ -664,7 +706,7 @@
       const resolvedTheme = activeTheme(choice);
       themeLink.href = themeUrls[resolvedTheme];
       document.body.dataset.themeMode = resolvedTheme;
-      document.querySelectorAll('.sidebar h1 img').forEach((logo) => {
+      document.querySelectorAll('.sidebar h1 img, .home-logo').forEach((logo) => {
         logo.src = logoUrls[resolvedTheme];
       });
       themeOptions.forEach((option) => {
@@ -734,6 +776,14 @@
       };
     }
 
+    function labelSearchKind(kind) {
+      const labels = {
+        norma: 'Norma',
+        relacao: 'Equivalência',
+      };
+      return labels[kind] || 'Consulta';
+    }
+
     function resolveSitePath(path) {
       const cleanPath = String(path || '').replace(/^\/+/, '');
       const { pathname } = window.location;
@@ -746,13 +796,6 @@
     }
 
     function buildCatalogSearchIndex(sourceTexts) {
-      const familySources = [
-        { key: 'cpcs', family: 'CPC' },
-        { key: 'icpcs', family: 'ICPC' },
-        { key: 'nbc-ta-cta', family: 'NBC TA/CTA' },
-        { key: 'nbc-tg-itg-ctg-otg', family: 'NBC TG/ITG/CTG/OTG' },
-        { key: 'nbc-ti', family: 'NBC TI' },
-      ];
       const recordsByHref = new Map();
       const relationRecords = new Map();
 
@@ -788,19 +831,13 @@
           .forEach((value) => record.aliases.add(value));
       };
 
-      familySources.forEach((source) => {
-        const text = sourceTexts[source.key];
-        const regex = /^- \[([^\]]+)\]\(((?:\\.|[^)])+)\)/gm;
-        for (const match of text.matchAll(regex)) {
-          upsertRecord({
-            code: match[1].trim(),
-            family: source.family,
-            href: decodeMarkdownHref(match[2].trim()),
-          });
-        }
-      });
-
-      ['cpc-map', 'icpc-map', 'nbc-ta-cta-map', 'nbc-tg-itg-ctg-map'].forEach((key) => {
+      [
+        { key: 'cpc-map', family: 'CPC' },
+        { key: 'icpc-map', family: 'ICPC' },
+        { key: 'nbc-ta-cta-map', family: 'NBC TA/CTA' },
+        { key: 'nbc-tg-itg-ctg-map', family: 'NBC TG/ITG/CTG' },
+      ].forEach((source) => {
+        const key = source.key;
         parseMarkdownTableRows(sourceTexts[key]).forEach((cells) => {
           const links = extractMarkdownLinks(cells[0]);
           if (!links.length) {
@@ -810,6 +847,7 @@
           const record = upsertRecord({
             code: primary.label,
             href: primary.href,
+            family: source.family,
           });
           if (!record) {
             return;
@@ -881,11 +919,6 @@
     async function loadCatalogSearchIndex() {
       if (!catalogSearchPromise) {
         const sources = {
-          cpcs: 'families/cpcs.md',
-          icpcs: 'families/icpcs.md',
-          'nbc-ta-cta': 'families/nbc-ta-cta.md',
-          'nbc-tg-itg-ctg-otg': 'families/nbc-tg-itg-ctg-otg.md',
-          'nbc-ti': 'families/nbc-ti.md',
           'cpc-map': 'catalogo/cpc-map.md',
           'icpc-map': 'catalogo/icpc-map.md',
           'nbc-ta-cta-map': 'catalogo/nbc-ta-cta-map.md',
@@ -985,7 +1018,7 @@
 
         const meta = document.createElement('span');
         meta.className = 'catalog-search-meta';
-        meta.textContent = result.family;
+        meta.textContent = [labelSearchKind(result.kind), result.family].filter(Boolean).join(' · ');
 
         item.appendChild(code);
         item.appendChild(title);

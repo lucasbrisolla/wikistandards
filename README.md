@@ -1,38 +1,21 @@
-<div class="home-hero">
-  <img src="assets/wiki-standards-horizontal.svg" alt="Wiki Standards" class="home-logo home-logo-light">
-  <img src="assets/wiki-standards-horizontal-dark.svg" alt="Wiki Standards" class="home-logo home-logo-dark">
+# Wiki Standards
 
-  <p>Biblioteca de normas contábeis organizada para consulta, navegação por família e relações entre pronunciamentos.</p>
-</div>
+Biblioteca de normas contábeis organizada para consulta, navegação por família normativa e relações entre pronunciamentos.
 
-<div class="home-cards">
-  <a class="home-card" href="#/catalogo/cpc-map">
-    <strong>CPC</strong>
-    <span>Abra os pronunciamentos técnicos CPC e navegue direto pelos códigos da família.</span>
-  </a>
+Este repositório publica um site Docsify. A página inicial do site fica em [`home.md`](home.md); este `README.md` fica reservado para contexto do repositório no GitHub.
 
-  <a class="home-card" href="#/catalogo/icpc-map">
-    <strong>ICPC</strong>
-    <span>Consulte as interpretações técnicas ICPC em uma lista organizada por código.</span>
-  </a>
+## Estrutura
 
-  <a class="home-card" href="#/catalogo/nbc-ta-cta-map">
-    <strong>NBC TA/CTA</strong>
-    <span>Entre na trilha de auditoria com acesso rápido às NBC TA e aos comunicados CTA.</span>
-  </a>
+- `home.md`: página inicial do site.
+- `_sidebar.md`: navegação principal do Docsify.
+- `catalogo/`: catálogo, índices e equivalências.
+- `normas/`: textos normativos preservados.
+- `assets/`: identidade visual e recursos estáticos.
 
-  <a class="home-card" href="#/catalogo/nbc-tg-itg-ctg-map">
-    <strong>NBC TG/ITG/CTG</strong>
-    <span>Abra o conjunto principal das normas brasileiras por tema e código normativo.</span>
-  </a>
+## Navegação
 
-  <a class="home-card" href="#/catalogo/equivalencias-cpc-nbc-ifrs">
-    <strong>Equivalências</strong>
-    <span>Localize relações entre pronunciamentos CPC, normas NBC TG e IFRS.</span>
-  </a>
+Use o catálogo único para localizar normas por família, código e título. Use a página de equivalências para consultar relações CPC, NBC TG e IFRS.
 
-  <a class="home-card" href="#/como-navegar">
-    <strong>Como navegar</strong>
-    <span>Entenda qual rota usar para cada tipo de busca no acervo.</span>
-  </a>
-</div>
+## Política de Conteúdo
+
+O corpo das normas em `normas/` deve permanecer preservado. A curadoria vive nas páginas de catálogo, índices e equivalências.

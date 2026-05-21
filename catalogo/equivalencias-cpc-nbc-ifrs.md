@@ -1,8 +1,8 @@
 # Equivalências CPC, NBC TG e IFRS
 
-Mapa inicial de equivalências e correlações entre pronunciamentos CPC, normas NBC TG e normas IFRS.
+Consulta inicial de equivalências e correlações entre pronunciamentos CPC, normas NBC TG e normas IFRS.
 
-Esta versão é conservadora: prioriza correlações por numeração CPC/NBC TG e equivalências IFRS explicitamente conhecidas nos índices catalogados. Use este mapa como ponto de partida para localizar normas relacionadas; quando a resposta exigir detalhe técnico, consulte também o texto da norma.
+Esta versão é conservadora: prioriza correlações por numeração CPC/NBC TG e equivalências IFRS explicitamente conhecidas nos índices catalogados. Use esta consulta como ponto de partida para localizar normas relacionadas; quando a resposta exigir detalhe técnico, consulte também o texto da norma.
 
 ## Destaques IFRS
 
@@ -120,5 +120,5 @@ Esta versão é conservadora: prioriza correlações por numeração CPC/NBC TG 
 ## Como usar
 
 - Para localizar rapidamente equivalências CPC/NBC TG, busque pelo código da norma nesta página.
-- Para temas e títulos, consulte também o [Índice Geral](/catalogo/standards-index) e o [Mapa CPC](/catalogo/cpc-map).
+- Para temas e títulos, consulte também a [visão geral](/catalogo/standards-index) e a consulta [CPC](/catalogo/cpc-map).
 - Para interpretação ou citação normativa, abra a norma relacionada e cite o item ou parágrafo consultado.

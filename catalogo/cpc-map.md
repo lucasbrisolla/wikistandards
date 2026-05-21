@@ -1,6 +1,6 @@
-# CPC Map
+# CPC
 
-Mapa de normas CPC com normas relacionadas (NBC TG / IFRS).
+Pronunciamentos técnicos CPC com normas relacionadas (NBC TG / IFRS).
 
 | Norma | Título | Relacionadas |
 |-------|--------|--------------|

@@ -1,6 +1,6 @@
-# ICPC Map
+# ICPC
 
-Mapa de Interpretações dos Pronunciamentos Contábeis (ICPC).
+Interpretações dos Pronunciamentos Contábeis (ICPC).
 
 | Norma | Título |
 |-------|--------|

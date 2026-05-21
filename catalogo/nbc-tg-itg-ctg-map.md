@@ -1,6 +1,6 @@
-# NBC TG / ITG / CTG / OTG Map
+# NBC TG / ITG / CTG / OTG
 
-Mapa das Normas Brasileiras de Contabilidade (NBC TG), Interpretações Técnicas (ITG), Comunicados Técnicos (CTG) e Orientações Técnicas (OTG).
+Normas Brasileiras de Contabilidade (NBC TG), Interpretações Técnicas (ITG), Comunicados Técnicos (CTG) e Orientações Técnicas (OTG).
 
 ## NBC TG
 

@@ -1,6 +1,6 @@
-# NBC TA / CTA Map
+# NBC TA / CTA
 
-Mapa das Normas Brasileiras de Contabilidade de Auditoria (NBC TA) e Comunicados Técnicos de Auditoria (NBC CTA).
+Normas Brasileiras de Contabilidade de Auditoria (NBC TA) e Comunicados Técnicos de Auditoria (NBC CTA).
 
 ## NBC TA
 

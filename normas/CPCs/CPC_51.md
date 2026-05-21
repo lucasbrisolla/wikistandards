@@ -2,10 +2,14 @@
 
 # CPC 51
 
-## Apresentação e Divulgação nas Demonstrações Contábeis
+<p class="standard-kicker">Pronunciamento Técnico CPC</p>
 
-Pronunciamento Técnico do CPC<br>
-IFRS correlata: IFRS 18
+<p class="standard-summary">Apresentação e divulgação nas demonstrações contábeis.</p>
+
+<ul class="standard-meta">
+  <li>Família: CPC</li>
+  <li>IFRS correlata: IFRS 18</li>
+</ul>
 
 ## * Termos de uso
 

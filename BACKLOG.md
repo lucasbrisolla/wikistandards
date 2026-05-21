@@ -15,13 +15,13 @@ Backlog do site `Wiki Standards`, com foco na experiência de consulta, na clare
 
 - [ ] Criar uma página de siglas (`CPC`, `ICPC`, `NBC TG`, `NBC TA`, `ITG`, `CTG`, `IFRS`).
 - [ ] Adicionar metadados discretos em páginas-chave, como `Família`, `IFRS correlata` e `Atualizado em`.
-- [ ] Inserir links relacionados ao fim dos mapas e páginas de curadoria.
+- [ ] Inserir links relacionados ao fim das consultas e páginas de curadoria.
 - [ ] Revisar títulos em caixa alta nas normas mais acessadas e trazer para o novo padrão editorial.
-- [ ] Tornar os resultados de busca mais autoexplicativos com tipo do resultado (`Norma`, `Mapa`, `Equivalência`).
+- [ ] Tornar os resultados de busca mais autoexplicativos com tipo do resultado (`Norma`, `Consulta`, `Equivalência`).
 
 ## Depois
 
-- [ ] Destacar normas mais procuradas na home ou nos mapas por família.
+- [ ] Destacar normas mais procuradas na home ou nas consultas por família.
 - [ ] Criar uma página curta de metodologia explicando como as equivalências foram organizadas.
 - [ ] Adicionar estados vazios melhores na busca, com sugestões quando não houver correspondência direta.
 - [ ] Considerar uma versão móvel própria da busca, em vez de depender do mesmo comportamento do desktop.
