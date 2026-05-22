@@ -24,7 +24,7 @@
       --page-shell-padding: 28px;
       --page-content-max: 50rem;
       --page-content-padding-x: 1.5rem;
-      --page-toc-width: 12rem;
+      --page-toc-width: 13.5rem;
       --page-toc-gap: 32px;
       --surface-sidebar: #f7faf8;
       --surface-content: #ffffff;
@@ -80,6 +80,12 @@
       line-height: 1.5;
     }
 
+    .markdown-section h2 {
+      margin-top: 2.4rem;
+      padding-bottom: 0.55rem;
+      border-bottom: 1px solid var(--surface-divider);
+    }
+
     .standard-header {
       margin: 0 0 28px;
       padding-bottom: 18px;
@@ -113,6 +119,7 @@
       color: #24312b;
       font-weight: 600;
     }
+
 
     .sidebar {
       background: var(--surface-sidebar);
@@ -480,6 +487,52 @@
         margin: 0;
       }
 
+      .page-toc-group + .page-toc-group {
+        margin-top: 4px;
+      }
+
+      .page-toc-group-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 6px;
+      }
+
+      .page-toc-toggle {
+        flex: 0 0 auto;
+        width: 16px;
+        height: 28px;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background: transparent;
+        color: #73837a;
+        cursor: pointer;
+        font-size: 11px;
+        line-height: 1;
+      }
+
+      .page-toc-toggle::before {
+        content: '▸';
+        display: block;
+        transform-origin: 50% 50%;
+        transition: transform 140ms ease;
+      }
+
+      .page-toc-group.is-expanded > .page-toc-group-row .page-toc-toggle::before {
+        transform: rotate(90deg);
+      }
+
+      .page-toc-toggle:hover,
+      .page-toc-toggle:focus-visible {
+        color: #24312b;
+        outline: none;
+      }
+
+      .page-toc-group-label {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
       .page-toc-link {
         display: block;
         padding: 5px 0 5px 8px;
@@ -514,8 +567,18 @@
       }
 
       .page-toc-item[data-level="3"] .page-toc-link {
-        padding-left: 2rem;
+        padding-left: 2.1rem;
         font-size: 12px;
+      }
+
+      .page-toc-children {
+        margin: 2px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .page-toc-children[hidden] {
+        display: none;
       }
     }
 
@@ -679,6 +742,15 @@
       color: #f2f6f3;
     }
 
+    body[data-theme-mode="dark"] .page-toc-toggle {
+      color: #93a59d;
+    }
+
+    body[data-theme-mode="dark"] .page-toc-toggle:hover,
+    body[data-theme-mode="dark"] .page-toc-toggle:focus-visible {
+      color: #f2f6f3;
+    }
+
     body[data-theme-mode="dark"] .page-toc-link.is-active {
       border-left-color: #ff9a85;
     }
@@ -718,6 +790,10 @@
       border-bottom-color: #55615b;
     }
 
+    body[data-theme-mode="dark"] .markdown-section h2 {
+      border-bottom-color: var(--surface-divider);
+    }
+
     body[data-theme-mode="dark"] .standard-title {
       color: #f2f6f3;
     }
@@ -729,6 +805,7 @@
     body[data-theme-mode="dark"] .standard-summary strong {
       color: #f2f6f3;
     }
+
 
     @media (max-width: 640px) {
       .standard-title {
@@ -899,6 +976,36 @@
 
     let tocScrollFrame = null;
 
+    function setTocGroupExpanded(group, expanded) {
+      if (!group) {
+        return;
+      }
+
+      group.classList.toggle('is-expanded', expanded);
+      const toggle = group.querySelector('.page-toc-toggle');
+      const children = group.querySelector('.page-toc-children');
+
+      if (toggle) {
+        toggle.setAttribute('aria-expanded', String(expanded));
+      }
+
+      if (children) {
+        children.hidden = !expanded;
+      }
+    }
+
+    function syncTocGroupExpansion(activeId) {
+      document.querySelectorAll('.page-toc-group').forEach((group) => {
+        const children = group.querySelector('.page-toc-children');
+        if (!children) {
+          return;
+        }
+
+        const containsActive = !!group.querySelector(`.page-toc-link[data-target-id="${activeId}"]`);
+        setTocGroupExpanded(group, containsActive);
+      });
+    }
+
     function updatePageTocActive() {
       const links = [...document.querySelectorAll('.page-toc-link')];
       if (!links.length) {
@@ -925,6 +1032,8 @@
       links.forEach((link) => {
         link.classList.toggle('is-active', link.dataset.targetId === activeId);
       });
+
+      syncTocGroupExpansion(activeId);
     }
 
     function schedulePageTocActiveUpdate() {
@@ -947,10 +1056,10 @@
         return;
       }
 
-      const headings = [...article.querySelectorAll('h1[id], h2[id], h3[id]')]
+      const headings = [...article.querySelectorAll('h2[id], h3[id]')]
         .filter((heading) => heading.textContent.trim());
 
-      if (headings.length < 2) {
+      if (!headings.length) {
         host.hidden = true;
         content.innerHTML = '';
         document.body.classList.remove('has-page-toc');
@@ -961,18 +1070,83 @@
       const list = document.createElement('ul');
       list.className = 'page-toc-list';
 
+      const groups = [];
+      let currentGroup = null;
+
       headings.forEach((heading) => {
+        const level = Number(heading.tagName.slice(1));
+
+        if (level === 2 || !currentGroup) {
+          currentGroup = {
+            heading,
+            children: [],
+          };
+          groups.push(currentGroup);
+          return;
+        }
+
+        if (level === 3) {
+          currentGroup.children.push(heading);
+        }
+      });
+
+      groups.forEach((group) => {
         const item = document.createElement('li');
-        item.className = 'page-toc-item';
-        item.dataset.level = heading.tagName.slice(1);
+        item.className = 'page-toc-item page-toc-group';
+        item.dataset.level = '2';
+        item.dataset.groupId = group.heading.id;
+
+        const row = document.createElement('div');
+        row.className = 'page-toc-group-row';
+
+        if (group.children.length) {
+          const toggle = document.createElement('button');
+          toggle.type = 'button';
+          toggle.className = 'page-toc-toggle';
+          toggle.setAttribute('aria-label', `Alternar subseções de ${group.heading.textContent.trim()}`);
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.addEventListener('click', () => {
+            const isExpanded = item.classList.contains('is-expanded');
+            setTocGroupExpanded(item, !isExpanded);
+          });
+          row.appendChild(toggle);
+        }
+
+        const labelWrap = document.createElement('div');
+        labelWrap.className = 'page-toc-group-label';
 
         const link = document.createElement('a');
         link.className = 'page-toc-link';
-        link.href = `#/${routePath}?id=${heading.id}`;
-        link.dataset.targetId = heading.id;
-        link.textContent = heading.textContent.trim();
+        link.href = `#/${routePath}?id=${group.heading.id}`;
+        link.dataset.targetId = group.heading.id;
+        link.textContent = group.heading.textContent.trim();
+        labelWrap.appendChild(link);
+        row.appendChild(labelWrap);
+        item.appendChild(row);
 
-        item.appendChild(link);
+        if (group.children.length) {
+          const childList = document.createElement('ul');
+          childList.className = 'page-toc-children';
+          childList.hidden = true;
+
+          group.children.forEach((heading) => {
+            const childItem = document.createElement('li');
+            childItem.className = 'page-toc-item';
+            childItem.dataset.level = '3';
+
+            const childLink = document.createElement('a');
+            childLink.className = 'page-toc-link';
+            childLink.href = `#/${routePath}?id=${heading.id}`;
+            childLink.dataset.targetId = heading.id;
+            childLink.textContent = heading.textContent.trim();
+
+            childItem.appendChild(childLink);
+            childList.appendChild(childItem);
+          });
+
+          item.appendChild(childList);
+        }
+
         list.appendChild(item);
       });
 
