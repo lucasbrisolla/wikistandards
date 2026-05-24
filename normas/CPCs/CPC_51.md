@@ -63,7 +63,7 @@
 
 8. Muitas entidades fornecem uma análise de desempenho e resultados preparada pela administração, que é separada das demonstrações contábeis (ver item 10), e que descreve e explica as principais características do desempenho financeiro e do balanço patrimonial da entidade, bem como as principais incertezas associadas à sua operação. Tal análise está fora do alcance dos pronunciamentos, interpretações e orientações do CPC.
 
-## Requisitos gerais para demonstrações contábeis
+### Requisitos gerais para demonstrações contábeis
 
 ### Objetivo das demonstrações contábeis
 
@@ -785,9 +785,9 @@ Um resumo estruturado fornecido em uma demonstração contábil primária dos at
 
 Este apêndice é parte integrante do Pronunciamento Técnico do CPC. Ele descreve a aplicação dos itens de 1 a 132 e tem a mesma importância que as demais partes do Pronunciamento Técnico do CPC.
 
-## Requisitos gerais para demonstrações contábeis
+### Requisitos gerais para demonstrações contábeis
 
-### Materialidade
+#### Materialidade
 
 B1. Informação é material se possa ser razoavelmente esperado que sua omissão, divulgação distorcida ou obscurecimento influencie decisões que os principais usuários de demonstrações contábeis para fins gerais tomam com base nessas demonstrações contábeis, que fornecem informações financeiras sobre a entidade específica que reporta.
 
@@ -805,7 +805,7 @@ B4. Avaliar se possa ser razoavelmente esperado que a informação influencie de
 
 B5. Muitos investidores, mutuantes e outros credores, existentes e potenciais, não podem exigir que as entidades que reportam forneçam informações diretamente a eles, devendo se basear em demonstrações contábeis para fins gerais para obter muitas das informações financeiras de que necessitam. Consequentemente, eles são os usuários primários aos quais se destinam as demonstrações contábeis para fins gerais. Demonstrações contábeis são elaboradas para usuários que têm um conhecimento razoável das atividades comerciais e econômicas e que revisam e analisam as informações de modo diligente. Algumas vezes, mesmo usuários bem informados e diligentes podem precisar buscar o auxílio de um consultor para compreender informações sobre fenômenos econômicos complexos.
 
-### As funções das demonstrações contábeis primárias e das notas explicativas
+#### As funções das demonstrações contábeis primárias e das notas explicativas
 
 B6. Ao aplicar o item 17(a), a entidade fornece nas notas explicativas as informações necessárias para que os usuários das demonstrações contábeis compreendam as rubricas apresentadas nas demonstrações contábeis primárias. Exemplos dessas informações incluem:
 
@@ -820,39 +820,39 @@ B7. Ao aplicar o item 17(b), a entidade complementa as demonstrações contábei
   - (ii) informações exigidas pelo CPC 39 sobre a exposição da entidade a vários tipos de riscos, tais como risco de crédito, risco de liquidez e risco de mercado; e
 - (b) informações adicionais às especificamente exigidas pelos pronunciamentos, interpretações e orientações do CPC (ver item 20).
 
-### Informações apresentadas nas demonstrações contábeis primárias
+#### Informações apresentadas nas demonstrações contábeis primárias
 
 B8. O item 23 explica que a entidade não precisa apresentar separadamente uma rubrica em uma demonstração contábil primária se isso não for necessário para que a demonstração forneça um resumo estruturado útil, mesmo que a rubrica seja exigida pelos pronunciamentos, interpretações e orientações do CPC. Por exemplo, a entidade não precisa apresentar uma rubrica listada no item 75 se isso não for necessário para que a demonstração do resultado forneça um resumo estruturado útil de receitas e despesas, ou uma rubrica listada no item 103 se isso não for necessário para que o balanço patrimonial forneça um resumo estruturado útil de ativos, passivos e patrimônio líquido. Se a entidade não apresentar as rubricas listadas nos itens 75 e 103, ela deve divulgar os itens nas notas explicativas se as informações resultantes forem materiais (ver item 42).
 
 B9. Por outro lado, ao aplicar o item 24, a entidade deve apresentar rubricas adicionais às indicadas nos itens 75 e 103 se essas apresentações forem necessárias para que a demonstração do resultado forneça um resumo estruturado útil de receitas e despesas ou para que o balanço patrimonial forneça um resumo estruturado útil dos ativos, passivos e patrimônio líquido (ver itens B78-B79 e B109-B111).
 
-### Identificação das demonstrações contábeis
+#### Identificação das demonstrações contábeis
 
 B10. O item 25 exige que a entidade identifique claramente as demonstrações contábeis e as diferencie de outras informações no mesmo documento publicado. A entidade cumpre esses requisitos apresentando títulos apropriados para as páginas, demonstrações, notas explicativas, colunas e outros. É exigido julgamento na determinação da melhor forma de fornecer essas informações. Por exemplo, se a entidade fornecer as demonstrações contábeis eletronicamente, a entidade considera outras formas de cumprir os requisitos, por exemplo, por meio da identificação digital apropriada das informações fornecidas nas demonstrações contábeis.
 
 B11. A entidade frequentemente torna as demonstrações contábeis mais compreensíveis apresentando as informações em milhares ou milhões de unidades da moeda de apresentação. Essa prática é aceitável contanto que a entidade divulgue o nível de arredondamento e não omita informações materiais.
 
-### Consistência de apresentação, divulgação e classificação
+#### Consistência de apresentação, divulgação e classificação
 
 B12. O item 30(a) exige que a entidade altere a apresentação, divulgação ou classificação de itens nas demonstrações contábeis se for evidente que outra apresentação, divulgação ou classificação seria mais apropriada. Por exemplo, uma aquisição ou alienação significativa, ou uma revisão das demonstrações contábeis, pode sugerir que as demonstrações contábeis precisam ser alteradas. A entidade está autorizada a alterar a apresentação, divulgação ou classificação de itens nas suas demonstrações contábeis apenas se a alteração fornecer informações que sejam mais úteis aos usuários das demonstrações contábeis e se for provável que a entidade continue a usar a apresentação, divulgação ou classificação revisada, de modo que a comparabilidade entre períodos não seja prejudicada. Ao fazer essas mudanças, a entidade reclassifica suas informações comparativas de acordo com os itens 33 e 34.
 
-### Informações comparativas
+#### Informações comparativas
 
-#### Informações comparativas requeridas
+##### Informações comparativas requeridas
 
 B13. Em alguns casos, as informações narrativas fornecidas nas demonstrações contábeis dos períodos de relatório precedentes continuam a ser relevantes no período corrente. Por exemplo, a entidade divulga no período corrente detalhes de uma disputa judicial cujo desfecho era incerto no final do período precedente e que ainda será resolvida. Os usuários de demonstrações contábeis poderiam se beneficiar da divulgação da informação de que a incerteza existia no final do período precedente e da divulgação de informações sobre os passos que foram tomados durante o período para resolver a incerteza.
 
-#### Informações comparativas adicionais
+##### Informações comparativas adicionais
 
 B14. A entidade pode fornecer informações comparativas além das informações comparativas requeridas pelos pronunciamentos, interpretações e orientações do CPC, desde que essas informações sejam elaboradas de acordo com os pronunciamentos, interpretações e orientações do CPC. Essas informações comparativas adicionais podem consistir em uma ou mais das demonstrações contábeis primárias referidas no item 10, mas não precisam compreender um conjunto completo de demonstrações contábeis. Se esse for o caso, a entidade deve divulgar nas notas explicativas as informações relativas a essas demonstrações contábeis primárias adicionais.
 
 B15. Por exemplo, a entidade pode apresentar uma terceira demonstração (ou demonstrações) de desempenho financeiro (apresentando, assim, o período corrente, o período precedente e um período comparativo adicional). Contudo, a entidade não está obrigada a apresentar um terceiro balanço patrimonial, uma terceira demonstração dos fluxos de caixa ou uma terceira demonstração das mutações do patrimônio líquido (ou seja, uma demonstração contábil primária comparativa adicional). A entidade deve divulgar nas notas explicativas as informações comparativas referentes a essa(s) demonstração(ões) adicional(ais) de desempenho financeiro.
 
-### Agregação e desagregação
+#### Agregação e desagregação
 
-#### Princípios de agregação e desagregação
+##### Princípios de agregação e desagregação
 
-#### Processo de agregação e desagregação
+##### Processo de agregação e desagregação
 
 B16. As demonstrações contábeis resultam de entidades que processam um grande número de transações e outros eventos. Estas transações e outros eventos dão origem a ativos, passivos, patrimônio líquido, receitas, despesas e fluxos de caixa.
 
@@ -866,7 +866,7 @@ B17. Para aplicar os requisitos do item 41, a entidade deve agregar itens com ba
 
 B18. A entidade pode aplicar os passos dos itens B17(a) a B17(c) em ordem variável para aplicar os princípios de agregação e desagregação do item 41.
 
-#### Base de agregação e desagregação
+##### Base de agregação e desagregação
 
 B19. Os itens B16 a B18 explicam que a entidade utiliza o seu julgamento para agregar e desagregar ativos, passivos, patrimônio líquido, receitas, despesas e fluxos de caixa de transações individuais e outros eventos com base em características semelhantes e diferentes. Os itens B78 e B110 estabelecem exemplos de características que a entidade considera ao fazer os seus julgamentos.
 
@@ -878,7 +878,7 @@ B22. Ao aplicar o item 41, a entidade desagregará itens que tenham característ
 
 B23. Por exemplo, a entidade pode apresentar no balanço patrimonial ativos financeiros que incluam investimentos patrimoniais e investimentos em dívida separadamente de ativos não financeiros. Os ativos financeiros possuem características diferentes porque possuem bases de mensuração diferentes - alguns são mensurados ao valor justo por meio do resultado e outros ao custo amortizado. A entidade pode, portanto, determinar que, para fornecer um resumo estruturado útil, é necessário apresentar rubricas que desagreguem os ativos financeiros com base nessas bases de mensuração. Essa desagregação resulta em uma rubrica que compreende investimentos patrimoniais e investimentos em dívida mensurados ao valor justo por meio do resultado e uma rubrica que compreende investimentos em dívida mensurados ao custo amortizado. Considerando que os investimentos patrimoniais são diferentes dos investimentos em dívida na medida em que cada um expõe a entidade a riscos diferentes, a entidade avaliaria se é necessária uma desagregação adicional no balanço patrimonial dos ativos financeiros mensurados ao valor justo por meio do resultado em investimentos patrimoniais e investimentos em dívida para fornecer um resumo estruturado útil. Caso contrário, e, se as informações resultantes fossem materiais, a entidade precisaria divulgar nas notas explicativas os investimentos patrimoniais separadamente dos investimentos em dívida. Além disso, se, por exemplo, os investimentos patrimoniais tivessem outras características diferentes, a entidade seria obrigada a desagregar ainda mais esses investimentos patrimoniais nas notas explicativas se as informações resultantes fossem materiais.
 
-#### Descrição dos itens
+##### Descrição dos itens
 
 B24. O item 43 exige que a entidade identifique e descreva os itens apresentados ou divulgados de uma forma que represente fidedignamente as características do item. Esses itens serão frequentemente agregados de itens resultantes de transações individuais ou de outros eventos e poderão variar se forem agregados de itens para os quais as informações são materiais e itens para os quais as informações são imateriais. Especificamente, nas demonstrações contábeis primárias ou nas notas explicativas:
 
@@ -900,7 +900,7 @@ B26. Se a entidade não conseguir encontrar uma identificação mais informativa
   - (i) uma explicação de que nenhum item sobre o qual as informações seriam materiais está incluído no valor; ou
   - (ii) uma explicação de que o valor compreende vários itens sobre os quais as informações não seriam materiais, com indicação da natureza e do valor do item maior.
 
-### Compensação
+#### Compensação
 
 B27. O item 44 proíbe a entidade de compensar ativos e passivos ou receitas e despesas, a menos que seja exigido ou permitido por pronunciamento, interpretação ou orientação do CPC. Por exemplo, o Pronunciamento Técnico CPC 47 - Receita de Contrato com Cliente requer que a entidade mensure receita de contratos com clientes ao valor da contraprestação à qual a entidade espera ter direito em troca da transferência de produtos ou serviços prometidos. O valor da receita reconhecida reflete quaisquer descontos comerciais e descontos por volume que a entidade permitir. Por outro lado, a entidade pode realizar, no curso de suas atividades normais, outras transações que não geram receita, porém são incidentais às atividades principais geradoras de receita. A entidade apresentaria nas demonstrações contábeis primárias ou divulgaria nas notas explicativas os resultados dessas transações, quando esta apresentação ou divulgação refletir a essência da transação ou outro evento, compensando qualquer receita com a respectiva despesa decorrente da mesma transação. Por exemplo:
 
@@ -909,13 +909,13 @@ B27. O item 44 proíbe a entidade de compensar ativos e passivos ou receitas e d
 
 B28. Além disso, a entidade apresenta em uma base líquida os ganhos e perdas resultantes de um grupo de transações semelhantes, por exemplo, ganhos e perdas cambiais ou ganhos e perdas resultantes de instrumentos financeiros mantidos para negociação que estejam incluídos na mesma categoria da(s) demonstração(ões) de desempenho financeiro aplicando os itens de 47 a 68. Contudo, a entidade deve divulgar esses ganhos e perdas separadamente nas notas explicativas se isso fornecer informações materiais.
 
-## Demonstração do resultado
+### Demonstração do resultado
 
-### Categorias na demonstração do resultado
+#### Categorias na demonstração do resultado
 
 B29. O item 47 requer que a entidade classifique as receitas e despesas incluídas na demonstração do resultado em uma de cinco categorias. A categoria operacional compreende todas as receitas e despesas incluídas na demonstração do resultado que não são classificadas nas outras categorias (ver item 52). As receitas e despesas classificadas na categoria de operações descontinuadas, aplicando o item 68, não estão sujeitas aos requisitos de classificação de itens de receitas e despesas nas categorias listadas nos itens 47(a)-(d). As receitas e despesas classificadas na categoria de tributos sobre o lucro, aplicando o item 67, não estão sujeitas aos requisitos de classificação de itens de receitas e despesas nas categorias listadas nos itens 47(a)-(c).
 
-#### Avaliação das atividades de negócio principais especificadas
+##### Avaliação das atividades de negócio principais especificadas
 
 B30. O item 49 exige que a entidade avalie se investe em ativos ou fornece financiamento a clientes como uma atividade de negócio principal. A entidade pode ter mais de uma atividade de negócio principal. Por exemplo, a entidade que fabrica um produto e também fornece financiamento a clientes pode determinar que tanto a sua atividade de produção como a sua atividade de financiamento ao cliente são atividades de negócio principais. Para classificar receitas e despesas nas categorias operacional, de investimento e de financiamento conforme exigido por este Pronunciamento Técnico, a entidade precisa apenas determinar se uma das atividades dentre investimento em ativos e concessão de financiamento a clientes, ou ambas, são atividades de negócio principais.
 
@@ -955,13 +955,13 @@ B40. A entidade deve avaliar se investe como uma atividade de negócio principal
 
 B41. A entidade deve avaliar se o investimento em ativos ou a concessão de financiamento a clientes é uma atividade de negócio principal com base nos fatos da época, de modo que uma alteração no resultado da avaliação não altera o resultado das avaliações anteriores. Consequentemente, a entidade classifica e apresenta receitas e despesas aplicando a alteração no resultado da avaliação prospectivamente a partir da data da alteração e não reclassifica os valores apresentados antes da data da alteração. A menos que seja impraticável, o item 51(c)(ii) exige que a entidade divulgue o valor e a classificação de itens de receitas e despesas antes e depois da data da alteração no resultado da avaliação no período corrente e o valor e a classificação no período anterior de itens cuja classificação foi alterada devido à alteração no resultado da avaliação.
 
-#### Operacional
+##### Operacional
 
 B42. Os requisitos dos itens de 47 a 66 fazem com que a entidade classifique as receitas e despesas provenientes das suas atividades de negócio principais na categoria operacional da demonstração do resultado, com exceção de quaisquer receitas e despesas provenientes de investimentos contabilizados utilizando o método de equivalência patrimonial. Além disso, a categoria operacional não se limita às receitas e despesas provenientes das atividades de negócio principais da entidade. Inclui todas as receitas e despesas que não são classificadas pela entidade nas outras categorias que aplicam os itens de 53 a 68, incluindo as receitas ou despesas que são voláteis ou não recorrentes.
 
-#### Investimento
+##### Investimento
 
-##### Investimentos em coligadas, empreendimentos controlados em conjunto (joint ventures) e controladas não consolidadas
+###### Investimentos em coligadas, empreendimentos controlados em conjunto (joint ventures) e controladas não consolidadas
 
 B43. Os itens 53 e 55 estabelecem requisitos para a classificação de receitas e despesas de investimentos em coligadas e empreendimentos controlados em conjunto (joint ventures). Esses investimentos compreendem:
 
@@ -975,7 +975,7 @@ B44. Os itens 53 e 55 também estabelecem requisitos para a classificação de r
 - (b) investimentos em controladas mantidas pela entidade de investimento que sejam mensurados ao valor justo por meio do resultado de acordo com o item 31 e o item 11A do CPC 35; e
 - (c) investimentos em controladas nas demonstrações contábeis separadas que são contabilizados ao custo aplicando o item 10(a) do CPC 35 ou de acordo com o CPC 48 aplicando o item 10(b) do CPC 35.
 
-##### Ativos que geram retorno individualmente e em grande parte independente de outros recursos da entidade
+###### Ativos que geram retorno individualmente e em grande parte independente de outros recursos da entidade
 
 B45. O item 53(c) exige que a entidade identifique ativos que geram um retorno individualmente e em grande parte independente de outros recursos da entidade. O retorno pode ser positivo ou negativo.
 
@@ -994,7 +994,7 @@ B47. As receitas e despesas especificadas no item 54 provenientes desses ativos 
 - (f) ganhos e perdas ao valor justo; e
 - (g) receitas e despesas provenientes do desreconhecimento do ativo, ou da sua classificação e remensuração como mantido para venda (ver itens de B60 a B64).
 
-##### Ativos que não geram retorno individualmente e em grande parte independente de outros recursos da entidade
+###### Ativos que não geram retorno individualmente e em grande parte independente de outros recursos da entidade
 
 B48. Os ativos que a entidade utiliza em combinação para produzir ou fornecer bens ou serviços não geram retorno individualmente e em grande parte independente dos outros recursos da entidade. Esses ativos normalmente incluem:
 
@@ -1011,9 +1011,9 @@ B49. As receitas e despesas dos ativos descritos no item B48 são classificadas 
 - (e) receitas e despesas provenientes do desreconhecimento do ativo, ou da sua classificação e remensuração como mantido para venda (ver itens de B60 a B64); e
 - (f) receitas e despesas decorrentes de uma combinação de negócio que inclua ativos que darão origem a receitas e despesas que serão classificadas na categoria operacional, tais como ganho em uma compra vantajosa e remensurações de contraprestação contingente.
 
-#### Financiamento
+##### Financiamento
 
-##### Passivos que resultam de transações que envolvem apenas a obtenção de financiamento
+###### Passivos que resultam de transações que envolvem apenas a obtenção de financiamento
 
 B50. O item 59(a) exige que a entidade identifique passivos que resultam de transações que envolvam apenas a obtenção de financiamento. Nessas transações, a entidade:
 
@@ -1034,7 +1034,7 @@ B52. Exemplos de receitas e despesas provenientes desses passivos que o item 60 
 - (c) dividendos sobre ações emitidas classificadas como passivo; e
 - (d) receitas e despesas provenientes do desreconhecimento do passivo (ver item B61).
 
-##### Passivos que resultam de transações que não envolvem apenas a obtenção de financiamento
+###### Passivos que resultam de transações que não envolvem apenas a obtenção de financiamento
 
 B53. O item 59(b) exige que a entidade identifique passivos que resultam de transações que não envolvam apenas a obtenção de financiamento. Esses passivos incluem:
 
@@ -1059,7 +1059,7 @@ B55. Exemplos de receitas e despesas que resultam de transações que não envol
 - (b) custo de serviços correntes e passados decorrentes de um plano de benefícios definidos, aplicando o CPC 33; e
 - (c) remensurações do valor justo de um passivo de contraprestação contingente em uma combinação de negócios reconhecida aplicando o Pronunciamento Técnico CPC 15 - Combinações de Negócios.
 
-##### Classificação de receitas e despesas de contratos híbridos contendo um componente principal que seja um passivo
+###### Classificação de receitas e despesas de contratos híbridos contendo um componente principal que seja um passivo
 
 B56. A forma como a entidade classifica as receitas e despesas de um contrato híbrido contendo um componente principal que seja um passivo depende do fato de o derivativo embutido ser separado do contrato principal. Se o derivativo embutido:
 
@@ -1074,20 +1074,20 @@ B56. A forma como a entidade classifica as receitas e despesas de um contrato h�
 
 B57. A entidade deve aplicar os itens B56(b) e B56(c) a todos os contratos híbridos que contenham um passivo principal para o qual o derivativo embutido não esteja separado, independentemente de o derivativo embutido não estar separado pela entidade que aplica o item 4.3.3 do CPC 48 ou que aplica o item 4.3.5 do CPC 48.
 
-##### Passivos resultantes de contratos de investimento emitidos com características de participação
+###### Passivos resultantes de contratos de investimento emitidos com características de participação
 
 B58. O item 64(a) estabelece requisitos para receitas e despesas de passivos resultantes de contratos de investimento emitidos com características de participação reconhecidas pela aplicação do CPC 48. Exemplos desses contratos de investimento são:
 
 - (a) um contrato de investimento com características de participação emitido por uma seguradora que não cumpre a definição do CPC 50 de um contrato de investimento com características de participação discricionária; e
 - (b) um contrato de investimento com características de participação emitido pela entidade de investimento.
 
-##### Receitas e despesas classificadas na categoria operacional pela entidade que fornece financiamento a clientes como uma atividade de negócio principal
+###### Receitas e despesas classificadas na categoria operacional pela entidade que fornece financiamento a clientes como uma atividade de negócio principal
 
 B59. O item 65 exige que a entidade que fornece financiamento a clientes como uma atividade de negócio principal classifique na categoria operacional as receitas e despesas de parte ou da totalidade dos passivos que resultam de transações que envolvem apenas a obtenção de financiamento. A entidade também deve aplicar os requisitos desse item às receitas e despesas de um derivativo relativo a uma transação que envolva apenas a obtenção de financiamento especificada no item B73(a), mas não às receitas e despesas de um contrato híbrido especificado no item B56(c)(i).
 
-#### Desreconhecimento e mudanças na classificação
+##### Desreconhecimento e mudanças na classificação
 
-##### Desreconhecimento de um ativo ou passivo, ou classificação e remensuração de um ativo como mantido para venda
+###### Desreconhecimento de um ativo ou passivo, ou classificação e remensuração de um ativo como mantido para venda
 
 B60. Os itens B47(g) e B49(e) referem-se a receitas e despesas provenientes do desreconhecimento de um ativo ou da sua classificação como mantido para venda. A entidade deve classificar as receitas e despesas do desreconhecimento de um ativo ou a sua classificação como mantido para venda e qualquer mensuração subsequente enquanto mantido para venda na mesma categoria em que classificou as receitas e despesas do ativo imediatamente antes do seu desreconhecimento. Por exemplo, a entidade deve classificar ganhos e perdas:
 
@@ -1100,11 +1100,11 @@ B61. A entidade deve classificar as receitas e despesas provenientes do desrecon
 - (a) na categoria de financiamento - se o passivo resultar de uma transação que envolve apenas a obtenção de financiamento pela entidade que não concede financiamento a clientes como uma atividade de negócio principal; e
 - (b) na categoria operacional - se, como parte de um acordo de financiamento de fornecedor, a entidade desreconhece um valor a pagar a um fornecedor e reconhece um passivo segundo esse acordo.
 
-##### Mudança no uso de um ativo
+###### Mudança no uso de um ativo
 
 B62. Uma transação ou outro evento pode alterar a categoria na demonstração do resultado em que a entidade classifica as receitas e despesas de um ativo, sem que o ativo seja desreconhecido. Nesses casos, a entidade deve classificar as receitas e despesas provenientes da transação ou outro evento na categoria em que classificou as receitas e despesas provenientes do ativo imediatamente antes da transação ou evento. Por exemplo, a entidade deve classificar na categoria operacional quaisquer receitas ou despesas reconhecidas na demonstração do resultado na transferência de propriedade do alcance do CPC 27 para propriedade para investimento no alcance do CPC 28.
 
-##### Grupos de ativos e passivos
+###### Grupos de ativos e passivos
 
 B63. Os itens de B60 a B62 estabelecem requisitos para receitas e despesas de um ativo ou passivo provenientes do seu desreconhecimento, classificação e mensuração subsequente enquanto mantido para venda, ou da sua mudança no uso. Uma transação ou outro evento pode produzir esses resultados para um grupo de ativos (ou um grupo de ativos e passivos) que gerou receitas e despesas que a entidade classificou em diferentes categorias imediatamente antes da transação ou outro evento. A entidade deve classificar as receitas ou despesas provenientes dessa transação ou outro evento:
 
@@ -1117,7 +1117,7 @@ B64. Por exemplo, a entidade classifica:
 - (b) na categoria operacional - uma perda por redução ao valor recuperável resultante da classificação de um grupo de alienação como mantido para venda pela entidade que aplica o CPC 31, se o grupo de alienação incluiu ativos que geraram receitas e despesas que a entidade classificou na categoria operacional imediatamente antes da sua classificação como mantido para venda; e
 - (c) na categoria de investimento - ganhos e perdas na alienação de uma subsidiária consolidada, se os únicos ativos da subsidiária forem: i) propriedades para investimento, nas quais a entidade que reporta o consolidado não investiu como uma atividade de negócio principal; e ii) o tributo sobre o lucro ativo correspondente. Os ganhos e perdas incluem a reclassificação de patrimônio líquido para o resultado das diferenças cambiais exigida pelo item 48 do CPC 02.
 
-#### Classificação das diferenças cambiais e do ganho ou perda na posição monetária líquida
+##### Classificação das diferenças cambiais e do ganho ou perda na posição monetária líquida
 
 B65. Para aplicar o item 47, a entidade deve classificar as diferenças cambiais incluídas na demonstração do resultado aplicando o CPC 02 na mesma categoria que as receitas e despesas provenientes dos itens que resultam nas diferenças cambiais, a menos que isso implique em custo ou esforço indevido (ver item B68).
 
@@ -1132,7 +1132,7 @@ B68. Se a aplicação dos requisitos dos itens B65 e B67 envolver custos ou esfo
 
 B69. Ao aplicar o item 28 do Pronunciamento Técnico CPC 42 - Contabilidade em Economia Hiperinflacionária, a entidade pode apresentar o ganho ou perda na posição monetária líquida com outros itens de receitas e despesas associados à posição monetária líquida, tais como receitas e despesas de juros e diferenças cambiais. Caso a entidade não apresente o ganho ou perda na posição monetária líquida com as receitas e despesas correspondentes, ela deve classificar o ganho ou perda na categoria operacional.
 
-#### Classificação de ganhos e perdas em derivativos e instrumentos de hedge designados
+##### Classificação de ganhos e perdas em derivativos e instrumentos de hedge designados
 
 B70. O item 47 exige que a entidade classifique as receitas e despesas em categorias na demonstração do resultado. Para aplicar o item 47, a entidade deve classificar os ganhos e perdas incluídos na demonstração do resultado em um instrumento financeiro designado como instrumento de hedge aplicando o CPC 48 na mesma categoria que as receitas e despesas afetadas pelos riscos que o instrumento financeiro é utilizado para gerenciar. Contudo, se isso exigir o acréscimo de ganhos e perdas, a entidade deve classificar todos esses ganhos e perdas na categoria operacional (ver itens B74-B75).
 
@@ -1154,7 +1154,7 @@ B75. Por exemplo, a entidade pode utilizar um derivativo para gerenciar tanto o 
 
 B76. Os requisitos dos itens de B70 a B75 especificam apenas como classificar as receitas e despesas em categorias da demonstração do resultado. Eles não prescrevem a rubrica (ou rubricas) na qual incluir essas receitas e despesas, nem se sobrepõem aos requisitos dos pronunciamentos, interpretações e orientações do CPC.
 
-### Itens a serem apresentados na demonstração do resultado ou divulgados nas notas explicativas
+#### Itens a serem apresentados na demonstração do resultado ou divulgados nas notas explicativas
 
 B77. A entidade pode ser obrigada a apresentar uma rubrica listada no item 75, ou especificada em outro pronunciamento, interpretação ou orientação do CPC, em mais do que uma das categorias listadas no item 47. Por exemplo, a entidade que não invista em ativos ou conceda financiamento a clientes como uma atividade de negócio principal pode ser obrigada a apresentar a rubrica especificada no item 75(b)(ii) de perdas por redução ao valor recuperável determinadas de acordo com a Seção 5.5 do CPC 48:
 
@@ -1184,9 +1184,9 @@ B79. As receitas e despesas que possam ter características suficientemente dife
 - (g) reversões de provisões; e
 - (h) receitas e despesas não recorrentes não incluídas em (a)-(g).
 
-### Apresentação e divulgação de despesas classificadas na categoria operacional
+#### Apresentação e divulgação de despesas classificadas na categoria operacional
 
-#### Uso de características de natureza e função
+##### Uso de características de natureza e função
 
 B80. Ao determinar como utilizar as características da natureza e da função para fornecer o resumo estruturado mais útil, conforme exigido pelo item 78, a entidade deve considerar:
 
@@ -1209,13 +1209,13 @@ B84. A entidade deve apresentar despesas por natureza ou, aplicando o item 83, d
 - (a) apresenta valores que não são os valores reconhecidos como despesa no período, ela deve apresentar também uma rubrica adicional para a alteração no valor contábil dos ativos afetados. Por exemplo, aplicando o item 39 do CPC 16, a entidade pode apresentar uma rubrica para alterações nos estoques de produtos acabados e produtos em elaboração;
 - (b) divulga, aplicando o item 83(b), valores que não são os valores reconhecidos como uma despesa no período, a entidade dará uma explicação qualitativa desse fato, identificando os ativos envolvidos.
 
-#### Agregação de despesas operacionais
+##### Agregação de despesas operacionais
 
 B85. Para aplicar o item 78, a entidade deve considerar qual o nível de agregação das despesas operacionais que fornece o resumo estruturado mais útil. Por exemplo, a entidade pode ter diversas atividades administrativas (tais como recursos humanos, tecnologia da informação, jurídicas e contábeis). Para fornecer um resumo estruturado útil, a entidade pode agregar despesas operacionais relacionadas com essas atividades com base nas suas características compartilhadas - todas são despesas com recursos consumidos em atividades administrativas. Consequentemente, a entidade pode apresentá-las em uma rubrica denominada "despesas administrativas". A entidade também pode ter despesas com recursos consumidos em atividades de venda. Essas despesas têm uma característica diferente das despesas administrativas - as despesas com vendas decorrem dos recursos consumidos nas atividades de vendas e as despesas administrativas decorrem dos recursos consumidos nas atividades administrativas. Estas características são suficientemente diferentes para que a desagregação - apresentação em rubricas separadas para despesas de vendas e despesas administrativas - possa ser necessária para fornecer um resumo estruturado útil das despesas da entidade.
 
-## Demonstração do resultado abrangente
+### Demonstração do resultado abrangente
 
-### Outros resultados abrangentes
+#### Outros resultados abrangentes
 
 B86. Alguns pronunciamentos, interpretações e orientações do CPC especificam circunstâncias em que a entidade inclui itens específicos fora da demonstração do resultado no período de reporte corrente. O CPC 23 especifica duas dessas circunstâncias: a correção de erros e o efeito de mudanças nas políticas contábeis. Outros pronunciamentos, interpretações e orientações do CPC exigem ou permitem que a entidade exclua dos lucros ou prejuízos componentes de outros resultados abrangentes que satisfaçam a definição de receitas ou despesas da Estrutura Conceitual para Relatório Financeiro (ver item B87).
 
@@ -1237,9 +1237,9 @@ B88. Os ajustes de reclassificação surgem, por exemplo, na alienação de uma 
 
 B89. O item 90 exige que a entidade apresente na demonstração do resultado abrangente ou divulgue nas notas explicativas ajustes de reclassificação relacionados a componentes de outros resultados abrangentes. Os ajustes de reclassificação não são provenientes de mudanças na reserva de reavaliação reconhecida de acordo com o CPC 27 ou o CPC 04 ou em remensurações de planos de benefício definido reconhecidos de acordo com o CPC 33. A entidade reconhece esses componentes em outros resultados abrangentes e não os reclassifica para lucro ou prejuízo líquido em períodos de relatório subsequentes. A entidade pode transferir mudanças na reserva de reavaliação para lucros acumulados em períodos subsequentes à medida que o ativo é usado ou quando for desreconhecido (ver CPC 27 e CPC 04). De acordo com o CPC 48, não ocorrem ajustes de reclassificação se um hedge de fluxo de caixa ou a contabilização do valor no tempo de uma opção (ou o elemento a termo de um contrato a termo ou o spread com base em moeda estrangeira de um instrumento financeiro) resultar em valores que a entidade retira da reserva de hedge de fluxo de caixa ou de um componente separado de patrimônio líquido, respectivamente, e inclui diretamente no custo inicial ou em outro valor contábil de um ativo ou de um passivo. A entidade transfere esses valores diretamente para ativos ou passivos.
 
-## Balanço Patrimonial
+### Balanço Patrimonial
 
-### Classificação de ativo e passivo como circulante ou não circulante
+#### Classificação de ativo e passivo como circulante ou não circulante
 
 B90. Ao aplicar o item 96, quando a entidade fornece produtos ou serviços dentro de um ciclo operacional claramente identificável, a classificação separada de ativos e passivos circulantes e não circulantes no balanço patrimonial fornece informações úteis, distinguindo os ativos líquidos que estão continuamente circulando como capital circulante daqueles usados nas operações de longo prazo da entidade. Essa classificação separada também destaca os ativos que a entidade espera realizar dentro do ciclo operacional corrente e os passivos que se espera liquidar dentro do mesmo período.
 
@@ -1249,19 +1249,19 @@ B92. Ao aplicar o item 96, permite-se que a entidade apresente alguns de seus at
 
 B93. As informações sobre datas esperadas de realização de ativos e passivos são úteis ao avaliar a liquidez e a solvência da entidade. O CPC 40 exige a divulgação da análise de vencimento de ativos e passivos financeiros. Ativos financeiros incluem contas a receber de clientes e outras, e passivos financeiros incluem contas a pagar a fornecedores e outras. As informações sobre a data esperada de recuperação de ativos não monetários, tais como estoques, e a data esperada de liquidação de passivos, tais como provisões, também são úteis, independentemente de os ativos e passivos serem classificados como circulantes ou não circulantes. Por exemplo, a entidade divulga nas notas explicativas o valor dos estoques que espera recuperar após os doze meses posteriores ao período de reporte.
 
-#### Ativo circulante
+##### Ativo circulante
 
 B94. O item 100 exige que a entidade classifique como não circulantes todos os ativos não classificados como circulantes. Este Pronunciamento utiliza o termo "não circulante" para incluir ativos tangíveis, intangíveis e financeiros de longo prazo. Não se proíbe o uso de descrições alternativas, contanto que o significado fique claro.
 
 B95. O ciclo operacional da entidade é o tempo entre a aquisição de ativos para processamento e sua realização em caixa ou equivalentes de caixa. Quando o ciclo operacional normal da entidade não for claramente identificável, ele é presumido como sendo de doze meses. Os ativos circulantes incluem ativos (tais como estoques e contas a receber de clientes) que são vendidos, consumidos ou realizados como parte do ciclo operacional normal, mesmo quando não se espera que sejam realizados dentro de doze meses após o período de reporte. Ativos circulantes também incluem ativos mantidos principalmente para fins de negociação (exemplos incluem alguns ativos financeiros que atendem à definição de mantidos para negociação no CPC 48) e a parcela corrente de ativos financeiros não circulantes.
 
-#### Passivo circulante
+##### Passivo circulante
 
-##### Ciclo operacional normal (ver item 101(a))
+###### Ciclo operacional normal (ver item 101(a))
 
 B96. Alguns passivos circulantes, tais como contas a pagar a fornecedores e algumas apropriações por competência relativas a gastos com empregados e outros custos operacionais, fazem parte do capital circulante utilizado no ciclo operacional normal da entidade. A entidade classifica esses itens como passivos circulantes mesmo se tiverem previsão de liquidação em mais de doze meses após o período de reporte. O mesmo ciclo operacional normal se aplica à classificação dos ativos e passivos da entidade. Quando o ciclo operacional normal da entidade não for claramente identificável, ele é presumido como sendo de doze meses.
 
-##### Mantidos principalmente para fins de negociação (ver item 101(b)) ou com previsão de liquidação dentro de doze meses (ver item 101(c))
+###### Mantidos principalmente para fins de negociação (ver item 101(b)) ou com previsão de liquidação dentro de doze meses (ver item 101(c))
 
 B97. Outros passivos circulantes não são liquidados como parte do ciclo operacional normal, porém estão previstos para liquidação dentro de doze meses após o período de reporte ou são mantidos principalmente para fins de negociação. São exemplos alguns passivos financeiros que atendem à definição de mantidos para negociação no CPC 48, saldos bancários a descoberto e a parcela de curto prazo de passivos financeiros não circulantes, dividendos a pagar, tributos sobre o lucro e outras contas a pagar não comerciais. Os passivos financeiros que fornecem financiamento de longo prazo (ou seja, não fazem parte do capital de giro utilizado no ciclo operacional normal da entidade) e não têm liquidação prevista dentro de doze meses após o período de reporte são passivos não circulantes, sujeitos aos itens de B99 a B103.
 
@@ -1270,7 +1270,7 @@ B98. A entidade classifica seus passivos financeiros como circulantes quando tê
 - (a) o prazo original era por um período maior do que doze meses; e
 - (b) for celebrado um contrato para refinanciar ou prorrogar os pagamentos de longo prazo após a data do balanço e antes que as demonstrações contábeis sejam autorizadas para emissão.
 
-##### Direito de diferir liquidação por pelo menos doze meses (item 101(d))
+###### Direito de diferir liquidação por pelo menos doze meses (item 101(d))
 
 B99. O direito da entidade de diferir a liquidação de um passivo por pelo menos doze meses após o período de reporte deve ter substância e, conforme ilustrado nos itens de B100 a B103, deve existir na data do balanço.
 
@@ -1299,7 +1299,7 @@ B106. Ao aplicar os itens 101, 102 e de B96 a B103, a entidade pode classificar 
 - (a) informações sobre os covenants (incluindo a sua natureza e quando a entidade é obrigada a cumpri-los) e o valor contábil dos passivos relacionados; e
 - (b) fatos e circunstâncias, se houver, que indiquem que a entidade possa ter dificuldade em cumprir os covenants - por exemplo, se a entidade agiu durante ou após o período de reporte para evitar ou mitigar um possível descumprimento de covenant. Esses fatos e circunstâncias também podem incluir o fato de que a entidade não teria cumprido os covenants se eles fossem avaliados quanto ao cumprimento com base nas circunstâncias da entidade na data do balanço.
 
-##### Liquidação (itens 101(a), 101(c) e 101(d))
+###### Liquidação (itens 101(a), 101(c) e 101(d))
 
 B107. Para fins de classificação de um passivo como circulante ou não circulante, a liquidação refere-se a uma transferência para a contraparte que resulta na extinção do passivo. A transferência pode ser de:
 
@@ -1308,7 +1308,7 @@ B107. Para fins de classificação de um passivo como circulante ou não circula
 
 B108. Os termos de um passivo que, por opção da contraparte, possam resultar em sua liquidação pela transferência dos próprios instrumentos patrimoniais da entidade não afetam sua classificação como circulante ou não circulante se, ao aplicar o CPC 39, a entidade classificar a opção como um instrumento patrimonial, reconhecendo-o separadamente do passivo como um componente do patrimônio líquido de um instrumento financeiro composto.
 
-### Itens a serem apresentados no balanço patrimonial ou divulgados nas notas explicativas
+#### Itens a serem apresentados no balanço patrimonial ou divulgados nas notas explicativas
 
 B109. Os itens 24 e 41(c) exigem que a entidade apresente rubricas adicionais no balanço patrimonial se isso for necessário para fornecer um resumo estruturado útil dos ativos, passivos e patrimônio líquido da entidade. A entidade utiliza o seu julgamento para tomar essa decisão (incluindo se é necessário desagregar as rubricas listadas no item 103). O item 41 exige que a entidade baseie os seus julgamentos em uma avaliação sobre se os itens têm características que são compartilhadas (características semelhantes) ou características que não são compartilhadas (características diferentes). Para rubricas adicionais de ativos e passivos, a entidade baseia os seus julgamentos em uma avaliação da natureza ou função dos ativos ou passivos. As características indicadas nos itens de B110(c) a B110(k) podem ajudar a entidade a identificar a natureza ou função dos ativos e passivos.
 
@@ -1335,9 +1335,9 @@ B111. Os ativos, passivos e elementos do patrimônio líquido que possam ter car
 - (e) provisões desagregadas de acordo com a sua natureza, tais como provisões para benefícios a empregados, passivos por desativação ou outros itens; e
 - (f) capital social e reservas desagregados em diversas classes, tais como capital integralizado, prêmios de ações e reservas.
 
-## Notas explicativas
+### Notas explicativas
 
-### Estrutura
+#### Estrutura
 
 B112. O item 114 exige que a entidade apresente notas explicativas de forma sistemática, na medida do possível. Exemplos de ordenação ou agrupamento sistemático das notas explicativas incluem:
 
@@ -1351,9 +1351,9 @@ B112. O item 114 exige que a entidade apresente notas explicativas de forma sist
     - (1) passivos contingentes (ver CPC 25) e compromissos contratuais não reconhecidos; e
     - (2) divulgações não financeiras - por exemplo, os objetivos e políticas de administração de risco financeiro da entidade (ver CPC 40).
 
-## Medidas de desempenho definidas pela administração
+### Medidas de desempenho definidas pela administração
 
-### Identificação de medidas de desempenho definidas pela administração
+#### Identificação de medidas de desempenho definidas pela administração
 
 B113. O item 117 define medidas de desempenho definidas pela administração. A entidade pode não ter medidas de desempenho definidas pela administração, ter uma medida de desempenho definida pela administração ou mais de uma. Por exemplo, a entidade que comunica publicamente o seu desempenho financeiro aos usuários das demonstrações contábeis utilizando apenas totais e subtotais que devem ser apresentados ou divulgados pelos pronunciamentos, interpretações e orientações do CPC não tem uma medida de desempenho definida pela administração.
 
@@ -1361,7 +1361,7 @@ B114. Para atender à definição de uma medida de desempenho definida pela admi
 
 B115. Contudo, às vezes um subtotal de receitas e despesas que se relaciona com um segmento reportável pode fornecer informações sobre um aspecto do desempenho financeiro da entidade como um todo. Por exemplo, se um segmento reportável contém uma única atividade de negócio principal da entidade e um subtotal de receitas e despesas relativos a esse segmento for apresentado na demonstração do resultado, isso indicaria que o subtotal fornece informações sobre um aspecto do desempenho financeiro da entidade como um todo. Nesses casos, um subtotal de receitas e despesas referentes a esse segmento reportável iria atender à definição de uma medida de desempenho definida pela administração se atendesse às outras partes da definição de uma medida de desempenho definida pela administração.
 
-#### Subtotais de receitas e despesas
+##### Subtotais de receitas e despesas
 
 B116. Uma medida de desempenho definida pela administração é um subtotal de receitas e despesas. Exemplos de medidas que não são medidas de desempenho definidas pela administração porque não são subtotais de receitas e despesas incluem:
 
@@ -1375,7 +1375,7 @@ B117. Um índice financeiro não é uma medida de desempenho definida pela admin
 
 B118. Um subtotal de receitas e despesas que atenda à definição de uma medida de desempenho definida pela administração no item 117 é uma medida de desempenho definida pela administração, quer seja apresentada ou não na demonstração do resultado.
 
-#### Comunicados públicos
+##### Comunicados públicos
 
 B119. O subtotal atende à definição de medida de desempenho definida pela administração apenas se a entidade utilizá-lo em comunicados públicos fora de suas demonstrações contábeis. Os comunicados públicos incluem comentários da administração, notas à imprensa e apresentações aos investidores. Para fins de definição de medidas de desempenho definidas pela administração, os comunicados públicos excluem comunicações verbais, transcrições de comunicações verbais e publicações em redes sociais.
 
@@ -1388,7 +1388,7 @@ B121. A entidade deve considerar apenas os comunicados públicos relacionados ao
 
 B122. No entanto, uma medida utilizada nos comunicados públicos relacionados ao período de reporte anterior não precisa ser identificada como uma medida de desempenho definida pela administração para o período de reporte atual se houver evidências que indiquem que não será incluída nos comunicados públicos a serem emitidos em relação ao período de reporte atual. Se essa medida tivesse sido divulgada como uma medida de desempenho definida pela administração no período de reporte anterior e não fosse identificada dessa forma para o período de reporte atual, isso seria uma alteração, ou uma interrupção, de uma medida de desempenho definida pela administração para a qual se aplicam os requisitos de divulgação do item 124.
 
-#### Subtotais semelhantes ao lucro bruto
+##### Subtotais semelhantes ao lucro bruto
 
 B123. De acordo com o item 118(a), os subtotais semelhantes ao lucro bruto não são medidas de desempenho definidas pela administração. Um subtotal é semelhante ao lucro bruto quando representa a diferença entre um tipo de receita e as despesas diretamente correspondentes incorridas na geração dessa receita. Exemplos incluem:
 
@@ -1398,7 +1398,7 @@ B123. De acordo com o item 118(a), os subtotais semelhantes ao lucro bruto não 
 - (d) resultado financeiro líquido (receita de investimentos menos receitas e despesas financeiras de seguros); e
 - (e) receita líquida de aluguel.
 
-#### Presunção sobre comunicar a visão da administração
+##### Presunção sobre comunicar a visão da administração
 
 B124. O item 119 estabelece que se presume que um subtotal de receitas e despesas utilizado em comunicados públicos fora das suas demonstrações contábeis comunica aos usuários das demonstrações contábeis a visão da administração sobre um aspecto do desempenho financeiro da entidade como um todo. Aplicando o item 120, a entidade está autorizada a refutar essa presunção se tiver informações razoáveis e sustentáveis disponíveis que demonstrem que:
 
@@ -1433,9 +1433,9 @@ B130. O item 120 aplica-se a um subtotal e não a itens individuais de receitas 
 
 B131. A entidade pode alterar o uso de um subtotal para comunicar aos usuários das suas demonstrações contábeis a visão da administração sobre um aspecto do desempenho financeiro da entidade como um todo. Como resultado, um subtotal pode tornar-se, ou deixar de ser, uma medida de desempenho definida pela administração. É necessário julgamento para identificar se uma medida não originalmente identificada como uma medida de desempenho definida pela administração tornou-se uma medida de desempenho definida pela administração, ou se uma medida anteriormente identificada como uma medida de desempenho definida pela administração deixou de sê-la. Por exemplo, um regulador pode exigir que a entidade reporte um subtotal específico que, quando utilizado pela primeira vez, não comunica a visão da administração sobre um aspecto do desempenho financeiro da entidade como um todo. Com o tempo, o processo de produzir o subtotal pode levar a administração a utilizar a medida internamente para avaliar e monitorar o desempenho financeiro da entidade ou a estender os comentários e explicações nos comunicados públicos para além dos requisitos regulamentares, com o resultado de que a medida atende à definição de uma medida de desempenho definida pela administração.
 
-### Divulgação de medidas de desempenho definidas pela administração
+#### Divulgação de medidas de desempenho definidas pela administração
 
-#### Nota única para informações sobre medidas de desempenho definidas pela administração
+##### Nota única para informações sobre medidas de desempenho definidas pela administração
 
 B132. O item 122 exige que a entidade inclua em uma nota única todas as informações sobre medidas de desempenho definidas pela administração exigidas pelos itens de 121 a 125. Se a entidade também divulga outras informações nessa nota, as informações constantes da nota devem ser identificadas de uma forma que diferencie claramente as informações exigidas pelos itens de 121 a 125 das outras informações.
 
@@ -1444,7 +1444,7 @@ B133. Por exemplo, se a entidade aplica o CPC 22 e as informações por segmento
 - (a) inclua nessa nota as informações exigidas pelos itens de 121 a 125 para todas as suas medidas de desempenho definidas pela administração e, para atender aos requisitos do item B132, identifique as informações na nota de uma forma que diferencie claramente as informações exigidas pelos itens de 121 a 125 das informações exigidas pelo CPC 22; ou
 - (b) forneça uma nota separada que inclua as informações exigidas para todas as suas medidas de desempenho definidas pela administração, incluindo aquelas para as quais a entidade inclui informações nas informações por segmento reportáveis.
 
-#### Uma forma clara e compreensível
+##### Uma forma clara e compreensível
 
 B134. O item 123 exige que a entidade identifique e descreva as suas medidas de desempenho definidas pela administração de uma forma clara e compreensível que não engane os usuários das demonstrações contábeis. Para fornecer essa descrição, a entidade deve divulgar informações que permitam ao usuário das demonstrações contábeis compreender os itens de receitas ou despesas incluídos e excluídos do subtotal. Portanto, a entidade:
 
@@ -1458,7 +1458,7 @@ B135. Para identificar e descrever a medida de uma forma que represente fidedign
 - (a) deve identificar a medida de uma forma que represente as características do subtotal (por exemplo, usando a identificação "lucro operacional antes de despesas não recorrentes" apenas para um subtotal que exclui do lucro operacional todas as despesas identificadas pela entidade como não recorrentes); e
 - (b) deve explicar o significado dos termos que utiliza nas suas descrições que são necessários para compreender o aspecto do desempenho financeiro que está sendo comunicado (por exemplo, explicando como a entidade define "despesas não recorrentes").
 
-#### Conciliação com o total ou subtotal mais diretamente comparável
+##### Conciliação com o total ou subtotal mais diretamente comparável
 
 B136. O item 123(c) exige que a entidade concilie cada medida de desempenho definida pela administração com o subtotal mais diretamente comparável indicado no item 118 ou o total ou subtotal que deve ser especificamente apresentado ou divulgado pelos pronunciamentos, interpretações e orientações do CPC. Por exemplo, a entidade que divulgue nas notas explicativas uma medida de desempenho definida pela administração de lucro ou prejuízo operacional ajustado conciliará essa medida com o lucro ou prejuízo operacional. Ao agregar ou desagregar os itens de conciliação divulgados, a entidade deve aplicar os requisitos dos itens 41 a 43.
 
@@ -1476,7 +1476,7 @@ B140. Ao aplicar o item 123(c), a entidade está autorizada a conciliar uma medi
 - (a) conciliará esse total ou subtotal com o total ou subtotal mais diretamente comparável apresentado na(s) demonstração(ões) de desempenho financeiro; e
 - (b) não é obrigada a divulgar as informações exigidas pelos itens 123(d) e 123(e) para a conciliação no item (a).
 
-#### Efeito de tributos sobre o lucro para cada item divulgado na conciliação
+##### Efeito de tributos sobre o lucro para cada item divulgado na conciliação
 
 B141. O item 123(d) exige que a entidade divulgue o efeito de tributos sobre o lucro para cada item divulgado na conciliação entre uma medida de desempenho definida pela administração e o subtotal mais diretamente comparável indicado no item 118 ou o total ou subtotal que deve ser especificamente apresentado ou divulgado pelos pronunciamentos, interpretações e orientações do CPC. A entidade determinará o efeito de tributos sobre o lucro exigido pelo item 123(d) calculando os efeitos dos tributos sobre o lucro das transações subjacentes:
 

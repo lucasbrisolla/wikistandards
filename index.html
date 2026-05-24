@@ -133,6 +133,86 @@
       padding: 0 18px 28px;
     }
 
+    .sidebar-quick-group {
+      margin: 0 0 18px;
+      border: 1px solid #dce6e0;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.82);
+      overflow: hidden;
+    }
+
+    .sidebar-quick-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border: 0;
+      padding: 12px 14px;
+      background: transparent;
+      color: #24312b;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    .sidebar-quick-toggle:hover,
+    .sidebar-quick-toggle:focus-visible {
+      background: #eef7f1;
+      outline: none;
+    }
+
+    .sidebar-quick-toggle::after {
+      content: '▾';
+      color: #73837a;
+      font-size: 12px;
+      transition: transform 140ms ease;
+    }
+
+    .sidebar-quick-group[data-expanded="false"] .sidebar-quick-toggle::after {
+      transform: rotate(-90deg);
+    }
+
+    .sidebar-quick-list {
+      max-height: 280px;
+      margin: 0;
+      border-top: 1px solid #e6eeea;
+      padding: 8px 0;
+      overflow: auto;
+      list-style: none;
+    }
+
+    .sidebar-quick-list[hidden] {
+      display: none;
+    }
+
+    .sidebar-quick-item {
+      margin: 0;
+    }
+
+    .sidebar-quick-link {
+      display: block;
+      padding: 7px 14px;
+      color: #506158;
+      font-size: 13px;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .sidebar-quick-link:hover,
+    .sidebar-quick-link:focus-visible {
+      background: #f4faf6;
+      color: #24312b;
+      outline: none;
+      text-decoration: none;
+    }
+
+    .sidebar-quick-link.is-active {
+      background: #eef7f1;
+      color: #24312b;
+      font-weight: 700;
+    }
+
     .sidebar-nav>ul,
     .sidebar-nav>p {
       margin-left: 0;
@@ -333,6 +413,66 @@
 
     .appearance-menu[hidden] {
       display: none;
+    }
+
+    .revoked-switcher {
+      position: fixed;
+      top: 12px;
+      left: 366px;
+      z-index: 1000;
+    }
+
+    .revoked-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 40px;
+      border: 1px solid var(--appearance-border);
+      border-radius: 999px;
+      padding: 0 14px;
+      background: var(--appearance-bg);
+      color: var(--appearance-ink);
+      box-shadow: 0 8px 24px rgba(23, 36, 29, 0.12);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .revoked-toggle:hover,
+    .revoked-toggle:focus-visible {
+      background: var(--appearance-hover);
+      outline: none;
+    }
+
+    .revoked-toggle-indicator {
+      display: inline-flex;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #d85842;
+      box-shadow: 0 0 0 3px rgba(216, 88, 66, 0.14);
+      flex: 0 0 auto;
+    }
+
+    .revoked-fragment {
+      display: inline;
+    }
+
+    .revoked-placeholder {
+      display: none;
+      color: #7a8a81;
+      font-size: 0.94em;
+      font-style: italic;
+    }
+
+    body[data-hide-revoked="true"] .markdown-section .revoked-fragment del {
+      display: none;
+    }
+
+    body[data-hide-revoked="true"] .markdown-section .revoked-placeholder {
+      display: inline;
     }
 
     .catalog-search {
@@ -587,6 +727,10 @@
         left: 16px;
       }
 
+      .revoked-switcher {
+        left: 68px;
+      }
+
       .sidebar {
         padding-top: 0;
       }
@@ -665,6 +809,39 @@
 
     body[data-theme-mode="dark"] .sidebar-nav strong {
       color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-group {
+      border-color: #4b5d55;
+      background: rgba(36, 48, 43, 0.92);
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-toggle {
+      color: #edf2ef;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-toggle:hover,
+    body[data-theme-mode="dark"] .sidebar-quick-toggle:focus-visible {
+      background: #2b3732;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-toggle::after {
+      color: #9fb0a7;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-list {
+      border-top-color: #425049;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-link {
+      color: #c0cbc5;
+    }
+
+    body[data-theme-mode="dark"] .sidebar-quick-link:hover,
+    body[data-theme-mode="dark"] .sidebar-quick-link:focus-visible,
+    body[data-theme-mode="dark"] .sidebar-quick-link.is-active {
+      background: #2b3732;
+      color: #f2f6f3;
     }
 
     body[data-theme-mode="dark"] .sidebar-nav .app-sub-sidebar {
@@ -753,6 +930,10 @@
 
     body[data-theme-mode="dark"] .page-toc-link.is-active {
       border-left-color: #ff9a85;
+    }
+
+    body[data-theme-mode="dark"] .revoked-placeholder {
+      color: #9fb0a7;
     }
 
     body[data-theme-mode="dark"] .home-hero p {
@@ -871,6 +1052,13 @@
     </div>
   </div>
 
+  <div class="revoked-switcher">
+    <button class="revoked-toggle" id="revoked-toggle" type="button" aria-pressed="false">
+      <span class="revoked-toggle-indicator" aria-hidden="true"></span>
+      <span id="revoked-toggle-label">Recolher revogado</span>
+    </button>
+  </div>
+
   <div class="catalog-search" id="catalog-search-host" data-catalog-search="true">
     <input class="catalog-search-input" id="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS"
       aria-label="Buscar norma">
@@ -919,6 +1107,8 @@
     const themeToggle = document.getElementById('appearance-toggle');
     const themeMenu = document.getElementById('appearance-menu');
     const themeOptions = [...document.querySelectorAll('[data-theme-choice]')];
+    const revokedToggle = document.getElementById('revoked-toggle');
+    const revokedToggleLabel = document.getElementById('revoked-toggle-label');
     const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
     const themeUrls = {
       light: '//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css',
@@ -930,6 +1120,10 @@
     };
     function storedTheme() {
       return localStorage.getItem('wiki-standards-theme') || 'auto';
+    }
+
+    function storedRevokedPreference() {
+      return localStorage.getItem('wiki-standards-hide-revoked') === 'true';
     }
 
     function activeTheme(choice) {
@@ -951,6 +1145,35 @@
     function closeThemeMenu() {
       themeMenu.hidden = true;
       themeToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function applyRevokedPreference(hidden) {
+      document.body.dataset.hideRevoked = hidden ? 'true' : 'false';
+      if (revokedToggle) {
+        revokedToggle.setAttribute('aria-pressed', String(hidden));
+      }
+      if (revokedToggleLabel) {
+        revokedToggleLabel.textContent = hidden ? 'Mostrar revogado' : 'Recolher revogado';
+      }
+    }
+
+    function enhanceRevokedSections() {
+      document.querySelectorAll('.markdown-section del').forEach((node) => {
+        if (node.parentElement && node.parentElement.classList.contains('revoked-fragment')) {
+          return;
+        }
+
+        const wrapper = document.createElement('span');
+        wrapper.className = 'revoked-fragment';
+
+        const placeholder = document.createElement('span');
+        placeholder.className = 'revoked-placeholder';
+        placeholder.textContent = '[trecho revogado oculto]';
+
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(placeholder);
+        wrapper.appendChild(node);
+      });
     }
 
     function normalizeStandardCode(value) {
@@ -1212,6 +1435,20 @@
       return `${basePath}${cleanPath}`;
     }
 
+    function parseCpcQuickLinks(markdown) {
+      return parseMarkdownTableRows(markdown)
+        .map((cells) => extractMarkdownLinks(cells[0])[0])
+        .filter(Boolean)
+        .map((link) => ({
+          code: stripMarkdown(link.label),
+          href: link.href,
+        }));
+    }
+
+    function sortCpcQuickLinks(links) {
+      return [...links].sort((left, right) => left.code.localeCompare(right.code, 'pt-BR', { numeric: true }));
+    }
+
     function buildCatalogSearchIndex(sourceTexts) {
       const recordsByHref = new Map();
       const relationRecords = new Map();
@@ -1354,6 +1591,90 @@
         ).then((entries) => buildCatalogSearchIndex(Object.fromEntries(entries)));
       }
       return catalogSearchPromise;
+    }
+
+    let cpcQuickLinksPromise;
+    async function loadCpcQuickLinks() {
+      if (!cpcQuickLinksPromise) {
+        cpcQuickLinksPromise = fetch(resolveSitePath('catalogo/cpc-map.md'))
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error('Falha ao carregar catalogo/cpc-map.md');
+            }
+            return response.text();
+          })
+          .then(parseCpcQuickLinks)
+          .then(sortCpcQuickLinks);
+      }
+      return cpcQuickLinksPromise;
+    }
+
+    function currentRoutePath() {
+      return `/${window.location.hash.replace(/^#\/?/, '').split('?')[0].replace(/^\/?/, '')}`.replace(/\/+$/, '');
+    }
+
+    async function setupCpcQuickJump() {
+      const sidebarNav = document.querySelector('.sidebar-nav');
+      if (!sidebarNav) {
+        return;
+      }
+
+      let host = sidebarNav.querySelector('[data-cpc-quick-jump]');
+      if (!host) {
+        host = document.createElement('section');
+        host.className = 'sidebar-quick-group';
+        host.dataset.cpcQuickJump = 'true';
+        host.dataset.expanded = 'false';
+        host.innerHTML = `
+          <button class="sidebar-quick-toggle" type="button" aria-expanded="false">Normas CPC</button>
+          <ul class="sidebar-quick-list" hidden></ul>
+        `;
+        sidebarNav.prepend(host);
+      }
+
+      const toggle = host.querySelector('.sidebar-quick-toggle');
+      const list = host.querySelector('.sidebar-quick-list');
+      if (!toggle || !list) {
+        return;
+      }
+
+      if (host.dataset.bound !== 'true') {
+        host.dataset.bound = 'true';
+        toggle.addEventListener('click', () => {
+          const expanded = host.dataset.expanded === 'true';
+          host.dataset.expanded = expanded ? 'false' : 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          list.hidden = expanded;
+        });
+      }
+
+      const links = await loadCpcQuickLinks();
+      const routePath = currentRoutePath();
+      list.innerHTML = '';
+
+      links.forEach((entry) => {
+        const item = document.createElement('li');
+        item.className = 'sidebar-quick-item';
+
+        const link = document.createElement('a');
+        link.className = 'sidebar-quick-link';
+        link.href = `#${entry.href}`;
+        link.textContent = entry.code;
+        if (entry.href === routePath) {
+          link.classList.add('is-active');
+          host.dataset.expanded = 'true';
+          toggle.setAttribute('aria-expanded', 'true');
+          list.hidden = false;
+        }
+
+        item.appendChild(link);
+        list.appendChild(item);
+      });
+
+      if (host.dataset.expanded !== 'true') {
+        toggle.setAttribute('aria-expanded', 'false');
+        list.hidden = true;
+      }
     }
 
     function rankCatalogSearch(records, query) {
@@ -1555,6 +1876,7 @@
     }
 
     applyTheme(storedTheme());
+    applyRevokedPreference(storedRevokedPreference());
 
     const logoObserver = new MutationObserver(() => {
       applyTheme(storedTheme());
@@ -1574,6 +1896,14 @@
         closeThemeMenu();
       });
     });
+
+    if (revokedToggle) {
+      revokedToggle.addEventListener('click', () => {
+        const nextHidden = document.body.dataset.hideRevoked !== 'true';
+        localStorage.setItem('wiki-standards-hide-revoked', String(nextHidden));
+        applyRevokedPreference(nextHidden);
+      });
+    }
 
     document.addEventListener('click', (event) => {
       if (!event.target.closest('.appearance-switcher')) {
@@ -1598,7 +1928,14 @@
 
     window.$docsify.plugins = (window.$docsify.plugins || []).concat((hook) => {
       hook.doneEach(() => {
-        window.requestAnimationFrame(renderPageToc);
+        window.requestAnimationFrame(() => {
+          setupCpcQuickJump().catch((error) => {
+            console.warn('Nao foi possivel montar o atalho de normas CPC.', error);
+          });
+          enhanceRevokedSections();
+          applyRevokedPreference(storedRevokedPreference());
+          renderPageToc();
+        });
       });
     });
 
