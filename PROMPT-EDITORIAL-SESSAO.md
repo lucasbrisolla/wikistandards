@@ -56,12 +56,14 @@ Fluxo de trabalho:
 4. usar o DOCX apenas como apoio, se necessário
 5. corrigir o trecho solicitado
 6. manter o arquivo em Markdown limpo
-7. ao final, resumir exatamente o que foi ajustado
-8. não fazer commit nem push, a menos que eu peça
+7. ao concluir um arquivo, marcar automaticamente esse arquivo como concluído em `/home/lucas/wikistandards/LISTA-MESTRA-ESCOPO-EDITORIAL.md`, sem depender de solicitação adicional
+8. ao final, resumir exatamente o que foi ajustado
+9. não fazer commit nem push, a menos que eu peça
 
 Arquivos de controle:
 - atualizar `/home/lucas/wikistandards/CONTROLE-EDITORIAL.md` apenas se eu pedir
 - atualizar `/home/lucas/wikistandards/BACKLOG.md` apenas se eu pedir
+- atualizar `/home/lucas/wikistandards/LISTA-MESTRA-ESCOPO-EDITORIAL.md` automaticamente quando um arquivo for concluído
 
 Quando houver ambiguidade:
 - siga o PDF

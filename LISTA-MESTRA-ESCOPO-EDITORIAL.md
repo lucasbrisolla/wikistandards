@@ -60,22 +60,18 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_02.md` — `11.682` palavras
 - [ ] `normas/CPCs/CPC_03.md` — `10.456` palavras
 - [ ] `normas/CPCs/CPC_04.md` — `18.778` palavras
-- [ ] `normas/CPCs/CPC_05.md` — `5.945` palavras
+- [x] `normas/CPCs/CPC_05.md` — `5.945` palavras
 - [ ] `normas/CPCs/CPC_06.md` — `18.691` palavras
 - [ ] `normas/CPCs/CPC_07.md` — `4.543` palavras
-- [ ] `normas/CPCs/CPC_08.md` — `6.461` palavras
 - [ ] `normas/CPCs/CPC_09.md` — `11.702` palavras
 - [ ] `normas/CPCs/CPC_10.md` — `19.996` palavras
 - [ ] `normas/CPCs/CPC_11.md` — `18.742` palavras
 - [ ] `normas/CPCs/CPC_12.md` — `10.900` palavras
-- [ ] `normas/CPCs/CPC_13.md` — `5.898` palavras
-- [ ] `normas/CPCs/CPC_14.md` — `24.853` palavras
 - [ ] `normas/CPCs/CPC_15.md` — `37.660` palavras
 - [x] `normas/CPCs/CPC_16.md` — `5.117` palavras
-- [ ] `normas/CPCs/CPC_17.md` — `5.545` palavras
 - [ ] `normas/CPCs/CPC_18.md` — `6.172` palavras
 - [ ] `normas/CPCs/CPC_19.md` — `16.860` palavras
-- [ ] `normas/CPCs/CPC_20.md` — `2.401` palavras
+- [x] `normas/CPCs/CPC_20.md` — `2.401` palavras
 - [ ] `normas/CPCs/CPC_21.md` — `11.169` palavras
 - [ ] `normas/CPCs/CPC_22.md` — `6.260` palavras
 - [ ] `normas/CPCs/CPC_23.md` — `6.300` palavras
@@ -85,14 +81,12 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_27.md` — `9.630` palavras
 - [ ] `normas/CPCs/CPC_28.md` — `12.895` palavras
 - [ ] `normas/CPCs/CPC_29.md` — `7.328` palavras
-- [ ] `normas/CPCs/CPC_30.md` — `10.293` palavras
 - [ ] `normas/CPCs/CPC_31.md` — `10.906` palavras
 - [ ] `normas/CPCs/CPC_32.md` — `30.711` palavras
 - [ ] `normas/CPCs/CPC_33.md` — `20.876` palavras
 - [ ] `normas/CPCs/CPC_35.md` — `3.882` palavras
 - [ ] `normas/CPCs/CPC_36.md` — `24.438` palavras
 - [ ] `normas/CPCs/CPC_37.md` — `30.440` palavras
-- [ ] `normas/CPCs/CPC_38.md` — `52.512` palavras
 - [ ] `normas/CPCs/CPC_39.md` — `19.578` palavras
 - [ ] `normas/CPCs/CPC_40.md` — `28.004` palavras
 - [ ] `normas/CPCs/CPC_41.md` — `24.311` palavras
@@ -103,7 +97,7 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_46.md` — `31.163` palavras
 - [ ] `normas/CPCs/CPC_47.md` — `25.711` palavras
 - [ ] `normas/CPCs/CPC_48.md` — `77.351` palavras
-- [ ] `normas/CPCs/CPC_49.md` — `4.160` palavras
+- [x] `normas/CPCs/CPC_49.md` — `4.160` palavras
 - [ ] `normas/CPCs/CPC_50.md` — `40.427` palavras
 - [x] `normas/CPCs/CPC_51.md` — `28.325` palavras
 - [ ] `normas/CPCs/CPC_LIQUIDAÇAO.md` — `8.584` palavras
@@ -112,16 +106,10 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 ## Normas ICPC
 
 - [ ] `normas/ICPCs/ICPC_01.md` — `9.395` palavras
-- [ ] `normas/ICPCs/ICPC_02.md` — `2.397` palavras
-- [ ] `normas/ICPCs/ICPC_03.md` — `6.687` palavras
-- [ ] `normas/ICPCs/ICPC_04.md` — `1.401` palavras
-- [ ] `normas/ICPCs/ICPC_05.md` — `1.489` palavras
-- [ ] `normas/ICPCs/ICPC_06.md` — `4.804` palavras
 - [ ] `normas/ICPCs/ICPC_07.md` — `2.231` palavras
 - [ ] `normas/ICPCs/ICPC_08.md` — `2.303` palavras
 - [ ] `normas/ICPCs/ICPC_09.md` — `15.479` palavras
 - [ ] `normas/ICPCs/ICPC_10.md` — `5.445` palavras
-- [ ] `normas/ICPCs/ICPC_11.md` — `2.876` palavras
 - [ ] `normas/ICPCs/ICPC_12.md` — `3.143` palavras
 - [ ] `normas/ICPCs/ICPC_13.md` — `1.710` palavras
 - [ ] `normas/ICPCs/ICPC_14.md` — `3.961` palavras
@@ -132,8 +120,23 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/ICPCs/ICPC_19.md` — `2.566` palavras
 - [ ] `normas/ICPCs/ICPC_20.md` — `4.428` palavras
 - [ ] `normas/ICPCs/ICPC_21.md` — `1.311` palavras
-- [ ] `normas/ICPCs/ICPC_22.md` — `2.142` palavras
+- [x] `normas/ICPCs/ICPC_22.md` — `2.142` palavras
 - [x] `normas/ICPCs/ICPC_23.md` — `933` palavras
+
+## Normas CPC e ICPC revogadas / históricas
+
+- [ ] `normas/CPCs/CPC_08.md` — `6.461` palavras
+- [ ] `normas/CPCs/CPC_13.md` — `5.898` palavras
+- [ ] `normas/CPCs/CPC_14.md` — `24.853` palavras
+- [ ] `normas/CPCs/CPC_17.md` — `5.545` palavras
+- [ ] `normas/CPCs/CPC_30.md` — `10.293` palavras
+- [ ] `normas/CPCs/CPC_38.md` — `52.512` palavras
+- [ ] `normas/ICPCs/ICPC_02.md` — `2.397` palavras
+- [ ] `normas/ICPCs/ICPC_03.md` — `6.687` palavras
+- [ ] `normas/ICPCs/ICPC_04.md` — `1.401` palavras
+- [ ] `normas/ICPCs/ICPC_05.md` — `1.489` palavras
+- [ ] `normas/ICPCs/ICPC_06.md` — `4.804` palavras
+- [ ] `normas/ICPCs/ICPC_11.md` — `2.876` palavras
 
 ## Normas NBC TA/CTA
 

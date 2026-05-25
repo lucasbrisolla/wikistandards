@@ -80,6 +80,40 @@
       line-height: 1.5;
     }
 
+    .markdown-section .task-list-item {
+      list-style: none;
+    }
+
+    .markdown-section .task-list-item input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 17px;
+      height: 17px;
+      margin: 0 10px 0 0;
+      border: 1.5px solid #7a8b82;
+      border-radius: 4px;
+      background: #ffffff;
+      vertical-align: -3px;
+      cursor: default;
+      opacity: 1;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .markdown-section .task-list-item input[type="checkbox"]:checked {
+      border-color: #2f7cf6;
+      background: #2f7cf6;
+      background-image: linear-gradient(45deg, transparent 45%, #ffffff 45%, #ffffff 55%, transparent 55%),
+        linear-gradient(-45deg, transparent 44%, #ffffff 44%, #ffffff 56%, transparent 56%);
+      background-size: 46% 22%, 24% 50%;
+      background-position: 56% 58%, 33% 70%;
+      background-repeat: no-repeat;
+    }
+
+    .markdown-section .task-list-item input[type="checkbox"]:disabled {
+      cursor: default;
+      opacity: 1;
+    }
+
     .markdown-section h2 {
       margin-top: 2.4rem;
       padding-bottom: 0.55rem;
@@ -1019,17 +1053,42 @@
       font-weight: 600;
     }
 
-    body[data-theme-mode="dark"] .markdown-section td code {
-      color: #f4f7f5;
+    body[data-theme-mode="dark"] .markdown-section code {
+      background: #243244;
+      color: #eaf2ff;
+      border-color: rgba(158, 197, 255, 0.18);
     }
 
-    body[data-theme-mode="dark"] .markdown-section td a {
-      color: #ffb199;
+    body[data-theme-mode="dark"] .markdown-section td code {
+      background: #243244;
+      color: #eaf2ff;
+    }
+
+    body[data-theme-mode="dark"] .markdown-section a {
+      color: #9ec5ff;
       font-weight: 600;
     }
 
-    body[data-theme-mode="dark"] .markdown-section td a:hover {
-      color: #ffd0c2;
+    body[data-theme-mode="dark"] .markdown-section a:hover {
+      color: #c7deff;
+    }
+
+    body[data-theme-mode="dark"] .markdown-section li,
+    body[data-theme-mode="dark"] .markdown-section p {
+      color: #b8c2cc;
+    }
+
+    body[data-theme-mode="dark"] .markdown-section .task-list-item input[type="checkbox"] {
+      border-color: #8fa0ab;
+      background: #1f2a33;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+    }
+
+    body[data-theme-mode="dark"] .markdown-section .task-list-item input[type="checkbox"]:checked {
+      border-color: #9ec5ff;
+      background: #9ec5ff;
+      background-image: linear-gradient(45deg, transparent 45%, #13202b 45%, #13202b 55%, transparent 55%),
+        linear-gradient(-45deg, transparent 44%, #13202b 44%, #13202b 56%, transparent 56%);
     }
   </style>
 </head>
