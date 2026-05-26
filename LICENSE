@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2021 docsifyjs
+Copyright (c) Wiki Standards contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Additional clarification
+------------------------
+
+This license applies only to original repository infrastructure and software,
+including code, scripts, build tooling, site structure, taxonomy, navigation,
+metadata, and other original repository materials, unless otherwise noted.
+
+Normative texts and other third-party materials included in this repository
+are not relicensed under MIT. Such materials remain subject to the copyright
+and usage terms of their respective rights holders. See NOTICE.md for details.

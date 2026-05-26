@@ -12,6 +12,8 @@ Regras editoriais obrigatórias:
 - a fonte de verdade principal é o PDF original
 - o DOCX pode ser usado como apoio para recuperar estrutura e listas
 - o Markdown atual é apenas a base de trabalho do site
+- sempre verificar no início da sessão se já existe um servidor localhost do `wikistandards` ativo
+- se não existir e eu estiver trabalhando na revisão, eu mesmo devo subir o servidor local do `wikistandards` na porta `3000` para validar a leitura no site
 - não reescreva frases por estilo
 - não resuma conteúdo normativo
 - não “melhore” a redação jurídica/técnica
@@ -50,15 +52,17 @@ Padrão visual/editorial já adotado:
 - respeitar PT-BR em títulos, rótulos e arquivos auxiliares
 
 Fluxo de trabalho:
-1. ler o trecho atual do Markdown
-2. comparar com o PDF original
-3. quando houver redações sobrepostas, revisadas ou possivelmente revogadas, verificar visualmente se há tachado no PDF antes de decidir a marcação no Markdown
-4. usar o DOCX apenas como apoio, se necessário
-5. corrigir o trecho solicitado
-6. manter o arquivo em Markdown limpo
-7. ao concluir um arquivo, marcar automaticamente esse arquivo como concluído em `/home/lucas/wikistandards/LISTA-MESTRA-ESCOPO-EDITORIAL.md`, sem depender de solicitação adicional
-8. ao final, resumir exatamente o que foi ajustado
-9. não fazer commit nem push, a menos que eu peça
+1. verificar se já existe um servidor localhost do `wikistandards` ativo
+2. se não existir e a sessão envolver revisão/editorial, subir eu mesmo o servidor local do `wikistandards` na porta `3000`
+3. ler o trecho atual do Markdown
+4. comparar com o PDF original
+5. quando houver redações sobrepostas, revisadas ou possivelmente revogadas, verificar visualmente se há tachado no PDF antes de decidir a marcação no Markdown
+6. usar o DOCX apenas como apoio, se necessário
+7. corrigir o trecho solicitado
+8. manter o arquivo em Markdown limpo
+9. ao concluir um arquivo, marcar automaticamente esse arquivo como concluído em `/home/lucas/wikistandards/LISTA-MESTRA-ESCOPO-EDITORIAL.md`, sem depender de solicitação adicional
+10. ao final, resumir exatamente o que foi ajustado
+11. não fazer commit nem push, a menos que eu peça
 
 Arquivos de controle:
 - atualizar `/home/lucas/wikistandards/CONTROLE-EDITORIAL.md` apenas se eu pedir

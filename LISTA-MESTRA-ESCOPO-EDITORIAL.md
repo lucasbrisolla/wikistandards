@@ -16,60 +16,23 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - Normas `NBC TG/ITG/CTG/OTG`: `70` arquivos, `933.470` palavras
 - Normas `NBC TI`: `1` arquivo, `1.984` palavras
 
-## Maiores arquivos
-
-- `normas/CPCs/CPC_PME.md` — `103.394` palavras
-- `normas/CPCs/CPC_48.md` — `77.351` palavras
-- `normas/NBC_TG_ITG_CTG_OTG/NBCTG48.md` — `75.631` palavras
-- `normas/CPCs/CPC_38.md` — `52.512` palavras
-- `normas/NBC_TA_CTA/NBCTA315(R2).md` — `46.097` palavras
-- `normas/NBC_TG_ITG_CTG_OTG/NBCTG40(R3).md` — `40.779` palavras
-- `normas/CPCs/CPC_50.md` — `40.427` palavras
-- `normas/NBC_TG_ITG_CTG_OTG/NBCTG50.md` — `40.378` palavras
-- `normas/CPCs/CPC_15.md` — `37.660` palavras
-- `normas/NBC_TG_ITG_CTG_OTG/NBCTG15(R4).md` — `36.782` palavras
-
-## Conteúdo do site
-
-- [ ] `README.md` — `124` palavras
-- [ ] `_sidebar.md` — `20` palavras
-- [ ] `catalogo/README.md` — `164` palavras
-- [ ] `catalogo/cpc-map.md` — `731` palavras
-- [ ] `catalogo/equivalencias-cpc-nbc-ifrs.md` — `1.147` palavras
-- [ ] `catalogo/icpc-map.md` — `250` palavras
-- [ ] `catalogo/nbc-ta-cta-map.md` — `1.005` palavras
-- [ ] `catalogo/nbc-tg-itg-ctg-map.md` — `1.003` palavras
-- [ ] `catalogo/standards-index.md` — `236` palavras
-- [ ] `families/cpcs.md` — `177` palavras
-- [ ] `families/icpcs.md` — `86` palavras
-- [ ] `families/nbc-ta-cta.md` — `157` palavras
-- [ ] `families/nbc-tg-itg-ctg-otg.md` — `165` palavras
-- [ ] `families/nbc-ti.md` — `20` palavras
-- [ ] `home.md` — `130` palavras
-
-## Documentos de processo
-
-- [ ] `BACKLOG.md` — `412` palavras
-- [ ] `CONTROLE-EDITORIAL.md` — `534` palavras
-- [ ] `PROMPT-EDITORIAL-SESSAO.md` — `410` palavras
-
 ## Normas CPC
 
 - [ ] `normas/CPCs/CPC_00.md` — `30.563` palavras
 - [ ] `normas/CPCs/CPC_01.md` — `22.184` palavras
 - [ ] `normas/CPCs/CPC_02.md` — `11.682` palavras
 - [ ] `normas/CPCs/CPC_03.md` — `10.456` palavras
-- [ ] `normas/CPCs/CPC_04.md` — `18.778` palavras
+- [x] `normas/CPCs/CPC_04.md` — `18.778` palavras
 - [x] `normas/CPCs/CPC_05.md` — `5.945` palavras
-- [ ] `normas/CPCs/CPC_06.md` — `18.691` palavras
-- [ ] `normas/CPCs/CPC_07.md` — `4.543` palavras
+- [x] `normas/CPCs/CPC_06.md` — `18.691` palavras
+- [x] `normas/CPCs/CPC_07.md` — `4.543` palavras
 - [ ] `normas/CPCs/CPC_09.md` — `11.702` palavras
 - [ ] `normas/CPCs/CPC_10.md` — `19.996` palavras
 - [ ] `normas/CPCs/CPC_11.md` — `18.742` palavras
 - [ ] `normas/CPCs/CPC_12.md` — `10.900` palavras
 - [ ] `normas/CPCs/CPC_15.md` — `37.660` palavras
 - [x] `normas/CPCs/CPC_16.md` — `5.117` palavras
-- [ ] `normas/CPCs/CPC_18.md` — `6.172` palavras
+- [x] `normas/CPCs/CPC_18.md` — `6.172` palavras
 - [ ] `normas/CPCs/CPC_19.md` — `16.860` palavras
 - [x] `normas/CPCs/CPC_20.md` — `2.401` palavras
 - [ ] `normas/CPCs/CPC_21.md` — `11.169` palavras
@@ -78,22 +41,22 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [x] `normas/CPCs/CPC_24.md` — `3.034` palavras
 - [ ] `normas/CPCs/CPC_25.md` — `12.157` palavras
 - [ ] `normas/CPCs/CPC_26.md` — `23.950` palavras
-- [ ] `normas/CPCs/CPC_27.md` — `9.630` palavras
+- [x] `normas/CPCs/CPC_27.md` — `9.630` palavras
 - [ ] `normas/CPCs/CPC_28.md` — `12.895` palavras
 - [ ] `normas/CPCs/CPC_29.md` — `7.328` palavras
 - [ ] `normas/CPCs/CPC_31.md` — `10.906` palavras
 - [ ] `normas/CPCs/CPC_32.md` — `30.711` palavras
 - [ ] `normas/CPCs/CPC_33.md` — `20.876` palavras
-- [ ] `normas/CPCs/CPC_35.md` — `3.882` palavras
+- [x] `normas/CPCs/CPC_35.md` — `3.587` palavras
 - [ ] `normas/CPCs/CPC_36.md` — `24.438` palavras
 - [ ] `normas/CPCs/CPC_37.md` — `30.440` palavras
 - [ ] `normas/CPCs/CPC_39.md` — `19.578` palavras
 - [ ] `normas/CPCs/CPC_40.md` — `28.004` palavras
 - [ ] `normas/CPCs/CPC_41.md` — `24.311` palavras
-- [ ] `normas/CPCs/CPC_42.md` — `3.285` palavras
-- [ ] `normas/CPCs/CPC_43.md` — `2.985` palavras
+- [x] `normas/CPCs/CPC_42.md` — `3.285` palavras
+- [x] `normas/CPCs/CPC_43.md` — `2.985` palavras
 - [x] `normas/CPCs/CPC_44.md` — `1.616` palavras
-- [ ] `normas/CPCs/CPC_45.md` — `8.055` palavras
+- [x] `normas/CPCs/CPC_45.md` — `8.055` palavras
 - [ ] `normas/CPCs/CPC_46.md` — `31.163` palavras
 - [ ] `normas/CPCs/CPC_47.md` — `25.711` palavras
 - [ ] `normas/CPCs/CPC_48.md` — `77.351` palavras
