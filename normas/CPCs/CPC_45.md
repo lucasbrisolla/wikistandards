@@ -13,12 +13,12 @@
 | PARTICIPAÇÃO EM CONTROLADAS                                                                                                | 10 - 19   |
 | Participação de não controladores nas atividades e nos fluxos de caixa do grupo econômico                                 | 12        |
 | Natureza e extensão de restrições significativas                                                                           | 13        |
-| Natureza dos riscos associados às participações da entidade em entidades estruturadas consolidadas                        | 14 - 17   |
+| Natureza dos riscos associados às participações de entidade em entidades estruturadas consolidadas                        | 14 - 17   |
 | Mudança na participação societária de controladora em controlada que não resulta na perda de controle                     | 18        |
 | Perda de controle de controlada durante o período de reporte                                                               | 19        |
 | Participações em controladas não consolidadas (entidades de investimento)                                                  | 19A - 19G |
 | PARTICIPAÇÃO EM NEGÓCIOS EM CONJUNTO E EM COLIGADAS                                                                        | 20 - 23   |
-| Natureza, extensão e efeitos financeiros das participações da entidade em negócios em conjunto e em coligadas             | 21 - 22   |
+| Natureza, extensão e efeitos financeiros das participações de entidade em negócios em conjunto e em coligadas             | 21 - 22   |
 | Riscos associados às participações da entidade em empreendimentos controlados em conjunto (joint ventures) e em coligadas | 23        |
 | PARTICIPAÇÃO EM ENTIDADES ESTRUTURADAS NÃO CONSOLIDADAS                                                                    | 24 - 31   |
 | Natureza das participações                                                                                                 | 26 - 28   |
@@ -35,6 +35,7 @@
 ## Atingindo o objetivo
 
 2. Para atingir o objetivo do item 1, a entidade deve divulgar:
+- (a) os julgamentos usados e as premissas significativas consideradas para determinar a natureza de sua participação em outra entidade ou acordo e para determinar o tipo de negócio em conjunto no qual tem participação (itens 7 a 9); e
 - (a) os julgamentos usados e as premissas significativas consideradas para determinar:
 - (i) a natureza de sua participação em outra entidade ou negócio;
 - (ii) o tipo de negócio em conjunto no qual ela possui participação (itens 7 a 9);
@@ -127,7 +128,7 @@
 - (b) a natureza e a extensão em que direitos de proteção de sócios não controladores podem restringir  significativamente  a  capacidade  da  entidade  de  acessar  ou  usar  os  ativos  e liquidar os passivos do grupo (como, por exemplo, quando a controladora é obrigada a liquidar  passivos  de  controlada  antes  de  liquidar  seus  próprios  passivos  ou  quando  a aprovação  de  sócios  não  controladores  é  exigida  seja  para  acessar  os  ativos  seja  para liquidar os passivos de controlada);
 - (c) os valores contábeis, nas demonstrações consolidadas, dos ativos e passivos aos quais se aplicam essas restrições.
 
-### Natureza dos riscos associados às participações da entidade em entidades estruturadas consolidadas
+### Natureza dos riscos associados às participações de entidade em entidades estruturadas consolidadas
 
 14. A entidade deve divulgar os termos de quaisquer acordos contratuais que possam exigir que a controladora  ou  suas  controladas  forneçam  suporte  financeiro  a  uma  entidade  estruturada consolidada, incluindo eventos ou circunstâncias que possam expor a entidade que reporta a informação  a  uma  perda  (por  exemplo,  acordos  de  liquidez  ou  gatilhos  de  classificação  de crédito  associados  a  obrigações  de  comprar  ativos  da  entidade  estruturada  ou  de  fornecer suporte financeiro).
 15. Se, durante o período de reporte, a controladora ou quaisquer de suas controladas tiver, sem ter  a  obrigação  contratual  de  fazê-lo,  fornecido  suporte  financeiro  ou  outro  a  uma  entidade estruturada consolidada (por exemplo, adquirindo ativos da entidade estruturada ou instrumentos emitidos por ela), a entidade deve divulgar:
@@ -138,7 +139,7 @@
 - estruturada anteriormente não consolidada e esse fornecimento de suporte tiver resultado no controle da entidade estruturada pela entidade, a entidade deve divulgar uma explicação dos fatores relevantes para chegar a essa decisão.
 17. A entidade deve divulgar quaisquer intenções atuais de fornecer suporte financeiro, ou outro tipo  de  suporte,  a  uma  entidade  estruturada  consolidada,  incluindo  intenções  de  auxiliar  a entidade estruturada a obter suporte financeiro.
 
-### Mudança na participação societária de controladora em controlada que não resulta na perda de controle
+### Mudança na participação societária de controladora em controlada que não resultam na perda de controle
 
 18. A entidade deve apresentar quadro demonstrativo que mostre os efeitos sobre o patrimônio líquido  atribuível  aos  proprietários  da  controladora  de  quaisquer  mudanças  na  participação societária em controlada que não resultam na perda de controle.
 
@@ -173,7 +174,7 @@
 - (a) a  natureza,  a  extensão  e  os  efeitos  financeiros  de  suas  participações  em  negócios  em conjunto e em coligadas, incluindo a natureza e os efeitos de sua relação contratual com os demais investidores que têm o controle conjunto, ou influência significativa, sobre os negócios em conjunto e sobre coligadas (ver itens 21 e 22); e
 - (b) a natureza dos riscos associados as suas participações em empreendimentos controlados em conjunto ( joint ventures ) e em coligadas e as mudanças nesses riscos (ver item 23).
 
-### Natureza, extensão e efeitos financeiros das participações da entidade em negócios em conjunto e em coligadas
+### Natureza, extensão e efeitos financeiros das participações de entidade em negócios em conjunto e em coligadas
 
 21. A entidade deve divulgar:
 - (a) para cada negócio em conjunto e coligada que seja material para a entidade que reporta a informação:

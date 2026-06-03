@@ -4,15 +4,6 @@ Consulta de equivalências entre pronunciamentos CPC, normas NBC TG e referênci
 
 Esta página funciona como ponto de partida para localizar normas relacionadas. Quando a resposta exigir detalhe técnico, consulte também o texto da norma.
 
-## Destaques IFRS
-
-| CPC | NBC TG | IFRS |
-|-----|--------|------|
-| [CPC 06](/normas/CPCs/CPC_06) | [NBC TG 06](/normas/NBC_TG_ITG_CTG_OTG/NBCTG06\(R3\)) | IFRS 16 |
-| [CPC 47](/normas/CPCs/CPC_47) | [NBC TG 47](/normas/NBC_TG_ITG_CTG_OTG/NBCTG47) | IFRS 15 |
-| [CPC 48](/normas/CPCs/CPC_48) | [NBC TG 48](/normas/NBC_TG_ITG_CTG_OTG/NBCTG48) | IFRS 9 |
-| [CPC 51](/normas/CPCs/CPC_51) | [NBC TG 51](/normas/NBC_TG_ITG_CTG_OTG/NBCTG51) | IFRS 18 |
-
 ## Tabela principal
 
 | CPC | NBC TG relacionada | IFRS relacionada |

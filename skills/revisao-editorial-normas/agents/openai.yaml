@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisao Editorial Normas"
+  short_description: "Fluxo editorial para normas CPC/ICPC"
+  default_prompt: "Use esta skill para revisar normas do wikistandards com PDF como fonte de verdade e foco em headings, listas, tachados confirmados e atualizacao da lista mestra."

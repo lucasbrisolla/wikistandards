@@ -1,32 +1,10 @@
-<!-- image -->
+COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS
 
-## COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS
+# PRONUNCIAMENTO TÉCNICO CPC 02 (R2)
 
-## PRONUNCIAMENTO TÉCNICO CPC 02 (R2)
+Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis
 
-## Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis
-
-## Correlação às Normas Internacionais de Contabilidade -IAS 21 (BV2010)
-
-## * Termos de uso
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, contém  material  que  está  sujeito  a  direitos  autorais  da  IFRS®  Foundation (Fundação IFRS). Todos esses direitos são reservados.
-
-Este material é reproduzido e distribuído pela Fundação de Apoio aos Comitês de Pronunciamentos  Contábeis  e  de  Sustentabilidade  (FACPCS)  somente  para  a República Federativa do Brasil com a autorização da Fundação IFRS. Os direitos de  outras  partes  com  relação  à  utilização  deste  material  estão  definidos  nos Termos de Uso (link) e qualquer utilização não prevista nos Termos de Uso deverá ser previamente autorizada por escrito pela FACPCS e Fundação IFRS.
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, são emitidos pelo Comitê de Pronunciamentos Contábeis e de Sustentabilidade, organismo  técnico  apoiado  pela  FACPCS,  para  sua  aplicação  na  República Federativa do Brasil e não foram preparados ou endossados pelo International Accounting Standards Board (IASB).
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, não devem ser distribuídos para fora da República Federativa do Brasil.
-
-## * Notice
-
-CPC/CPC PME contain copyright material of the IFRS® Foundation (Foundation) in respect of which all rights are reserved.
-
-Reproduced and distributed by the Accounting and Sustainability Pronouncements Committee Support Foundation with the permission of the Foundation within the Federal Republic of Brazil only. No rights granted to third parties other than as permitted by the  Terms  of  Use  [link]  without  the  prior  written  permission  of Accounting and Sustainability Pronouncements Committee Support Foundation and the Foundation.
-
-CPC/CPC  PME  are  issued  by  Accounting  and  Sustainability Pronouncements Committee Support Foundation in respect of their application  in  Federal  Republic  of  Brazil  and  have  not  been prepared  or  endorsed  by  the  International  Accounting  Standards Board.
-
-CPC/CPC PME are not to be distributed outside of Federal Republic of Brazil.
+Correlação às Normas Internacionais de Contabilidade - IAS 21 (BV2010)
 
 | Sumário                                                                              | Item     |
 |--------------------------------------------------------------------------------------|----------|
@@ -37,9 +15,9 @@ CPC/CPC PME are not to be distributed outside of Federal Republic of Brazil.
 | Moeda funcional                                                                      | 9 - 14   |
 | Investimento líquido em entidade no exterior                                         | 15 - 15A |
 | Item monetário                                                                       | 16       |
-| RESUMO DA ABORDAGEMREQUERIDA POR ESTE PRONUNCIAMENTO                                 | 17 - 19  |
-| ESTIMATIVA DA TAXA DE CÂMBIO À VISTAQUANDOUMA MOEDANÃOÉCONVERSÍVEL (ITENS A11 A A17) | 19A      |
-| APRESENTAÇÃO DE TRANSAÇÃO EMMOEDAESTRANGEIRA NA MOEDAFUNCIONAL                       | 20 - 37  |
+| RESUMO DA ABORDAGEM REQUERIDA POR ESTE PRONUNCIAMENTO                                | 17 - 19  |
+| ESTIMATIVA DA TAXA DE CÂMBIO À VISTA QUANDO UMA MOEDA NÃO É CONVERSÍVEL (ITENS A11 A A17) | 19A |
+| APRESENTAÇÃO DE TRANSAÇÃO EM MOEDA ESTRANGEIRA NA MOEDA FUNCIONAL                    | 20 - 37  |
 | Reconhecimento inicial                                                               | 20 - 22  |
 | Apresentação ao término de períodos de reporte subsequentes                          | 23 - 26  |
 | Reconhecimento de variação cambial                                                   | 27 - 34  |
@@ -47,16 +25,16 @@ CPC/CPC PME are not to be distributed outside of Federal Republic of Brazil.
 
 <!-- image -->
 
-| USO DE MOEDADEAPRESENTAÇÃO DIFERENTEDAMOEDA FUNCIONAL   | 38 - 49   |
-|---------------------------------------------------------|-----------|
-| Conversão para a moeda de apresentação                  | 38 - 43   |
-| Conversão de entidade no exterior                       | 44 - 47   |
-| Baixa total ou parcial de entidade no exterior          | 48 - 49   |
-| EFEITOS FISCAIS DE TODAS AS VARIAÇÕES CAMBIAIS          | 50        |
-| DIVULGAÇÃO                                              | 51 - 57B  |
-| DISPOSIÇÕES TRANSITÓRIAS                                | 58 - 60C  |
-| REVOGAÇÃO DE OUTRO PRONUNCIAMENTO                       | 61 - 62   |
-| APÊNDICE A - Orientação de aplicação - Conversibilidade |           |
+| USO DE MOEDA DE APRESENTAÇÃO DIFERENTE DA MOEDA FUNCIONAL | 38 - 49 |
+|-----------------------------------------------------------|---------|
+| Conversão para a moeda de apresentação                    | 38 - 43 |
+| Conversão de entidade no exterior                         | 44 - 47 |
+| Baixa total ou parcial de entidade no exterior            | 48 - 49 |
+| EFEITOS FISCAIS DE TODAS AS VARIAÇÕES CAMBIAIS            | 50      |
+| DIVULGAÇÃO                                                | 51 - 57B|
+| DISPOSIÇÕES TRANSITÓRIAS                                  | 58 - 60C|
+| REVOGAÇÃO DE OUTRO PRONUNCIAMENTO                         | 61 - 62 |
+| APÊNDICE A - Orientação de aplicação - Conversibilidade   |         |
 
 ## Objetivo
 
@@ -66,26 +44,24 @@ CPC/CPC PME are not to be distributed outside of Federal Republic of Brazil.
 ## Alcance
 
 3. Este pronunciamento deve ser adotado:
-2. (a) na  contabilização  de  transações  e  saldos  em  moedas  estrangeiras,  exceto  para  aquelas transações com derivativos e saldos dentro do alcance do Pronunciamento Técnico CPC 38 -Instrumentos Financeiros: Reconhecimento e Mensuração e da Orientação OCPC 03 -Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação;
-3. (a)  na  contabilização  de  transações  e  saldos  em  moeda  estrangeira,  exceto  para  aquelas transações  com  derivativos  e  saldos  dentro  do  alcance  do  CPC  48 -Instrumentos Financeiros; (Alterada pela Revisão CPC 12)
-4. (b) na conversão de resultados e posição financeira de operações no exterior que são incluídos nas demonstrações contábeis de uma entidade por meio de Consolidação, Consolidação Proporcional ou pela aplicação do Método de Equivalência Patrimonial; e
-5. (b)  na conversão de resultados e posição financeira de operações no exterior que são incluídas nas demonstrações contábeis da entidade por meio de consolidação ou pela aplicação do método da equivalência patrimonial; e (Alterada pela Revisão CPC 03)
+<del>- (a) na contabilização de transações e saldos em moedas estrangeiras, exceto para aquelas transações com derivativos e saldos dentro do alcance do Pronunciamento Técnico CPC 38 - Instrumentos Financeiros: Reconhecimento e Mensuração e da Orientação OCPC 03 - Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação;</del>
+- (a) na contabilização de transações e saldos em moeda estrangeira, exceto para aquelas transações com derivativos e saldos dentro do alcance do CPC 48 - Instrumentos Financeiros; (Alterada pela Revisão CPC 12)
+<del>- (b) na conversão de resultados e posição financeira de operações no exterior que são incluídos nas demonstrações contábeis de uma entidade por meio de Consolidação, Consolidação Proporcional ou pela aplicação do Método de Equivalência Patrimonial; e</del>
+- (b) na conversão de resultados e posição financeira de operações no exterior que são incluídas nas demonstrações contábeis da entidade por meio de consolidação ou pela aplicação do método da equivalência patrimonial; e (Alterada pela Revisão CPC 03)
 
 <!-- image -->
 
 - (c) na  conversão  de  resultados  e  posição  financeira  de  uma  entidade  para  uma  moeda  de apresentação.
-4. O  Pronunciamento Técnico  CPC  38 -Instrumentos Financeiros: Reconhecimento e Mensuração  e a  Orientação  OCPC  03 -Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação são aplicáveis a muitos derivativos em moeda estrangeira e, por via de consequência, tais instrumentos derivativos estão fora do alcance deste Pronunciamento Técnico. Entretanto, aqueles derivativos em moeda estrangeira que estão fora do alcance do Pronunciamento Técnico CPC 38 e da Orientação OCPC 03 (exemplo: alguns derivativos em moeda estrangeira embutidos em outros contratos) estão dentro do alcance deste Pronunciamento Técnico. Adicionalmente, este Pronunciamento Técnico é aplicado quando a entidade  converte  saldos  relativos  a  derivativos  de  sua  moeda  funcional  para  a  moeda  de apresentação.
+<del>4. O Pronunciamento Técnico CPC 38 - Instrumentos Financeiros: Reconhecimento e Mensuração e a Orientação OCPC 03 - Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação são aplicáveis a muitos derivativos em moeda estrangeira e, por via de consequência, tais instrumentos derivativos estão fora do alcance deste Pronunciamento Técnico. Entretanto, aqueles derivativos em moeda estrangeira que estão fora do alcance do Pronunciamento Técnico CPC 38 e da Orientação OCPC 03 (exemplo: alguns derivativos em moeda estrangeira embutidos em outros contratos) estão dentro do alcance deste Pronunciamento Técnico. Adicionalmente, este Pronunciamento Técnico é aplicado quando a entidade converte saldos relativos a derivativos de sua moeda funcional para a moeda de apresentação.</del>
 4. O CPC 48 é aplicável a muitos derivativos em moeda estrangeira e, por via de consequência, tais instrumentos derivativos estão fora do alcance deste pronunciamento. Entretanto, aqueles derivativos  em  moeda  estrangeira  que  estão  fora  do  alcance  do  CPC  48  (exemplo:  alguns derivativos em moeda estrangeira embutidos em outros contratos) estão dentro do alcance deste pronunciamento. Adicionalmente, este pronunciamento deve ser aplicado quando a entidade converte saldos relativos a derivativos de sua moeda funcional para a moeda de apresentação. (Alterado pela Revisão CPC 12)
-5. Este Pronunciamento Técnico não é aplicado à contabilidade de operações de hedge para itens em moeda estrangeira, incluindo o hedge de investimento líquido em entidade no exterior. O Pronunciamento Técnico CPC 38 e a Orientação OCPC 03 são aplicados à contabilidade de operações de hedge .
+<del>5. Este Pronunciamento Técnico não é aplicado à contabilidade de operações de hedge para itens em moeda estrangeira, incluindo o hedge de investimento líquido em entidade no exterior. O Pronunciamento Técnico CPC 38 e a Orientação OCPC 03 são aplicados à contabilidade de operações de hedge.</del>
 5. Este  pronunciamento  não  é  aplicável  à  contabilidade  de  operações  de hedge para  itens  em moeda estrangeira, incluindo o hedge de investimento líquido em entidade no exterior. O CPC 48 deve ser aplicado à contabilidade de operações de hedge . (Alterado pela Revisão CPC 12)
 6. Este pronunciamento é aplicado na apresentação das demonstrações contábeis da entidade em moeda  estrangeira  e  estabelece  exigências  a  serem  observadas  para  que  as  demonstrações contábeis resultantes possam ser consideradas como em consonância com os Pronunciamentos Técnicos  emanados  do  Comitê  de  Pronunciamentos  Contábeis  (CPC).  Na  conversão  de informações financeiras para moeda estrangeira que não atenda às referidas exigências, este Pronunciamento Técnico requer que sejam divulgadas informações específicas.
 7. Este pronunciamento não é aplicado na apresentação da demonstração dos fluxos de caixa para aqueles fluxos de caixa advindos de transações em moeda estrangeira, ou para a conversão de fluxos de caixa da entidade no exterior (ver Pronunciamento Técnico CPC 03 -Demonstração dos Fluxos de Caixa).
 
 ## Definições
 
-8. Os seguintes  termos  são  usados  neste  Pronunciamento  Técnico  com  os  significados  abaixo
-
-## descritos:
+8. Os seguintes termos são usados neste Pronunciamento Técnico com os significados abaixo descritos:
 
 Taxa  de  fechamento é  a  taxa  de  câmbio  à  vista  vigente  ao  término  do  período  de  reporte.
 
@@ -95,7 +71,7 @@ Variação cambial é a diferença resultante da conversão de um número espec�
 
 Taxa de câmbio é a relação de troca entre duas moedas.
 
-Valor justo é o valor pelo qual um ativo pode ser trocado, ou um passivo liquidado, entre partes interessadas, conhecedoras do negócio e independentes entre si, com a ausência de fatores que pressionem para a liquidação da transação ou que caracterizem uma transação compulsória.
+<del>Valor justo é o valor pelo qual um ativo pode ser trocado, ou um passivo liquidado, entre partes interessadas, conhecedoras do negócio e independentes entre si, com a ausência de fatores que pressionem para a liquidação da transação ou que caracterizem uma transação compulsória.</del>
 
 Valor  justo é  o  preço  que  seria  recebido  pela  venda  de  um  ativo  ou  que  seria  pago  pela transferência de um passivo em uma transação não forçada entre participantes do mercado na data de mensuração (ver Pronunciamento Técnico CPC 46). (Alterada pela Revisão CPC 03)
 
@@ -113,13 +89,13 @@ Investimento  líquido  em  entidade  no  exterior é  o  montante  que  represe
 
 Moeda de apresentação é a moeda na qual as demonstrações contábeis são apresentadas.
 
-Taxa de câmbio à vista é a taxa de câmbio normalmente utilizada para liquidação imediata das operações de câmbio; no Brasil, a taxa a ser utilizada é a divulgada pelo Banco Central do Brasil.
+<del>Taxa de câmbio à vista é a taxa de câmbio normalmente utilizada para liquidação imediata das operações de câmbio; no Brasil, a taxa a ser utilizada é a divulgada pelo Banco Central do Brasil.</del>
 
 Taxa de câmbio à vista é a taxa de câmbio normalmente utilizada para liquidação imediata das operações de câmbio. (Alterada pela Revisão CPC 09)
 
-Detalhamento das definições
+### Detalhamento das definições
 
-Conversível (itens A2 a A10)
+#### Conversível (itens A2 a A10)
 
 <!-- image -->
 
@@ -130,18 +106,18 @@ Conversível (itens A2 a A10)
 - (b) para uma finalidade especificada. (Incluído pela Revisão de Pronunciamentos Técnicos 27)
 - 8B. Se a entidade for capaz de obter não mais do que uma quantia insignificante da outra moeda na data de mensuração para a finalidade especificada, a moeda não é conversível em outra moeda. (Incluído pela Revisão de Pronunciamentos Técnicos 27)
 
-## Moeda funcional
+### Moeda funcional
 
 9. O  ambiente  econômico  principal  no  qual  a  entidade  opera  é  normalmente  aquele  em  que principalmente ela gera e despende caixa. A entidade deve considerar os seguintes fatores na determinação de sua moeda funcional:
-2. (c) a moeda:
-3. (i) que mais influencia os preços de venda de bens e serviços (geralmente é a moeda na qual os preços de venda para seus bens e serviços estão expressos e são liquidados); e
-4. (ii) do país cujas forças competitivas e regulações mais influenciam na determinação dos preços de venda para seus bens e serviços;
-5. (d) a moeda que mais influencia fatores como mão de obra, matéria-prima e outros custos para o  fornecimento  de  bens  ou  serviços  (geralmente  é  a  moeda  na  qual  tais  custos  estão expressos e são liquidados).
+- (a) a moeda:
+  - (i) que mais influencia os preços de venda de bens e serviços (geralmente é a moeda na qual os preços de venda para seus bens e serviços estão expressos e são liquidados); e
+  - (ii) do país cujas forças competitivas e regulações mais influenciam na determinação dos preços de venda para seus bens e serviços;
+- (b) a moeda que mais influencia fatores como mão de obra, matéria-prima e outros custos para o fornecimento de bens ou serviços (geralmente é a moeda na qual tais custos estão expressos e são liquidados).
 10. Os seguintes fatores também podem servir como evidências para determinar a moeda funcional da entidade:
-7. (a) a  moeda  por  meio  da  qual  são  originados  recursos  das  atividades  de  financiamento (exemplo: emissão de títulos de dívida ou ações).
-8. (b) a moeda por meio da qual os recursos gerados pelas atividades operacionais são usualmente acumulados.
+- (a) a moeda por meio da qual são originados recursos das atividades de financiamento (exemplo: emissão de títulos de dívida ou ações).
+- (b) a moeda por meio da qual os recursos gerados pelas atividades operacionais são usualmente acumulados.
 11. Os seguintes fatores adicionais devem ser considerados na determinação da moeda funcional de  entidade  no  exterior,  e  também  devem  sê-los  para  avaliar  se  a  moeda  funcional  dessa entidade no exterior é a mesma daquela utilizada pela entidade que reporta a informação (no caso em tela, a entidade que reporta a informação é aquela que possui uma entidade no exterior por meio de controlada, filial, sucursal, agência, coligada ou empreendimento controlado em conjunto):
-10. (a) se as atividades da entidade no exterior são executadas como extensão da entidade que reporta a informação e, não, nos moldes em que lhe é conferido um grau significativo de autonomia. Um exemplo para ilustrar a primeira figura é quando a entidade no exterior somente vende bens que são importados da entidade que reporta a informação e remete
+- (a) se as atividades da entidade no exterior são executadas como extensão da entidade que reporta a informação e, não, nos moldes em que lhe é conferido um grau significativo de autonomia. Um exemplo para ilustrar a primeira figura é quando a entidade no exterior somente vende bens que são importados da entidade que reporta a informação e remete
 
 <!-- image -->
 
@@ -154,7 +130,7 @@ para esta o resultado obtido. Um exemplo para ilustrar a segunda figura é quand
 13. A moeda funcional da entidade reflete as transações, os eventos e as condições subjacentes que são relevantes para ela. Assim, uma vez determinada, a moeda funcional não deve ser alterada a menos que tenha ocorrido mudança nas transações, nos eventos e nas condições subjacentes.
 14. Se a moeda funcional é a moeda de economia hiperinflacionária, as demonstrações contábeis da  entidade  devem  ser  reelaboradas  nos  moldes  do  Pronunciamento  Técnico  CPC  42 -Contabilidade e Evidenciação em Economia Altamente Inflacionária (pelo método da correção integral enquanto não emitido esse Pronunciamento). A  entidade não pode evitar a reapresentação nos moldes requeridos pelo Pronunciamento Técnico CPC 42 mediante, por exemplo, a eleição de outra moeda que não seja aquela determinada em consonância com este Pronunciamento  Técnico  como  sua  moeda  funcional  (tal  como  a  moeda  funcional  de  sua controladora).
 
-## Investimento líquido em entidade no exterior
+### Investimento líquido em entidade no exterior
 
 15. A entidade pode possuir item monetário caracterizado como recebível junto a uma entidade no exterior ou como contas a pagar à mesma. Um item para o qual sua liquidação não é provável de ocorrer, tampouco está planejada para um futuro previsível é, substancialmente, parte do investimento  líquido  da  entidade  nessa  entidade  no  exterior,  e  deve  receber  o  tratamento contábil previsto nos itens 32 e 33 deste Pronunciamento Técnico. Referidos itens monetários podem contemplar contas a receber de longo prazo e empréstimos de longo prazo. Eles não contemplam contas a receber e contas a pagar relacionados a operações comerciais normais.
 
@@ -162,7 +138,7 @@ para esta o resultado obtido. Um exemplo para ilustrar a segunda figura é quand
 
 - 15A.  A entidade que possui item monetário a receber de entidade no exterior ou item monetário a pagar para entidade no exterior, conforme descrito no item 15, pode ser qualquer controlada do grupo econômico. Por exemplo, uma entidade possui duas controladas: 'A' e 'B'. A controlada 'B' é uma entidade no exterior. A controlada 'A' concede um empréstimo à controlada 'B'. O empréstimo que a controlada 'A' tem a receber da controlada 'B' será considerado parte do investimento líquido da controladora na control ada 'B' se a sua liquidação não for provável de ocorrer,  tampouco  estiver  planejada  para  um  futuro  previsível.  Do  mesmo  modo  esse entendimento valeria se a controlada 'A' fosse por completo uma entidade no exterior.
 
-## Item monetário
+### Item monetário
 
 16. A característica essencial de item monetário é o direito a receber (ou a obrigação de entregar) um número fixo ou determinável de unidades de moeda. Alguns exemplos incluem: passivos de planos de pensão ou outros benefícios a empregados a serem pagos com caixa; provisões que  devem  ser  liquidadas  em  caixa;  e  dividendos  a  serem  distribuídos  com  caixa,  que  são reconhecidos como passivos. Da mesma forma, um contrato que preveja o direito a receber (ou a obrigação de entregar) um número variável de instrumentos patrimoniais da própria entidade ou uma quantidade variável de ativos, cujo valor justo a ser recebido (ou a ser entregue) igualase a um número fixo ou determinável de unidades de moeda, é considerado item monetário. Por outro lado, a característica essencial de item não monetário é a ausência do direito a receber (ou da obrigação de entregar) um número fixo ou determinável de unidades de moeda. Alguns exemplos incluem: adiantamento a fornecedores de mercadorias; adiantamento a prestadores de  serviços;  aluguéis  antecipados; goodwill ;  ativos  intangíveis;  estoques;  imobilizado;  e provisões a serem liquidadas mediante a entrega de ativo não monetário.
 16. A característica essencial de item monetário é o direito a receber (ou a obrigação de entregar) um número fixo ou determinável de unidades de moeda. Alguns exemplos incluem: passivos de planos de pensão ou outros benefícios a empregados a serem pagos com caixa; provisões que  devem  ser  liquidadas  em  caixa;  passivos  de  arrendamento;  e  dividendos  a  serem distribuídos com caixa, que são reconhecidos como passivos. Da mesma forma, o contrato que preveja o direito a receber (ou a obrigação de entregar) um número variável de instrumentos patrimoniais da própria entidade ou uma quantidade variável de ativos, cujo valor justo a ser recebido (ou a ser entregue) iguala-se ao número fixo ou determinável de unidades de moeda, é considerado item monetário. Por outro lado, a característica essencial de item não monetário é a ausência do direito a receber (ou da obrigação de entregar) um número fixo ou determinável de unidades de moeda. Alguns exemplos incluem: adiantamento a fornecedores de mercadorias; adiantamento a prestadores de serviços; goodwill ;  ativos  intangíveis;  estoques;  imobilizado; ativo  de  direito  de  uso;  e  provisões  a  serem  liquidadas  mediante  a  entrega  de  ativo  não monetário. (Alterado pela Revisão CPC 13)
@@ -184,24 +160,24 @@ para esta o resultado obtido. Um exemplo para ilustrar a segunda figura é quand
 
 <!-- image -->
 
-## Apresentação de transação em moeda estrangeira na moeda funcional
+## APRESENTAÇÃO DE TRANSAÇÃO EM MOEDA ESTRANGEIRA NA MOEDA FUNCIONAL
 
-## Reconhecimento inicial
+### Reconhecimento inicial
 
 20. Uma transação em moeda estrangeira é a transação que é fixada ou requer sua liquidação em moeda estrangeira, incluindo transações que são originadas quando a entidade:
-2. (a) compra ou vende bens ou serviços cujo preço é fixado em moeda estrangeira;
-3. (b) obtém ou concede empréstimos, quando os valores a pagar ou a receber são fixados em moeda estrangeira; ou
-4. (c) de  alguma  outra  forma,  adquire  ou  desfaz-se  de  ativos,  ou  assume  ou  liquida  passivos fixados em moeda estrangeira.
+- (a) compra ou vende bens ou serviços cujo preço é fixado em moeda estrangeira;
+- (b) obtém ou concede empréstimos, quando os valores a pagar ou a receber são fixados em moeda estrangeira; ou
+- (c) de alguma outra forma, adquire ou desfaz-se de ativos, ou assume ou liquida passivos fixados em moeda estrangeira.
 21. Uma transação em moeda estrangeira deve ser reconhecida contabilmente, no momento inicial, pela moeda funcional, mediante a aplicação da taxa de câmbio à vista entre a moeda funcional e a moeda estrangeira, na data da transação, sobre o montante em moeda estrangeira.
 22. A data da transação é a data a partir da qual a transação se qualifica para fins de reconhecimento, de acordo com as práticas contábeis adotadas no Brasil. Por motivos práticos, a taxa de câmbio que se aproxima da taxa vigente na data da transação é usualmente adotada, como, por exemplo, a taxa de câmbio média semanal ou mensal que pode ser aplicada a todas as transações, em cada moeda estrangeira, ocorridas durante o período. Contudo, se as taxas de câmbio flutuarem significativamente, a adoção da taxa de câmbio média para o período não é apropriada.
 
-## Apresentação ao término de períodos de reporte subsequentes
+### Apresentação ao término de períodos de reporte subsequentes
 
 23. Ao término da cada período de reporte:
-2. (a) os  itens  monetários  em  moeda  estrangeira  devem  ser  convertidos,  usando-se  a  taxa  de câmbio de fechamento;
-3. (b) os itens não monetários que são mensurados pelo custo histórico em moeda estrangeira devem ser convertidos, usando-se a taxa de câmbio vigente na data da transação; e
-4. (c) os itens não monetários que são mensurados pelo valor justo em moeda estrangeira devem ser convertidos, usando-se as taxas de câmbio vigentes nas datas em que o valor justo for determinado.
-5. (c) os itens não monetários que são mensurados pelo valor justo em moeda estrangeira devem ser convertidos, usando-se as taxas de câmbio vigentes nas datas em que o valor justo tiver sido mensurado. (Alterada pela Revisão CPC 03)
+- (a) os itens monetários em moeda estrangeira devem ser convertidos, usando-se a taxa de câmbio de fechamento;
+- (b) os itens não monetários que são mensurados pelo custo histórico em moeda estrangeira devem ser convertidos, usando-se a taxa de câmbio vigente na data da transação; e
+<del>- (c) os itens não monetários que são mensurados pelo valor justo em moeda estrangeira devem ser convertidos, usando-se as taxas de câmbio vigentes nas datas em que o valor justo for determinado.</del>
+- (c) os itens não monetários que são mensurados pelo valor justo em moeda estrangeira devem ser convertidos, usando-se as taxas de câmbio vigentes nas datas em que o valor justo tiver sido mensurado. (Alterada pela Revisão CPC 03)
 24. O  valor  contábil  de  item  deve  ser  determinado  em  conjunto  com  outros  Pronunciamentos Técnicos  pertinentes.  Por  exemplo,  terrenos,  plantas  industriais,  máquinas  e  equipamentos podem ser mensurados pelo valor justo ou pelo custo histórico como base de valor, de acordo com o Pronunciamento Técnico CPC 27 -Ativo Imobilizado. Independentemente de o valor contábil ser determinado com base no custo histórico ou com base no valor justo, se o valor
 
 <!-- image -->
@@ -216,13 +192,11 @@ O efeito  dessa  comparação  pode  ensejar  o  reconhecimento  de  perda  por 
 26. Quando várias taxas de câmbio estiverem disponíveis, a taxa de câmbio a ser utilizada é aquela a partir da qual os futuros fluxos de caixa representados pela transação ou pelos saldos poderiam ser  liquidados  se  esses  fluxos  de  caixa  tivessem  ocorrido  na  data  da  mensuração.  Se, temporariamente, não houver câmbio entre duas moedas, a taxa a ser utilizada é a primeira taxa de câmbio subsequente a partir da qual operações de câmbio podem ser feitas.
 26. Quando várias taxas de câmbio estiverem disponíveis, a taxa de câmbio a ser utilizada é aquela a partir da qual os futuros fluxos de caixa representados pela transação ou pelos saldos poderiam ser liquidados se esses fluxos de caixa tivessem ocorrido na data da mensuração. (Alterado pela Revisão de Pronunciamentos Técnicos 27)
 
-## Reconhecimento de variação cambial
+### Reconhecimento de variação cambial
 
 27. Conforme ressaltado nos itens 3(a) e 5, o Pronunciamento Técnico CPC 38 -Instrumentos Financeiros:  Reconhecimento  e  Mensuração  e  a  Orientação  OCPC  03 -Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação devem ser aplicados à contabilidade de  operações  de hedge para  itens  em  moeda  estrangeira.  Na  aplicação  da  contabilidade  de operações de hedge , a entidade é requerida a tratar contabilmente algumas variações cambiais diferentemente  do  tratamento  previsto  por  este  Pronunciamento  Técnico  para  as  variações cambiais.  Por  exemplo,  o  Pronunciamento  Técnico  CPC  38 -Instrumentos  Financeiros: Reconhecimento  e  Mensuração  e  a  Orientação  OCPC  03 -Instrumentos  Financeiros: Reconhecimento, Mensuração e Evidenciação requerem que as variações cambiais advindas de item monetário, qualificado como instrumento de hedge em operação de hedge de  fluxo de caixa, sejam inicialmente reconhecidas em conta específica de outros resultados abrangentes
 
 <!-- image -->
-
-## (dentro do Patrimônio Líquido), na extensão da eficácia da operação de hedge .
 
 27. Conforme ressaltado nos itens 3(a) e 5, o CPC 48 deve ser aplicado à contabilidade de operações de hedge para  itens  em  moeda  estrangeira.  Na  aplicação  da  contabilidade  de  operações  de hedge , a entidade é requerida a tratar, contabilmente, algumas variações cambiais diferentemente do tratamento previsto por este pronunciamento para as variações cambiais. Por exemplo, o CPC 48 requer que as variações cambiais advindas de item monetário, qualificado como  instrumento  de hedge em  operação  de hedge de  fluxo  de  caixa,  sejam  inicialmente reconhecidas  em  conta  específica  de  outros  resultados  abrangentes  (dentro  do  patrimônio líquido), na extensão da eficácia da operação de hedge . (Alterado pela Revisão CPC 12)
 28. As variações cambiais advindas da liquidação de itens monetários ou da conversão de itens monetários por taxas diferentes daquelas pelas quais foram convertidos quando da mensuração inicial, durante o período ou em demonstrações contábeis anteriores, devem ser reconhecidas na demonstração do resultado no período em que surgirem, com exceção daquelas descritas no item 32.
@@ -243,19 +217,19 @@ reconhecidas no resultado nas demonstrações contábeis separadas da entidade q
 
 tivessem sido registrados inicialmente na moeda funcional. Por exemplo, itens monetários são convertidos para a moeda funcional, utilizando-se a taxa de câmbio de fechamento; e itens não monetários que são mensurados com base no custo histórico devem ser convertidos, utilizandose a taxa de câmbio da data da transação que resultou em seu reconhecimento.
 
-## Alteração na moeda funcional
+### Alteração na moeda funcional
 
 35. Quando há alteração na moeda funcional da entidade, a entidade deve aplicar, prospectivamente, os procedimentos de conversão requeridos à nova moeda funcional a partir da data da alteração.
 36. Conforme ressaltado no item 13, a moeda funcional da entidade reflete as transações, os eventos e as condições subjacentes que são relevantes para a entidade. Portanto, uma vez determinada a  moeda  funcional,  ela  somente  pode  ser  alterada  se  houver  mudança  nas  transações,  nos eventos  e  nas  condições  subjacentes.  Por  exemplo,  uma  alteração  na  moeda  que  influencia fortemente os preços de venda de bens e serviços pode conduzir a alteração na moeda funcional da entidade.
 37. O efeito da alteração na moeda funcional deve ser tratado contabilmente de modo prospectivo. Objetivamente,  a  entidade  deve  converter  todos  os  itens  para  a  nova  moeda  funcional, utilizando  a  taxa  de  câmbio  observada  na  data  da  alteração.  Os  montantes  resultantes  da conversão, no caso dos itens não monetários, devem ser tratados como se fossem seus custos históricos.  Variações  cambiais  advindas  da  conversão  da  entidade  no  exterior,  previamente reconhecidas em outros resultados abrangentes, de acordo com os itens 32 e 39(c), não devem ser transferidas do patrimônio líquido para a demonstração do resultado até a baixa da entidade no exterior.
 
-## Uso de moeda de apresentação diferente da moeda funcional
+## USO DE MOEDA DE APRESENTAÇÃO DIFERENTE DA MOEDA FUNCIONAL
 
-## Conversão para a moeda de apresentação
+### Conversão para a moeda de apresentação
 
 38. A entidade pode apresentar suas demonstrações contábeis em qualquer moeda (ou moedas). Se a moeda de apresentação das demonstrações contábeis difere da moeda funcional da entidade, seus resultados e sua posição financeira devem ser convertidos para a moeda de apresentação. Por  exemplo,  quando  um  grupo  econômico  é  composto  por  entidades  individuais  com diferentes moedas funcionais, os resultados e a posição financeira de cada entidade devem ser expressos  na  mesma  moeda  comum  a  todas  elas,  para  que  as  demonstrações  contábeis consolidadas possam ser apresentadas.
 39. Os  resultados  e  a  posição  financeira  da  entidade,  cuja  moeda  funcional  não  é  moeda  de economia  hiperinflacionária,  devem  ser  convertidos  para  moeda  de  apresentação  diferente, adotando-se os seguintes procedimentos:
-3. (a) ativos  e  passivos  para  cada  balanço  patrimonial  apresentado  (incluindo  os  balanços comparativos) devem ser convertidos, utilizando-se a taxa de câmbio de fechamento na data do respectivo balanço;
+- (a) ativos e passivos para cada balanço patrimonial apresentado (incluindo os balanços comparativos) devem ser convertidos, utilizando-se a taxa de câmbio de fechamento na data do respectivo balanço;
 
 <!-- image -->
 
@@ -269,15 +243,15 @@ tivessem sido registrados inicialmente na moeda funcional. Por exemplo, itens mo
 Essas variações cambiais não devem ser reconhecidas na demonstração do resultado porque as mudanças nas taxas de câmbio têm pouco ou nenhum efeito direto sobre os fluxos de caixa atuais e futuros advindos das operações. O montante acumulado das variações cambiais deve ser apresentado em conta específica separada do patrimônio líquido até que ocorra a baixa da entidade no exterior. Quando as variações cambiais são relacionadas a uma entidade no exterior que é consolidada, porém não é controlada integralmente, as variações cambiais acumuladas advindas da conversão e atribuídas às participações de não controladores devem ser a estas alocadas e devem ser, dessa forma, reconhecidas no balanço patrimonial consolidado.
 
 42. Os resultados e a posição financeira da entidade cuja moeda funcional é a moeda de economia hiperinflacionária devem ser convertidos para moeda de apresentação diferente, adotando-se os seguintes procedimentos:
-2. (a) todos os montantes (isto é, ativos, passivos, itens do patrimônio líquido, receitas e despesas, incluindo saldos comparativos) devem ser convertidos pela taxa de câmbio de fechamento da data do balanço patrimonial mais recente, exceto que,
-3. (b) quando os montantes forem convertidos para a moeda de economia não hiperinflacionária, os montantes comparativos devem ser aqueles que seriam apresentados como montantes do ano corrente nas demonstrações contábeis do ano anterior (isto é, não ajustados para mudanças  subsequentes  no  nível  de  preços  ou  mudanças  subsequentes  nas  taxas  de câmbio).
+- (a) todos os montantes (isto é, ativos, passivos, itens do patrimônio líquido, receitas e despesas, incluindo saldos comparativos) devem ser convertidos pela taxa de câmbio de fechamento da data do balanço patrimonial mais recente, exceto que,
+- (b) quando os montantes forem convertidos para a moeda de economia não hiperinflacionária, os montantes comparativos devem ser aqueles que seriam apresentados como montantes do ano corrente nas demonstrações contábeis do ano anterior (isto é, não ajustados para mudanças subsequentes no nível de preços ou mudanças subsequentes nas taxas de câmbio).
 43. Quando a moeda funcional da entidade for moeda de economia hiperinflacionária, a entidade deve reelaborar suas demonstrações contábeis nos moldes do Pronunciamento Técnico CPC 42 -Contabilidade  e  Evidenciação  em  Economia  Altamente  Inflacionária  (ou  pelo  método  da correção integral enquanto não emitido esse Pronunciamento) antes de aplicar o método de conversão definido no item 42, exceto para os montantes comparativos que são convertidos para moeda de economia não hiperinflacionária (ver item 42(b)). Quando a economia deixar de
 
 <!-- image -->
 
 ser  considerada  hiperinflacionária  e  a  entidade  não  mais  proceder  à  reelaboração  de  suas demonstrações contábeis nos moldes do Pronunciamento Técnico CPC 42, ela deve considerar como custos históricos, para fins de conversão para a moeda de apresentação, os montantes em moeda de capacidade aquisitiva constante na data em que a entidade deixa de reapresentar suas demonstrações contábeis.
 
-## Conversão de entidade no exterior
+### Conversão de entidade no exterior
 
 44. Os itens 45 a 47, adicionalmente aos itens 38 a 43, devem ser observados quando os resultados e a posição financeira da entidade no exterior forem convertidos para moeda de apresentação que  permita  que  a  entidade  no  exterior  possa  ser  incluída  nas  demonstrações  contábeis  da entidade que reporta a informação por meio de consolidação plena, consolidação proporcional ou pelo método de equivalência patrimonial.
 44. Os itens 45 a 47, adicionalmente aos itens 38 a 43, devem ser observados quando os resultados e a posição financeira da entidade no exterior forem convertidos para moeda de apresentação que  permita  que  a  entidade  no  exterior  possa  ser  incluída  nas  demonstrações  contábeis  da entidade que reporta a informação por meio de consolidação ou pelo método da equivalência patrimonial. (Alterado pela Revisão CPC 03)
@@ -296,19 +270,19 @@ demonstrações  contábeis  consolidadas  da  entidade  que  reporta  a  inform
 
 originados da aquisição dessa entidade no exterior devem ser tratados como ativos e passivos da entidade no exterior. Desse modo, eles devem ser expressos na moeda funcional da entidade no exterior e devem ser convertidos pela taxa de câmbio de fechamento, de acordo com os itens 39 e 42.
 
-## Baixa total ou parcial de entidade no exterior
+### Baixa total ou parcial de entidade no exterior
 
 48. Na baixa de entidade no exterior, o montante acumulado de variações cambiais relacionadas a essa entidade no exterior, reconhecido em outros resultados abrangentes e registrado em conta específica do patrimônio líquido, deve ser transferido do patrimônio líquido para a demonstração do resultado (como ajuste de reclassificação) quando o ganho ou a perda na baixa for  reconhecido  (a  esse  respeito  ver  Pronunciamento  Técnico  CPC  26 -Apresentação  das Demonstrações Contábeis).
-2. 48A. Além do tratamento contábil previsto para  a baixa integral  da  participação  da  entidade  em entidade no exterior, os seguintes eventos devem receber tratamento contábil similar -devem ser contabilizados como baixa -mesmo que a entidade mantenha participação na ex-controlada, na ex-coligada ou no ex-empreendimento controlado em conjunto:
-3. (a) a perda de controle de controlada que contenha entidade no exterior;
-4. (b) a perda de influência significativa sobre coligada que contenha entidade no exterior;
-5. (c) a  perda  de  controle  compartilhado  sobre  empreendimento  controlado  em  conjunto  que contenha entidade no exterior.
-6. 48A  Além do tratamento  contábil  previsto  para  a  baixa  integral  da  participação  da  entidade  em entidade no exterior, as seguintes baixas parciais devem ser contabilizados como baixa:
-7. (a) quando a baixa parcial envolver a perda de controle de controlada que contenha entidade no exterior, mesmo que a entidade mantenha participação na ex-controlada após a baixa parcial; e
-8. (b) quando a participação retida após a alienação parcial de uma participação em  um negócio em conjunto ou uma alienação parcial de uma participação em coligada que incluir uma operação no exterior for um ativo financeiro que inclui uma operação no exterior.
-9. (c) eliminada. (Alterado pela Revisão CPC 03)
-10. 48B.  Na baixa de controlada que contenha entidade no exterior, o montante acumulado de variações cambiais  relacionadas  a  essa  entidade,  que  tenha  sido  atribuído  à  participação  de  não controladores, deve ser desreconhecido, sem, contudo, ser transferido para a demonstração do resultado.
-11. 48C.  Na baixa parcial de controlada que contenha entidade no exterior, a entidade deve realocar o montante acumulado de variações cambiais reconhecido no patrimônio líquido às participações de  não  controladores  nessa  entidade  no  exterior,  na  proporção  da  participação  destes.  Em qualquer  outra  baixa  parcial  de  entidade  no  exterior,  a  entidade  deve  transferir  para  a demonstração do resultado tão somente a participação proporcional baixada sobre o montante
+- 48A. Além do tratamento contábil previsto para a baixa integral da participação da entidade em entidade no exterior, os seguintes eventos devem receber tratamento contábil similar - devem ser contabilizados como baixa - mesmo que a entidade mantenha participação na ex-controlada, na ex-coligada ou no ex-empreendimento controlado em conjunto:
+- (a) a perda de controle de controlada que contenha entidade no exterior;
+- (b) a perda de influência significativa sobre coligada que contenha entidade no exterior;
+- (c) a perda de controle compartilhado sobre empreendimento controlado em conjunto que contenha entidade no exterior.
+- 48A. Além do tratamento contábil previsto para a baixa integral da participação da entidade em entidade no exterior, as seguintes baixas parciais devem ser contabilizadas como baixa:
+- (a) quando a baixa parcial envolver a perda de controle de controlada que contenha entidade no exterior, mesmo que a entidade mantenha participação na ex-controlada após a baixa parcial; e
+- (b) quando a participação retida após a alienação parcial de uma participação em um negócio em conjunto ou uma alienação parcial de uma participação em coligada que incluir uma operação no exterior for um ativo financeiro que inclui uma operação no exterior.
+- (c) eliminada. (Alterado pela Revisão CPC 03)
+- 48B. Na baixa de controlada que contenha entidade no exterior, o montante acumulado de variações cambiais relacionadas a essa entidade, que tenha sido atribuído à participação de não controladores, deve ser desreconhecido, sem, contudo, ser transferido para a demonstração do resultado.
+- 48C. Na baixa parcial de controlada que contenha entidade no exterior, a entidade deve realocar o montante acumulado de variações cambiais reconhecido no patrimônio líquido às participações de não controladores nessa entidade no exterior, na proporção da participação destes. Em qualquer outra baixa parcial de entidade no exterior, a entidade deve transferir para a demonstração do resultado tão somente a participação proporcional baixada sobre o montante
 
 <!-- image -->
 
@@ -317,17 +291,17 @@ acumulado de variações cambiais reconhecido em outros resultados abrangentes.
 - 48D.  A baixa parcial da participação de entidade em entidade no exterior é qualquer redução da participação mantida pela entidade na entidade no exterior, com exceção daquelas reduções previstas no item 48A que devem ser contabilizadas como baixa.
 49. Qualquer entidade pode baixar total ou parcialmente suas participações em entidade no exterior mediante venda, liquidação, resgate, reembolso ou amortização de ações, ou abandono do todo ou parte da operação. A redução do valor contábil de entidade no exterior, quer seja em função de suas próprias perdas, quer seja em função de desvalorização reconhecida ( impairment ), não caracteriza  baixa  parcial.  Desse  modo,  nenhuma  parte  do  ganho  ou  da  perda  cambial reconhecido  em  outros  resultados  abrangentes  deve  ser  transferida  para  a  demonstração  do resultado no momento dessa redução do valor contábil.
 
-## Efeitos fiscais de todas as variações cambiais
+## EFEITOS FISCAIS DE TODAS AS VARIAÇÕES CAMBIAIS
 
 50. Ganhos e perdas em transações com moedas estrangeiras e variações cambiais advindas da conversão do resultado e da posição financeira da entidade (incluindo a entidade no exterior) para moeda diferente podem produzir efeitos fiscais. O Pronunciamento Técnico CPC 32 -Tributos sobre o Lucro deve ser aplicado no tratamento desses efeitos fiscais.
 
-## Divulgação
+## DIVULGAÇÃO
 
 51. Nos  itens  53  e  55  a  57,  as  referências  à  "moeda  funcional"  aplicam-se,  no  caso  de  grupo econômico, à moeda funcional da controladora.
 52. A entidade deve divulgar:
-3. (a) o  montante  das  variações  cambiais  reconhecidas  na  demonstração  do  resultado,  com exceção daquelas originadas de instrumentos financeiros mensurados ao valor justo por meio  do  resultado,  de  acordo  com  o  Pronunciamento  Técnico  CPC  38 -Instrumentos Financeiros:  Reconhecimento  e  Mensuração  e  a  Orientação  OCPC  03 -Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação; e
-4. (a)  o  montante  das  variações  cambiais  reconhecidas  na  demonstração  do  resultado,  com exceção daquelas originadas de instrumentos financeiros mensurados ao valor justo por meio do resultado, de acordo com o CPC 48; e (Alterada pela Revisão CPC 12)
-5. (b) variações cambiais líquidas reconhecidas em outros resultados abrangentes e registradas em conta específica do patrimônio líquido, e a conciliação do montante de tais variações cambiais, no início e no final do período.
+<del>- (a) o montante das variações cambiais reconhecidas na demonstração do resultado, com exceção daquelas originadas de instrumentos financeiros mensurados ao valor justo por meio do resultado, de acordo com o Pronunciamento Técnico CPC 38 - Instrumentos Financeiros: Reconhecimento e Mensuração e a Orientação OCPC 03 - Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação; e</del>
+- (a) o montante das variações cambiais reconhecidas na demonstração do resultado, com exceção daquelas originadas de instrumentos financeiros mensurados ao valor justo por meio do resultado, de acordo com o CPC 48; e (Alterada pela Revisão CPC 12)
+- (b) variações cambiais líquidas reconhecidas em outros resultados abrangentes e registradas em conta específica do patrimônio líquido, e a conciliação do montante de tais variações cambiais, no início e no final do período.
 53. Quando  a  moeda  de  apresentação  das  demonstrações  contábeis  for  diferente  da  moeda funcional, esse fato deve ser relatado juntamente com a divulgação da moeda funcional e da razão para a utilização de moeda de apresentação diferente.
 54. Quando houver  alteração  na  moeda  funcional  da  entidade  que  reporta  a  informação  ou  de
 
@@ -345,14 +319,12 @@ acumulado de variações cambiais reconhecido em outros resultados abrangentes.
 - (b) a(s) taxa(s) de câmbio à vista utilizada(s);
 - (c) o processo de estimativa; e
 - (d) os riscos aos quais a entidade está exposta devido à moeda não ser conversível em outra moeda. (Incluído pela Revisão de Pronunciamentos Técnicos 27)
-- 57B. Os itens de A18 a A20 especificam como uma entidade aplica o item 57A. (Incluído pela Revisão
+- 57B. Os itens de A18 a A20 especificam como uma entidade aplica o item 57A. (Incluído pela Revisão de Pronunciamentos Técnicos 27)
 
-de Pronunciamentos Técnicos 27)
-
-## Disposições transitórias
+## DISPOSIÇÕES TRANSITÓRIAS
 
 58. (Eliminado)
-2. 58A.  (Eliminado)
+58A. (Eliminado)
 59. A entidade deve aplicar o item 47 prospectivamente a todas as aquisições ocorridas após o início do período de reporte financeiro em que este Pronunciamento Técnico for inicialmente adotado. Aplicação retrospectiva do item 47 a aquisições anteriores é permitida. Para uma aquisição de entidade no exterior tratada prospectivamente, mas que tenha ocorrido anteriormente à data em que este Pronunciamento Técnico for inicialmente adotado, a entidade não deve reapresentar períodos anteriores e, dessa forma, pode, quando apropriado, tratar o ágio por expectativa de rentabilidade futura ( goodwill ) e os ajustes de valor justo originados da aquisição como ativos e passivos da entidade em vez de tratá-los como ativos e passivos da entidade no exterior. Desse modo, o ágio por expectativa de rentabilidade futura ( goodwill ) e os ajustes de valor justo já estarão expressos na moeda funcional da entidade ou serão considerados itens não monetários em moeda estrangeira, os quais devem ser contabilizados, utilizando-se a taxa de câmbio em vigor na data da aquisição.
 60. Todas as outras alterações resultantes da aplicação deste Pronunciamento Técnico devem ser contabilizadas de acordo com as exigências do Pronunciamento Técnico CPC 23 -Políticas Contábeis, Mudança de Estimativa e Retificação de Erro.
 
@@ -373,20 +345,20 @@ de Pronunciamentos Técnicos 27)
 - (ii) converter os itens de patrimônio líquido afetados utilizando a taxa de câmbio à vista estimada nessa data se a moeda funcional da entidade for hiperinflacionária; e
 - (iii) reconhecer qualquer efeito da aplicação inicial das alterações como um ajuste ao valor acumulado das diferenças de conversão -acumulados em um componente separado do patrimônio líquido. (Incluído pela Revisão de Pronunciamentos Técnicos 27)
 
-## Revogação de outro pronunciamento
+## REVOGAÇÃO DE OUTRO PRONUNCIAMENTO
 
 61. Este Pronunciamento Técnico substitui o CPC 02(R1) -Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis, revisado em 08.01.2010
 62. (Eliminado)
 
-## Apêndice A (Apêndice incluído pela Revisão de Pronunciamentos Técnicos 27)
+## APÊNDICE A (Apêndice incluído pela Revisão de Pronunciamentos Técnicos 27)
 
-## Orientação de aplicação
+### Orientação de aplicação
 
-## Conversibilidade
+### Conversibilidade
 
 - A1 O objetivo do diagrama a seguir é ajudar as entidades a avaliarem se uma moeda é conversível e estimar a taxa de câmbio à vista quando uma moeda não for conversível.
 
-Etapa I: Avaliar se uma moeda é conversível (itens 8, 8A e 8B)
+#### Etapa I: Avaliar se uma moeda é conversível (itens 8, 8A e 8B)
 
 <!-- image -->
 
@@ -394,21 +366,21 @@ Etapa I: Avaliar se uma moeda é conversível (itens 8, 8A e 8B)
 
 - A2 Os itens A3 a A10 estabelecem a orientação de aplicação para ajudar uma entidade a avaliar se uma moeda é conversível em outra moeda. Uma entidade pode determinar que uma moeda não é conversível em outra moeda, mesmo que essa outra moeda possa ser conversível na outra direção. Por exemplo, uma entidade pode determinar que a moeda PC não é conversível na moeda LC, mesmo que a moeda LC seja conversível na moeda PC.
 
-## Prazo
+#### Prazo
 
 - A3 O item 8 define uma taxa de câmbio à vista como a taxa de câmbio para entrega imediata. No entanto, uma transação de câmbio nem sempre pode ser concluída instantaneamente devido a requisitos legais ou regulatórios, ou por razões práticas, como feriados públicos. Um atraso administrativo normal na obtenção da outra moeda não impede uma moeda de ser conversível nessa outra moeda. O que constitui um atraso administrativo normal dependerá dos fatos e das circunstâncias.
 
-## Capacidade de obter a outra moeda
+#### Capacidade de obter a outra moeda
 
 - A4 Ao avaliar se uma moeda é conversível em outra moeda, uma entidade deverá considerar a sua capacidade de obter a outra moeda, e não a sua intenção ou decisão de fazê-lo. Sujeito aos demais  requisitos  nos  itens  A2  a  A10,  uma  moeda  é  conversível  em  outra  moeda  se  uma entidade for capaz de obter a outra moeda -direta ou indiretamente -mesmo que pretenda ou decida  por  não  fazer.  Por  exemplo,  sujeito  aos  demais  requisitos  nos  itens  A2  a  A10, independentemente de a entidade pretender ou decidir obter PC, a moeda LC é conversível na moeda PC se uma entidade for capaz de converter LC por PC, ou converter LC por outra moeda (FC) e então converter FC por PC.
 
-## Mercados ou mecanismos de câmbio
+#### Mercados ou mecanismos de câmbio
 
 <!-- image -->
 
 - A5 Ao avaliar se uma moeda é conversível em outra moeda, uma entidade deverá considerar apenas mercados ou mecanismos de câmbio nos quais uma transação para converter a moeda por outra moeda criaria direitos e obrigações exequíveis. A exequibilidade é uma questão de direito. Se uma transação de câmbio em um mercado ou mecanismo de câmbio cria direitos e obrigações exequíveis depende dos fatos e das circunstâncias.
 
-## Finalidade de obtenção da outra moeda
+#### Finalidade de obtenção da outra moeda
 
 - A6 Diferentes taxas de câmbio podem estar disponíveis para diferentes usos de uma moeda. Por exemplo, uma jurisdição que enfrenta pressão em seu saldo de pagamentos pode desejar impedir remessas  de  capital  (tais  como  pagamentos  de  dividendos)  para  outras  jurisdições,  mas incentivar  importações  de  bens  específicos  dessas  jurisdições.  Nessas  circunstâncias,  as autoridades competentes podem:
 - (a) estabelecer uma taxa de câmbio preferencial para as importações desses bens e uma taxa de câmbio de 'penalidade' para remessas de capital a outras jurisdições, resultando assim em diferentes taxas de câmbio aplicáveis a diferentes transações de câmbio; ou
@@ -427,21 +399,21 @@ Etapa I: Avaliar se uma moeda é conversível (itens 8, 8A e 8B)
 
 funcional  (ver  item  A7(a))  separadamente  da  conversibilidade  para  fins  de  conversão  dos resultados e da posição financeira de uma operação no exterior (ver item A7(c)).
 
-## Capacidade de obter apenas quantias limitadas da outra moeda
+#### Capacidade de obter apenas quantias limitadas da outra moeda
 
 - A10  Uma moeda não é conversível em outra moeda se, para uma finalidade especificada no item A7, uma entidade não for capaz de obter mais  do que uma quantia insignificante da outra moeda. Uma entidade deverá avaliar a significância da quantia da outra moeda que é capaz de obter para uma finalidade especificada, comparando essa quantia com a quantia total da outra moeda necessária para essa finalidade. Por exemplo, uma entidade com moeda funcional LC tem passivos denominados em moeda FC. A entidade avalia se a quantia total de FC que pode obter para fins de liquidação desses passivos não é mais do que uma quantia insignificante comparada com a quantia agregada (a soma) de seus saldos passivos denominados em FC.
 
-## Etapa II: Estimar a taxa de câmbio à vista quando uma moeda não é conversível (item 19A)
+#### Etapa II: Estimar a taxa de câmbio à vista quando uma moeda não é conversível (item 19A)
 
 - A11  Este Pronunciamento não especifica como uma entidade estima a taxa de câmbio à vista para cumprir o objetivo do item 19A. Uma entidade pode utilizar uma taxa de câmbio observável sem ajuste (ver itens A12 a A16) ou outra técnica de estimativa (ver item A17).
 
-## Utilização de uma taxa de câmbio observável sem ajuste
+#### Utilização de uma taxa de câmbio observável sem ajuste
 
 - A12  Ao estimar a taxa de câmbio à vista, conforme exigido pelo item 19A, uma entidade pode utilizar uma taxa de câmbio observável sem ajuste se essa taxa de câmbio observável cumprir o objetivo do item 19A. Exemplos de uma taxa de câmbio observável incluem:
 - (a) uma taxa de câmbio à vista para uma finalidade diferente daquela para a qual uma entidade avalia a conversibilidade (ver itens A13 e A14); e
 - (b) a  primeira  taxa  de  câmbio  à  qual  uma  entidade  é  capaz  de  obter  a  outra  moeda  para  a finalidade especificada após a conversibilidade da moeda ser restaurada (primeira taxa de câmbio subsequente) (ver itens A15 e A16).
 
-## Utilização de uma taxa de câmbio observável para outras finalidades
+#### Utilização de uma taxa de câmbio observável para outras finalidades
 
 - A13  Uma moeda que não for conversível em outra moeda para uma finalidade pode ser conversível nessa moeda para outra finalidade. Por exemplo, uma entidade pode conseguir obter uma moeda para importar bens específicos, mas não para pagar dividendos. Nessas situações, a entidade pode concluir que uma taxa de câmbio observável para outra finalidade cumpre o objetivo do item 19A. Se a taxa cumprir o objetivo do item 19A, uma entidade pode utilizar essa taxa como a taxa de câmbio à vista estimada.
 - A14  Ao avaliar se essa taxa de câmbio observável cumpre o objetivo do item 19A, uma entidade deverá considerar, entre outros fatores:
@@ -453,20 +425,20 @@ funcional  (ver  item  A7(a))  separadamente  da  conversibilidade  para  fins  
 - (c) a  natureza  da  taxa  de  câmbio -uma  taxa  de  câmbio  observável  flutuante  tem  mais probabilidade de refletir as condições econômicas prevalecentes do que uma taxa de câmbio fixada por intervenções regulares das autoridades competentes.
 - (d) a frequência com que as taxas de câmbio são atualizadas -uma taxa de câmbio observável não  alterada  ao  longo  do  tempo  tem  menos  probabilidade  de  refletir  as  condições econômicas prevalecentes do que uma taxa de câmbio observável atualizada diariamente (ou até com mais frequência).
 
-## Utilização da primeira taxa de câmbio subsequente
+#### Utilização da primeira taxa de câmbio subsequente
 
 - A15  Uma moeda que não for conversível em outra moeda na data de mensuração para uma finalidade especificada pode subsequentemente se tornar conversível nessa moeda para essa finalidade. Nessas  situações,  uma  entidade  pode  concluir  que  a  primeira  taxa  de  câmbio  subsequente cumpre o objetivo do item 19A. Se a taxa cumprir o objetivo do item 19A, uma entidade pode utilizar essa taxa como a taxa de câmbio à vista estimada.
 - A16  Ao avaliar se a primeira taxa de câmbio subsequente cumpre o objetivo do item 19A, uma entidade deverá considerar, entre outros fatores:
 - (a) o tempo entre a data de mensuração e a data em que a conversibilidade é restaurada -quanto mais  curto  for  esse  período,  maior  será  a  probabilidade  de  a  primeira  taxa  de  câmbio subsequente refletir as condições econômicas prevalecentes.
 - (b) taxas de inflação -quando uma economia está sujeita a uma inflação elevada, inclusive quando uma economia é hiperinflacionária (conforme definido no Pronunciamento Técnico CPC  42  -  Contabilidade  em  Economia  Hiperinflacionária),  os  preços  frequentemente mudam de maneira rápida, até várias vezes ao dia. Consequentemente, a primeira taxa de câmbio  subsequente  para  uma  moeda  dessa  economia  pode  não  refletir  as  condições econômicas prevalecentes.
 
-## Uso de outra técnica de estimativa
+#### Uso de outra técnica de estimativa
 
 - A17  A entidade que usa outra técnica de estimativa pode utilizar qualquer taxa de câmbio observável -incluindo taxas de transações de câmbio em mercados ou mecanismos de câmbio que não criem direitos e obrigações exequíveis -e ajustar essa taxa, conforme necessário, para cumprir o objetivo do item 19A.
 
-## Divulgação quando uma moeda não é conversível
+#### Divulgação quando uma moeda não é conversível
 
-A18  A entidade deverá considerar quanto detalhe é necessário para cumprir o objetivo de divulgação
+- A18. A entidade deverá considerar quanto detalhe é necessário para cumprir o objetivo de divulgação
 
 <!-- image -->
 

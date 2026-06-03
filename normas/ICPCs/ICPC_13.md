@@ -8,25 +8,6 @@
 
 ## Correlação às Normas Internacionais de Contabilidade - IFRIC 5
 
-* Termos de uso
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, contém  material  que  está  sujeito  a  direitos  autorais  da  IFRS®  Foundation (Fundação IFRS). Todos esses direitos são reservados.
-
-Este material é reproduzido e distribuído pela Fundação de Apoio aos Comitês de Pronunciamentos  Contábeis  e  de  Sustentabilidade  (FACPCS)  somente  para  a República Federativa do Brasil com a autorização da Fundação IFRS. Os direitos de  outras  partes  com  relação  à  utilização  deste  material  estão  definidos  nos Termos  de  Uso  (link)  e  qualquer  utilização  não  prevista  nos  Termos  de  Uso deverá ser previamente autorizada por escrito pela FACPCS e Fundação IFRS.
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, são emitidos pelo Comitê de Pronunciamentos Contábeis e de Sustentabilidade, organismo  técnico  apoiado  pela  FACPCS,  para  sua  aplicação  na  República Federativa  do  Brasil  e  não  foram  preparados  ou  endossados  pelo  International Accounting Standards Board (IASB).
-
-Os pronunciamentos, interpretações e orientações do CPC, inclusive o CPC-PME, não devem ser distribuídos para fora da República Federativa do Brasil.
-
-* Notice
-
-CPC/CPC PME contain copyright material of the IFRS® Foundation (Foundation) in respect of which all rights are reserved.
-
-Reproduced  and  distributed  by  the  Accounting  and  Sustainability Pronouncements Committee Support Foundation with the permission of the Foundation within the Federal Republic of Brazil only.  No  rights  granted  to  third  parties  other  than  as  permitted  by the  Terms  of  Use  [link]  without  the  prior  written  permission  of Accounting and Sustainability Pronouncements Committee Support Foundation and the Foundation.
-
-CPC/CPC  PME  are  issued  by  Accounting and Sustainability Pronouncements Committee Support Foundation in respect of their application in Federal Republic of Brail and have not been prepared or endorsed by the International Accounting Standards Board.
-
-CPC/CPC  PME  are  not  to  be  distributed  outside  of  Federal Republic of Brazil.
 
 | Índice                                                        | Item    |
 |---------------------------------------------------------------|---------|
@@ -69,10 +50,7 @@ Conjunto (Alterado pela Revisão ICPC 01)
 3. Esses fundos geralmente têm as seguintes características:
 7. (a) o fundo é administrado, separadamente, por depositários independentes;
 8. (b) as  entidades  (contribuintes)  fazem  contribuições  ao  fundo,  que  são  investidas  em  uma série  de  ativos  que  podem  incluir  tanto  instrumentos  de  dívida  quanto  patrimoniais,  e estão  disponíveis  para  ajudar  a  pagar  os  gastos  de  desativação  dos  contribuintes.  Os depositários  determinam  como  as  contribuições  são  investidas,  dentro  das  limitações definidas  pelos  documentos  constitutivos  do  fundo  e  qualquer  legislação  aplicável  ou outros regulamentos;
-9. (c) os  contribuintes  mantêm a obrigação de pagar os gastos de desativação. Entretanto, os contribuintes são capazes de obter reembolso dos gastos de desativação do fundo até o
-
-<!-- image -->
-
+9. (c) os  contribuintes  mantêm a obrigação de pagar os gastos de desativação. Entretanto, os contribuintes são capazes de obter reembolso dos gastos de desativação do fundo até o 
 - valor que for menor no confronto entre os gastos de desativação incorridos e a parcela do contribuinte nos ativos do fundo;
 - (d) os  contribuintes  podem  ter  acesso  restrito  ou  nenhum  acesso  a  qualquer  excedente  de ativos do fundo sobre aqueles usados para cumprir os gastos de desativação elegíveis.
 
@@ -97,7 +75,6 @@ Conjunto (Alterado pela Revisão ICPC 01)
 7. O contribuinte deve reconhecer sua obrigação de pagar gastos de desativação como passivo e deve reconhecer sua participação no fundo separadamente, exceto se o contribuinte não for responsável por pagar os gastos de desativação mesmo se o fundo deixar de pagar.
 8. O  contribuinte deve determinar se possui controle, controle conjunto ou influência significativa  sobre  o  fundo  por  referência  aos  Pronunciamentos  Técnicos  CPC  18  Investimento  em  Coligada  e  em  Controlada,  CPC  19  -  Investimento  em  Empreendimento
 
-<!-- image -->
 
 Controlado em Conjunto ( Joint Venture ), CPC 36 - Demonstrações Consolidadas, CPC 35 Demonstrações Separadas e à Interpretação anexa ao Pronunciamento Técnico CPC 36. Em caso positivo, o contribuinte deve contabilizar sua participação no fundo de acordo com esses Pronunciamentos e Interpretação.
 
@@ -122,4 +99,3 @@ As mudanças no valor contábil do direito de receber reembolso, exceto as contr
 
 14. Esta Interpretação é aplicável juntamente com a adoção inicial dos Pronunciamentos Técnicos CPC 38 e CPC 25.
 
-<!-- image -->
