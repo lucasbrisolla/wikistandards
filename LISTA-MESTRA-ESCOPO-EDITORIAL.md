@@ -4,23 +4,12 @@ Levantamento dos arquivos Markdown do repositório `wikistandards` que entram no
 
 As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markdown atuais. Elas servem para dimensionamento do esforço, não para medição jurídica ou editorial exata.
 
-## Resumo executivo
-
-- Total mapeado: `233` arquivos Markdown
-- Total estimado: `2.600.860` palavras
-- Conteúdo do site: `15` arquivos, `5.415` palavras
-- Documentos de processo: `3` arquivos, `1.356` palavras
-- Normas `CPC`: `53` arquivos, `978.879` palavras
-- Normas `ICPC`: `23` arquivos, `81.188` palavras
-- Normas `NBC TA/CTA`: `68` arquivos, `598.568` palavras
-- Normas `NBC TG/ITG/CTG/OTG`: `70` arquivos, `933.470` palavras
-- Normas `NBC TI`: `1` arquivo, `1.984` palavras
 
 ## Normas CPC
 
 - [ ] `normas/CPCs/CPC_00.md` — `30.563` palavras
 - [ ] `normas/CPCs/CPC_01.md` — `22.184` palavras
-- [ ] `normas/CPCs/CPC_02.md` — `11.682` palavras
+- [x] `normas/CPCs/CPC_02.md` — `11.682` palavras
 - [ ] `normas/CPCs/CPC_03.md` — `10.456` palavras
 - [x] `normas/CPCs/CPC_04.md` — `18.778` palavras
 - [x] `normas/CPCs/CPC_05.md` — `5.945` palavras
@@ -43,7 +32,7 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_26.md` — `23.950` palavras
 - [x] `normas/CPCs/CPC_27.md` — `9.630` palavras
 - [ ] `normas/CPCs/CPC_28.md` — `12.895` palavras
-- [ ] `normas/CPCs/CPC_29.md` — `7.328` palavras
+- [x] `normas/CPCs/CPC_29.md` — `7.328` palavras
 - [ ] `normas/CPCs/CPC_31.md` — `10.906` palavras
 - [ ] `normas/CPCs/CPC_32.md` — `30.711` palavras
 - [ ] `normas/CPCs/CPC_33.md` — `20.876` palavras
@@ -63,7 +52,7 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [x] `normas/CPCs/CPC_49.md` — `4.160` palavras
 - [ ] `normas/CPCs/CPC_50.md` — `40.427` palavras
 - [x] `normas/CPCs/CPC_51.md` — `28.325` palavras
-- [ ] `normas/CPCs/CPC_LIQUIDAÇAO.md` — `8.584` palavras
+- [x] `normas/CPCs/CPC_LIQUIDAÇAO.md` — `8.584` palavras
 - [ ] `normas/CPCs/CPC_PME.md` — `103.394` palavras
 
 ## Normas ICPC
@@ -73,16 +62,16 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/ICPCs/ICPC_08.md` — `2.303` palavras
 - [ ] `normas/ICPCs/ICPC_09.md` — `15.479` palavras
 - [ ] `normas/ICPCs/ICPC_10.md` — `5.445` palavras
-- [ ] `normas/ICPCs/ICPC_12.md` — `3.143` palavras
+- [x] `normas/ICPCs/ICPC_12.md` — `3.143` palavras
 - [ ] `normas/ICPCs/ICPC_13.md` — `1.710` palavras
-- [ ] `normas/ICPCs/ICPC_14.md` — `3.961` palavras
-- [ ] `normas/ICPCs/ICPC_15.md` — `1.251` palavras
-- [ ] `normas/ICPCs/ICPC_16.md` — `1.533` palavras
+- [x] `normas/ICPCs/ICPC_14.md` — `3.961` palavras
+- [x] `normas/ICPCs/ICPC_15.md` — `1.251` palavras
+- [x] `normas/ICPCs/ICPC_16.md` — `1.533` palavras
 - [ ] `normas/ICPCs/ICPC_17.md` — `1.266` palavras
 - [ ] `normas/ICPCs/ICPC_18.md` — `2.437` palavras
 - [ ] `normas/ICPCs/ICPC_19.md` — `2.566` palavras
-- [ ] `normas/ICPCs/ICPC_20.md` — `4.428` palavras
-- [ ] `normas/ICPCs/ICPC_21.md` — `1.311` palavras
+- [x] `normas/ICPCs/ICPC_20.md` — `4.428` palavras
+- [x] `normas/ICPCs/ICPC_21.md` — `1.311` palavras
 - [x] `normas/ICPCs/ICPC_22.md` — `2.142` palavras
 - [x] `normas/ICPCs/ICPC_23.md` — `933` palavras
 
