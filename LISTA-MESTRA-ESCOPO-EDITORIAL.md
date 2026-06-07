@@ -25,7 +25,7 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_19.md` — `16.860` palavras
 - [x] `normas/CPCs/CPC_20.md` — `2.401` palavras
 - [ ] `normas/CPCs/CPC_21.md` — `11.169` palavras
-- [ ] `normas/CPCs/CPC_22.md` — `6.260` palavras
+- [x] `normas/CPCs/CPC_22.md` — `6.260` palavras
 - [ ] `normas/CPCs/CPC_23.md` — `6.300` palavras
 - [x] `normas/CPCs/CPC_24.md` — `3.034` palavras
 - [ ] `normas/CPCs/CPC_25.md` — `12.157` palavras

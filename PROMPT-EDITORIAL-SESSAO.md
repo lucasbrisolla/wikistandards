@@ -9,6 +9,10 @@ Trabalhe diretamente nesse repositório.
 Não procure outra pasta-base no Vault.
 Não use `3. Arquivos/Wiki Standards` como origem de trabalho, salvo se eu pedir explicitamente.
 Não faça etapa de descoberta do projeto: assuma desde o início que a base correta é `/home/lucas/wikistandards`.
+Não saia procurando nem lendo arquivos `.md` por conta própria para decidir o que revisar.
+Não saia procurando `PDF`, `DOCX` ou outros arquivos de apoio de forma autônoma.
+Só abra o arquivo Markdown alvo e os arquivos de apoio quando eu informar explicitamente os caminhos.
+Se eu não informar o caminho do arquivo alvo ou dos apoios, peça esses caminhos em vez de procurar.
 
 Use $revisao-editorial-normas.
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/wiki-standards-horizontal.svg" alt="Wiki Standards" width="420">
+  <img src="assets/wiki-standards-horizontal-dark.svg" alt="Wiki Standards" width="420">
 </p>
 
 # Wiki Standards
