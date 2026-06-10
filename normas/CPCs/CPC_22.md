@@ -100,7 +100,7 @@ Os segmentos operacionais que não atinjam quaisquer dos parâmetros mínimos qu
 
 Devem ser efetuadas conciliações dos valores do balanço patrimonial para segmentos divulgáveis com os valores do balanço da entidade para todas as datas em que seja apresentado o balanço patrimonial. As informações dos períodos anteriores devem ser reapresentadas em conformidade com os itens 29 e 30.
 
-## Informações gerais
+### Informações gerais
 
 22. A entidade deve divulgar as seguintes informações gerais:
 - <del>(a) os fatores utilizados para identificar os segmentos divulgáveis da entidade, incluindo a base da organização (por exemplo, se a administração optou por organizar a entidade em torno das diferenças entre produtos e serviços, áreas geográficas, ambiente regulatório, ou combinação de fatores, e se os segmentos operacionais foram agregados); e</del>
@@ -108,7 +108,7 @@ Devem ser efetuadas conciliações dos valores do balanço patrimonial para segm
 - (aa) os julgamentos feitos pela administração na aplicação dos critérios de agregação do item 12. Isto inclui breve descrição dos segmentos operacionais que tenham sido agregados dessa forma e os indicadores econômicos que foram avaliados na determinação de que segmentos operacionais agregados tenham características econômicas semelhantes; e (Incluída pela Revisão CPC 06)
 - (b) tipos de produtos e serviços a partir dos quais cada segmento divulgável obtém suas receitas.
 
-## Informações sobre lucro ou prejuízo, ativo e passivo
+### Informações sobre lucro ou prejuízo, ativo e passivo
 
 <del>23. A entidade deve divulgar o valor do lucro ou prejuízo e do ativo total de cada segmento divulgável. A entidade deve divulgar o valor do passivo para cada segmento divulgável se esse valor for apresentado regularmente ao principal gestor das operações. A entidade deve divulgar também as seguintes informações sobre cada segmento se os montantes especificados estiverem incluídos no valor do lucro ou prejuízo do segmento revisado pelo principal gestor das operações, ou for regularmente apresentado a este, ainda que não incluído no valor do lucro ou prejuízo do segmento:</del>
 
@@ -143,7 +143,7 @@ A entidade deve divulgar as receitas financeiras separadamente das despesas fina
 - (e) a natureza de quaisquer alterações em períodos anteriores, nos métodos de mensuração utilizados para determinar o lucro ou o prejuízo do segmento divulgado e o eventual efeito dessas alterações na avaliação do lucro ou do prejuízo do segmento;
 - (f) a natureza e o efeito de quaisquer alocações assimétricas a segmentos divulgáveis. Por exemplo, a entidade pode alocar despesas de depreciação a um segmento sem lhe alocar os correspondentes ativos depreciáveis.
 
-## Conciliação
+### Conciliação
 
 28. A entidade deve fornecer conciliações dos seguintes elementos:
 
@@ -156,7 +156,7 @@ A entidade deve divulgar as receitas financeiras separadamente das despesas fina
 
 Todos os itens de conciliação materiais devem ser identificados e descritos separadamente. Por exemplo, o montante de cada ajuste significativo necessário para conciliar lucros ou prejuízos do segmento divulgável com o lucro ou o prejuízo da entidade, decorrente de diferentes políticas contábeis, deve ser identificado e descrito separadamente.
 
-## Reapresentação de informação previamente divulgada
+### Reapresentação de informação previamente divulgada
 
 29. Se a entidade alterar a estrutura da sua organização interna de maneira a alterar a composição dos seus segmentos divulgáveis, as informações correspondentes de períodos anteriores, incluindo períodos intermediários, devem ser reapresentadas, salvo se as informações não estiverem disponíveis e o custo da sua elaboração for excessivo. A determinação da disponibilidade das informações e do caráter excessivo do custo da sua elaboração deve ser efetuada para cada item de evidenciação. Após a mudança na composição dos seus segmentos divulgáveis, a entidade deve divulgar se reapresentou os itens correspondentes da informação por segmentos de períodos anteriores.
 30. Se a entidade tiver alterado a estrutura da sua organização interna de um modo que mude a composição dos seus segmentos divulgáveis e se a informação por segmentos de períodos anteriores, incluindo os períodos intermediários, não for reapresentada de modo a refletir essa alteração, a entidade deve divulgar no ano em que ocorreu a alteração a informação por segmentos para o período corrente tanto na base antiga como na nova base de segmentação, salvo se as informações necessárias não se encontrarem disponíveis e o custo da sua elaboração for excessivo.
@@ -165,11 +165,11 @@ Todos os itens de conciliação materiais devem ser identificados e descritos se
 
 31. Os itens de 32 a 34 aplicam-se a todas as entidades sujeitas a este Pronunciamento, incluindo as entidades que dispõem de um único segmento divulgável. As atividades de negócio de algumas entidades não estão organizadas em função das diferenças de produtos e serviços relacionados ou de áreas geográficas das operações. Os segmentos divulgáveis dessas entidades podem evidenciar as receitas de ampla gama de produtos e serviços essencialmente diferentes ou mais do que um dos seus segmentos divulgáveis pode fornecer essencialmente os mesmos produtos e serviços. Do mesmo modo, os segmentos divulgáveis da entidade podem manter ativos em diferentes áreas geográficas e evidenciar receitas provenientes de clientes em diferentes áreas geográficas ou mais do que um dos seus segmentos divulgáveis pode operar na mesma área geográfica. As informações previstas nos itens de 32 a 34 devem ser fornecidas apenas se não estiverem integradas às informações do segmento divulgável, exigidas pelo presente Pronunciamento.
 
-## Informação sobre produto e serviço
+### Informação sobre produto e serviço
 
 32. A entidade deve divulgar as receitas provenientes dos clientes externos em relação a cada produto e serviço ou a cada grupo de produtos e serviços semelhantes, salvo se as informações necessárias não se encontrarem disponíveis e o custo da sua elaboração for excessivo, devendo tal fato ser divulgado. Os montantes das receitas divulgadas devem basear-se nas informações utilizadas para elaborar as demonstrações contábeis da entidade.
 
-## Informação sobre área geográfica
+### Informação sobre área geográfica
 
 33. A entidade deve evidenciar as seguintes informações geográficas, salvo se as informações necessárias não se encontrarem disponíveis e o custo da sua elaboração for excessivo:
 - (a) receitas provenientes de clientes externos:
@@ -183,7 +183,7 @@ Os montantes divulgados devem basear-se nas informações utilizadas para elabor
 
 Se forem relevantes as informações por região geográfica dentro do Brasil, e se essas informações forem utilizadas gerencialmente, as mesmas regras de evidenciação devem ser observadas.
 
-## Informação sobre os principais clientes
+### Informação sobre os principais clientes
 
 34. A entidade deve fornecer informações sobre seu grau de dependência de seus principais clientes. Se as receitas provenientes das transações com um único cliente externo representarem 10% ou mais das receitas totais da entidade, esta deve divulgar tal fato, bem como o montante total das receitas provenientes de cada um desses clientes e a identidade do segmento ou dos segmentos em que as receitas são divulgadas. A entidade não está obrigada a divulgar a identidade de grande cliente nem o montante divulgado de receitas provenientes desse cliente em cada segmento. Para fins deste Pronunciamento, um conjunto de entidades, que a entidade divulgadora sabe que está sob controle comum, deve ser considerado um único cliente, assim como o governo (nacional, estadual, provincial, territorial, local ou estrangeiro) e as entidades que a entidade divulgadora sabe que estão sob controle comum desse governo, deve ser considerado um único cliente.
 
@@ -199,11 +199,11 @@ A1. Este guia de implementação fornece exemplos que ilustram as divulgações 
 
 A2. Os itens a seguir ilustram a divulgação de informações descritivas sobre os segmentos informados de uma entidade (as referências de item são em relação aos requisitos pertinentes no Pronunciamento).
 
-### Descrição dos tipos de produtos e serviços dos quais cada segmento reportável deriva suas receitas (item 22(b))
+#### Descrição dos tipos de produtos e serviços dos quais cada segmento reportável deriva suas receitas (item 22(b))
 
 A Companhia Diversificada possui cinco segmentos reportáveis: peças automotivas, barcos motorizados, software, eletrônica e finanças. O segmento de peças automotivas produz peças de reposição para venda a varejistas de peças automotivas. O segmento de barcos motorizados produz pequenos barcos motorizados para servir a indústria de petróleo costeira e negócios similares. O segmento de software produz software de aplicação para venda a fabricantes e varejistas de computadores. O segmento de eletrônica produz circuitos integrados e produtos relacionados para a venda a fabricantes de computador. O segmento de finanças é responsável por parte das operações financeiras da empresa, incluindo o financiamento de compras ao cliente de produtos de outros segmentos e operações de empréstimo de imóveis.
 
-### Mensuração de lucro ou prejuízo, ativos e passivos por segmento operacional (item 27)
+#### Mensuração de lucro ou prejuízo, ativos e passivos por segmento operacional (item 27)
 
 <del>As políticas contábeis dos segmentos operacionais são as mesmas que aquelas descritas no resumo das políticas contábeis significativas, exceto que a despesa de complementação de aposentadoria de cada segmento operacional é reconhecida e medida com base nos pagamentos em dinheiro aos planos de pensão. A Companhia Diversificada avalia o desempenho por segmento com base no lucro ou no prejuízo das operações antes dos tributos sobre o lucro, não incluindo ganhos e perdas não recorrentes e ganhos e perdas de câmbio.</del>
 
@@ -211,7 +211,7 @@ As políticas contábeis dos segmentos operacionais são as mesmas que aquelas d
 
 A Companhia Diversificada contabiliza vendas e transferências intersegmentos como se as vendas ou as transferências fossem a terceiros, ou seja, pelos preços correntes de mercado.
 
-### Fatores que a administração utilizou para identificar os segmentos reportáveis da entidade (item 22(a))
+#### Fatores que a administração utilizou para identificar os segmentos reportáveis da entidade (item 22(a))
 
 Os segmentos reportáveis da Companhia Diversificada são unidades estratégicas de negócio que oferecem diferentes produtos e serviços. Eles são gerenciados separadamente, pois cada negócio exige diferentes tecnologias e estratégias de marketing. A maioria dos negócios foi adquirida como unidades individuais e a administração existente na ocasião da aquisição foi mantida.
 
@@ -307,4 +307,4 @@ As receitas de um cliente dos segmentos de software e eletrônica da Companhia D
 
 A7. O seguinte diagrama ilustra como aplicar as principais disposições para identificar segmentos reportáveis conforme definido no Pronunciamento CPC 22. O diagrama é um suplemento visual ao Pronunciamento. Ele não deve ser interpretado como uma alteração ou adição a quaisquer requisitos do Pronunciamento, nem deve ser considerado como um substituto dos requisitos.
 
-### Diagrama para identificação de segmentos reportáveis
+#### Diagrama para identificação de segmentos reportáveis

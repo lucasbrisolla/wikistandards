@@ -456,6 +456,15 @@
       z-index: 1000;
     }
 
+    body[data-catalog-search-open="true"] .appearance-switcher,
+    body[data-catalog-search-open="true"] .revoked-switcher {
+      z-index: 20;
+      opacity: 0.45;
+      filter: saturate(0.6);
+      pointer-events: none;
+      transition: opacity 120ms ease, filter 120ms ease;
+    }
+
     .revoked-toggle {
       display: inline-flex;
       align-items: center;
@@ -509,23 +518,161 @@
       display: inline;
     }
 
-    .catalog-search {
+    .catalog-search-launcher {
       position: fixed;
       top: 0;
-      left: 0;
-      z-index: 45;
-      width: 300px;
-      padding: 16px 16px 8px;
-      border-bottom: 1px solid #e3ebe6;
-      background: #ffffff;
+      left: 18px;
+      z-index: 44;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: calc(300px - 36px);
+      border: 1px solid #d5dfda;
+      border-top: 0;
+      border-radius: 0 0 14px 14px;
+      padding: 12px 14px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 10px 24px rgba(36, 49, 43, 0.08);
+      color: #24312b;
+      cursor: pointer;
       box-sizing: border-box;
+      text-align: left;
+    }
+
+    .catalog-search-launcher:hover,
+    .catalog-search-launcher:focus-visible {
+      background: #f7fbf8;
+      outline: none;
+    }
+
+    .catalog-search-launcher-icon {
+      flex: 0 0 auto;
+      width: 16px;
+      height: 16px;
+      color: #73837a;
+    }
+
+    .catalog-search-launcher-label {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      color: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .catalog-search-shortcut {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 22px;
+      height: 22px;
+      border: 1px solid #d5dfda;
+      border-radius: 7px;
+      background: #f7faf8;
+      color: #73837a;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .catalog-search {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 10vh 16px 24px;
+      background: rgba(17, 23, 20, 0.42);
+      backdrop-filter: blur(14px);
+      box-sizing: border-box;
+    }
+
+    .catalog-search[hidden] {
+      display: none;
+    }
+
+    .catalog-search-backdrop {
+      position: absolute;
+      inset: 0;
+    }
+
+    .catalog-search-modal {
+      position: relative;
+      z-index: 1;
+      width: min(760px, calc(100vw - 32px));
+      border: 1px solid #d5dfda;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: 0 30px 80px rgba(13, 18, 15, 0.24);
+      overflow: hidden;
+    }
+
+    .catalog-search-panel {
+      padding: 18px;
+    }
+
+    .catalog-search-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .catalog-search-header-text {
+      min-width: 0;
+      flex: 1 1 auto;
+    }
+
+    .catalog-search-titleline {
+      margin: 0;
+      color: #24312b;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .catalog-search-help {
+      margin: 2px 0 0;
+      color: #627268;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .catalog-search-close {
+      flex: 0 0 auto;
+      border: 1px solid #d5dfda;
+      border-radius: 10px;
+      padding: 8px 10px;
+      background: #f7faf8;
+      color: #5b6b63;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .catalog-search-close:hover,
+    .catalog-search-close:focus-visible {
+      background: #eef7f1;
+      color: #24312b;
+      outline: none;
+    }
+
+    .catalog-search-field {
+      position: relative;
     }
 
     .catalog-search-input {
       width: 100%;
       border: 1px solid #d5dfda;
       border-radius: 12px;
-      padding: 12px 14px;
+      padding: 12px 46px 12px 14px;
       background: #ffffff;
       color: #24312b;
       font-size: 15px;
@@ -542,17 +689,21 @@
       outline-offset: 1px;
     }
 
-    .catalog-search-results {
+    .catalog-search-field .catalog-search-shortcut {
       position: absolute;
-      top: calc(100% - 4px);
-      left: 16px;
-      right: 16px;
-      z-index: 50;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+    }
+
+    .catalog-search-results {
+      margin-top: 12px;
+      max-height: min(56vh, 560px);
+      overflow: auto;
       border: 1px solid #d5dfda;
       border-radius: 14px;
       background: #ffffff;
-      box-shadow: 0 18px 40px rgba(36, 49, 43, 0.12);
-      overflow: hidden;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
     }
 
     .catalog-search-results[hidden] {
@@ -769,8 +920,21 @@
         padding-top: 0;
       }
 
-      .catalog-search {
-        display: none;
+      .catalog-search-launcher {
+        left: 16px;
+        width: calc(100vw - 32px);
+      }
+
+      .catalog-search-panel {
+        padding: 14px;
+      }
+
+      .catalog-search-header {
+        margin-bottom: 10px;
+      }
+
+      .catalog-search-titleline {
+        font-size: 15px;
       }
 
       .home-cards {
@@ -890,15 +1054,49 @@
       color: #ffb199;
     }
 
-    body[data-theme-mode="dark"] .catalog-search {
-      border-bottom-color: var(--surface-dark-border);
-      background: var(--surface-dark-2);
+    body[data-theme-mode="dark"] .catalog-search-launcher {
+      border-color: var(--surface-dark-border);
+      background: rgba(31, 42, 37, 0.96);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+      color: var(--surface-dark-text);
     }
 
     body[data-theme-mode="dark"] .catalog-search-input {
       border-color: var(--surface-dark-border);
       background: var(--surface-dark-1);
       color: var(--surface-dark-text);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-modal {
+      border-color: var(--surface-dark-border);
+      background: rgba(31, 42, 37, 0.98);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.36);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-titleline {
+      color: var(--surface-dark-text);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-help {
+      color: var(--surface-dark-muted);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-close {
+      border-color: var(--surface-dark-border);
+      background: var(--surface-dark-3);
+      color: var(--surface-dark-muted);
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-close:hover,
+    body[data-theme-mode="dark"] .catalog-search-close:focus-visible {
+      background: #2b3732;
+      color: #f2f6f3;
+    }
+
+    body[data-theme-mode="dark"] .catalog-search-shortcut {
+      border-color: var(--surface-dark-border);
+      background: var(--surface-dark-3);
+      color: var(--surface-dark-muted);
     }
 
     body[data-theme-mode="dark"] .catalog-search-input::placeholder {
@@ -1118,10 +1316,37 @@
     </button>
   </div>
 
-  <div class="catalog-search" id="catalog-search-host" data-catalog-search="true">
-    <input class="catalog-search-input" id="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS"
-      aria-label="Buscar norma">
-    <div class="catalog-search-results" id="catalog-search-results" hidden></div>
+  <button class="catalog-search-launcher" id="catalog-search-launcher" type="button" aria-haspopup="dialog"
+    aria-controls="catalog-search-host" aria-expanded="false">
+    <svg class="catalog-search-launcher-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </svg>
+    <span class="catalog-search-launcher-label">Buscar norma ou IFRS</span>
+    <span class="catalog-search-shortcut" aria-hidden="true">/</span>
+  </button>
+
+  <div class="catalog-search" id="catalog-search-host" data-catalog-search="true" hidden>
+    <div class="catalog-search-backdrop" data-catalog-search-close="true" aria-hidden="true"></div>
+    <div class="catalog-search-modal" id="catalog-search-modal" role="dialog" aria-modal="true"
+      aria-labelledby="catalog-search-title">
+      <div class="catalog-search-panel">
+        <div class="catalog-search-header">
+          <div class="catalog-search-header-text">
+            <p class="catalog-search-titleline" id="catalog-search-title">Buscar no catálogo</p>
+            <p class="catalog-search-help">Use `/` para abrir, `Esc` para fechar e `Enter` para navegar.</p>
+          </div>
+          <button class="catalog-search-close" id="catalog-search-close" type="button" aria-label="Fechar busca">Esc</button>
+        </div>
+        <div class="catalog-search-field">
+          <input class="catalog-search-input" id="catalog-search-input" type="search" placeholder="Buscar norma ou IFRS"
+            aria-label="Buscar norma">
+          <span class="catalog-search-shortcut" aria-hidden="true">/</span>
+        </div>
+        <div class="catalog-search-results" id="catalog-search-results" hidden></div>
+      </div>
+    </div>
   </div>
 
   <aside class="page-toc" id="page-toc" hidden>
@@ -1839,9 +2064,11 @@
 
     async function setupCatalogSearch() {
       const container = document.getElementById('catalog-search-host');
+      const launcher = document.getElementById('catalog-search-launcher');
+      const closeButton = document.getElementById('catalog-search-close');
       const input = document.getElementById('catalog-search-input');
       const resultsPanel = document.getElementById('catalog-search-results');
-      if (!container || !input || !resultsPanel) {
+      if (!container || !launcher || !closeButton || !input || !resultsPanel) {
         return;
       }
       if (container.dataset.bound === 'true') {
@@ -1852,6 +2079,47 @@
       let activeIndex = -1;
       let currentResults = [];
       let isReady = false;
+      let previousBodyOverflow = '';
+      const focusSearchInput = () => {
+        input.focus();
+        input.select();
+      };
+
+      const openCatalogSearch = () => {
+        if (!container.hidden) {
+          focusSearchInput();
+          return;
+        }
+
+        previousBodyOverflow = document.body.style.overflow;
+        container.hidden = false;
+        launcher.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        document.body.dataset.catalogSearchOpen = 'true';
+
+        window.requestAnimationFrame(() => {
+          focusSearchInput();
+          if (input.value.trim()) {
+            currentResults = rankCatalogSearch(records, input.value);
+            activeIndex = currentResults.length ? 0 : -1;
+            renderCatalogSearchResults(resultsPanel, currentResults, input.value);
+            setActiveCatalogSearchResult(resultsPanel, activeIndex);
+          }
+        });
+      };
+
+      const closeCatalogSearch = () => {
+        if (container.hidden) {
+          return;
+        }
+
+        container.hidden = true;
+        launcher.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = previousBodyOverflow;
+        delete document.body.dataset.catalogSearchOpen;
+        resultsPanel.hidden = true;
+        launcher.focus();
+      };
 
       const showUnavailableMessage = () => {
         activeIndex = -1;
@@ -1880,7 +2148,8 @@
 
       input.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
-          resultsPanel.hidden = true;
+          event.preventDefault();
+          closeCatalogSearch();
           return;
         }
 
@@ -1906,6 +2175,7 @@
           event.preventDefault();
           const result = currentResults[activeIndex] || currentResults[0];
           if (result) {
+            closeCatalogSearch();
             navigateFromCatalogSearch(result.href);
           }
         }
@@ -1917,12 +2187,58 @@
           return;
         }
         event.preventDefault();
+        closeCatalogSearch();
         navigateFromCatalogSearch(item.dataset.href);
       });
 
-      document.addEventListener('click', (event) => {
-        if (!event.target.closest('[data-catalog-search]')) {
-          resultsPanel.hidden = true;
+      launcher.addEventListener('click', () => {
+        openCatalogSearch();
+      });
+
+      closeButton.addEventListener('click', () => {
+        closeCatalogSearch();
+      });
+
+      container.addEventListener('click', (event) => {
+        if (event.target.closest('[data-catalog-search-close]')) {
+          closeCatalogSearch();
+        }
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.defaultPrevented || event.altKey) {
+          return;
+        }
+
+        if ((event.key === 'k' || event.key === 'K') && (event.ctrlKey || event.metaKey)) {
+          event.preventDefault();
+          if (container.hidden) {
+            openCatalogSearch();
+          } else {
+            closeCatalogSearch();
+          }
+          return;
+        }
+
+        const activeElement = document.activeElement;
+        if (
+          activeElement &&
+          (activeElement === input ||
+            activeElement.tagName === 'INPUT' ||
+            activeElement.tagName === 'TEXTAREA' ||
+            activeElement.isContentEditable)
+        ) {
+          return;
+        }
+
+        if (event.key === '/') {
+          event.preventDefault();
+          openCatalogSearch();
+          return;
+        }
+
+        if (event.key === 'Escape') {
+          closeCatalogSearch();
         }
       });
 

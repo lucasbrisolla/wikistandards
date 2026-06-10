@@ -4,7 +4,7 @@
 
 # Wiki Standards
 
-Repositório de consulta de normas contábeis, com textos normativos preservados e páginas auxiliares de navegação.
+Repositório de consulta de normas contábeis em Markdown, com textos normativos preservados e páginas auxiliares de navegação.
 
 ## Como navegar
 
@@ -15,5 +15,3 @@ Repositório de consulta de normas contábeis, com textos normativos preservados
 ## Licenciamento
 
 A infraestrutura do projeto usa licença MIT. Os textos normativos e outros materiais de terceiros mantêm seus próprios direitos autorais e termos de uso.
-
-Leia [`NOTICE.md`](NOTICE.md) antes de redistribuir, espelhar ou reutilizar conteúdo deste repositório.
