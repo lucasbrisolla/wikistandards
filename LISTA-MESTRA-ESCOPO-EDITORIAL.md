@@ -57,38 +57,24 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 
 ## Normas ICPC
 
-- [ ] `normas/ICPCs/ICPC_01.md` — `9.395` palavras
-- [ ] `normas/ICPCs/ICPC_07.md` — `2.231` palavras
-- [ ] `normas/ICPCs/ICPC_08.md` — `2.303` palavras
-- [ ] `normas/ICPCs/ICPC_09.md` — `15.479` palavras
-- [ ] `normas/ICPCs/ICPC_10.md` — `5.445` palavras
+- [x] `normas/ICPCs/ICPC_01.md` — `9.395` palavras
+- [x] `normas/ICPCs/ICPC_07.md` — `2.231` palavras
+- [x] `normas/ICPCs/ICPC_08.md` — `2.303` palavras
+- [x] `normas/ICPCs/ICPC_09.md` — `15.479` palavras
+- [x] `normas/ICPCs/ICPC_10.md` — `5.445` palavras
 - [x] `normas/ICPCs/ICPC_12.md` — `3.143` palavras
-- [ ] `normas/ICPCs/ICPC_13.md` — `1.710` palavras
+- [x] `normas/ICPCs/ICPC_13.md` — `1.710` palavras
 - [x] `normas/ICPCs/ICPC_14.md` — `3.961` palavras
 - [x] `normas/ICPCs/ICPC_15.md` — `1.251` palavras
 - [x] `normas/ICPCs/ICPC_16.md` — `1.533` palavras
-- [ ] `normas/ICPCs/ICPC_17.md` — `1.266` palavras
-- [ ] `normas/ICPCs/ICPC_18.md` — `2.437` palavras
-- [ ] `normas/ICPCs/ICPC_19.md` — `2.566` palavras
+- [x] `normas/ICPCs/ICPC_17.md` — `1.266` palavras
+- [x] `normas/ICPCs/ICPC_18.md` — `2.437` palavras
+- [x] `normas/ICPCs/ICPC_19.md` — `2.566` palavras
 - [x] `normas/ICPCs/ICPC_20.md` — `4.428` palavras
 - [x] `normas/ICPCs/ICPC_21.md` — `1.311` palavras
 - [x] `normas/ICPCs/ICPC_22.md` — `2.142` palavras
 - [x] `normas/ICPCs/ICPC_23.md` — `933` palavras
 
-## Normas CPC e ICPC revogadas / históricas
-
-- [ ] `normas/CPCs/CPC_08.md` — `6.461` palavras
-- [ ] `normas/CPCs/CPC_13.md` — `5.898` palavras
-- [ ] `normas/CPCs/CPC_14.md` — `24.853` palavras
-- [ ] `normas/CPCs/CPC_17.md` — `5.545` palavras
-- [ ] `normas/CPCs/CPC_30.md` — `10.293` palavras
-- [ ] `normas/CPCs/CPC_38.md` — `52.512` palavras
-- [ ] `normas/ICPCs/ICPC_02.md` — `2.397` palavras
-- [ ] `normas/ICPCs/ICPC_03.md` — `6.687` palavras
-- [ ] `normas/ICPCs/ICPC_04.md` — `1.401` palavras
-- [ ] `normas/ICPCs/ICPC_05.md` — `1.489` palavras
-- [ ] `normas/ICPCs/ICPC_06.md` — `4.804` palavras
-- [ ] `normas/ICPCs/ICPC_11.md` — `2.876` palavras
 
 ## Normas NBC TA/CTA
 
