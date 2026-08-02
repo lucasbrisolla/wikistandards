@@ -10,7 +10,7 @@ As contagens abaixo são estimativas obtidas com `wc -w` sobre os arquivos Markd
 - [ ] `normas/CPCs/CPC_00.md` — `30.563` palavras
 - [ ] `normas/CPCs/CPC_01.md` — `22.184` palavras
 - [x] `normas/CPCs/CPC_02.md` — `11.682` palavras
-- [ ] `normas/CPCs/CPC_03.md` — `10.456` palavras
+- [x] `normas/CPCs/CPC_03.md` — `9.937` palavras
 - [x] `normas/CPCs/CPC_04.md` — `18.778` palavras
 - [x] `normas/CPCs/CPC_05.md` — `5.945` palavras
 - [x] `normas/CPCs/CPC_06.md` — `18.691` palavras
