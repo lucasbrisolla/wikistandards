@@ -52,6 +52,7 @@ Além dos ajustes de navegação e edição, este backlog também registra melho
 - [x] Tornar os resultados de busca mais autoexplicativos com tipo do resultado (`Norma`, `Consulta`, `Equivalência`).
 - [ ] Tratar notices, termos de uso e notas finais com uma regra editorial consistente de legibilidade.
 - [ ] Testar um fluxo reutilizável de reconstrução editorial com apoio de `PDF` e `DOCX`.
+- [ ] Avaliar um piloto com `pdf-inspector` para classificar PDFs e gerar Markdown preliminar localmente, mantendo OCR, conferência visual e revisão humana para os casos de baixa confiabilidade.
 
 ## Depois
 
